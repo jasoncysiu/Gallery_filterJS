@@ -1,4 +1,4 @@
-[
+var movies =[
   {
     "id": 1,
     "name": "ai.fritz.heartbeat",
@@ -74,7 +74,7 @@
     "name": "com.aresmob.transmaster",
     "director": "Tools",
     "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.aresmob.transmaster.gif?raw=true",
-    "certificate": "Camera frame, Camera adjustment, Photo editor, Pop-up messages",
+    "certificate": ["Camera frame", "Camera adjustment", "Photo editor", "Pop-up messages"],
     "outline": "Text recognition, Text recognition, Text recognition, Text recognition",
     "genre": "Static",
     "rating": 1,
@@ -88,7 +88,7 @@
     "name": "com.aresmob.transmaster",
     "director": "Tools",
     "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.aresmob.transmaster_OD.gif?raw=true",
-    "certificate": "Camera frame, Pop-up messages, Photo editor",
+    "certificate":[ "Camera frame", "Pop-up messages", "Photo editor"],
     "outline": "Image classification, Image classification, Image classification",
     "genre": "Static",
     "rating": 1,

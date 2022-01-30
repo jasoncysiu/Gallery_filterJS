@@ -74,7 +74,7 @@
     "name": "com.aresmob.transmaster",
     "director": "Tools",
     "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.aresmob.transmaster.gif?raw=true",
-    "certificate": "Camera frame, Camera adjustment, Photo editor, Pop-up messages",
+    "certificate": ["Camera frame", "Camera adjustment", "Photo editor", "Pop-up messages"],
     "outline": "Text recognition, Text recognition, Text recognition, Text recognition",
     "genre": "Static",
     "rating": 1,

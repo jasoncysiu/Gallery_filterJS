@@ -20,6 +20,18 @@ $(document).ready(function(){
       }
       c.next().text(c.val() + '(' + count + ')')
     });
+
+
+    var checkboxes_IS  = $("#certificate_criteria :input:gt(0)");
+
+    checkboxes_IS.each(function(){
+      var c = $(this), count = 0
+
+      if(result.length > 0){
+        count = jQ.where({ '#certificate_criteria': c.val() }).count;
+      }
+      c.next().text(c.val() + '(' + count + ')')
+    });
   }
 
   var FJS = FilterJS(movies, '#movies', {
@@ -29,15 +41,21 @@ $(document).ready(function(){
     callbacks: {
       afterFilter: afterFilter 
     },
-    pagination: {
-      container: '#pagination',
-      visiblePages: 5,
-      perPage: {
-        values: [12, 15, 18],
-        container: '#per_page'
-      },
-    }
+    
   });
+
+  // var FJS = FilterJS(movies, '#movies', {
+  //   template: '#movie-template',
+  //   search: {ele: '#searchbox'},
+  //   //search: {ele: '#searchbox', fields: ['runtime']}, // With specific fields
+  //   callbacks: {
+  //     afterFilter: function(result){
+  //       $('#total_movies').text(result.length);
+  //     }
+  //   }
+    //appendToContainer: appendToContainer
+    //filter_on_init: true
+  // });
 
   FJS.addCallback('beforeAddRecords', function(){
     if(this.recordsCount >= 450){
@@ -65,6 +83,7 @@ $(document).ready(function(){
   // FJS.addCriteria({field: 'rating', ele: '#rating_filter', type: 'range'});
   // FJS.addCriteria({field: 'runtime', ele: '#runtime_filter', type: 'range'});
   FJS.addCriteria({field: 'genre', ele: '#genre_criteria input:checkbox'});
+  FJS.addCriteria({field: 'certificate', ele: '#certificate_criteria input:checkbox'});
   /*
    * Add multiple criterial.
     FJS.addCriteria([
@@ -72,7 +91,6 @@ $(document).ready(function(){
       {field: 'year', ele: '#year_filter', type: 'range'}
     ])
   */
-
 
   window.FJS = FJS;
 });
@@ -105,5 +123,11 @@ function initSliders(){
   $('#genre_criteria :checkbox').prop('checked', true);
   $('#all_genre').on('click', function(){
     $('#genre_criteria :checkbox').prop('checked', $(this).is(':checked'));
+  });
+
+//Inter. Style
+  $('#certificate_criteria :checkbox').prop('checked', true);
+  $('#all_IS').on('click', function(){
+    $('#certificate_criteria :checkbox').prop('checked', $(this).is(':checked'));
   });
 }

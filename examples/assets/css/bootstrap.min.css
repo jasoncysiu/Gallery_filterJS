@@ -6959,3 +6959,13 @@ h4{
     overflow-wrap: break-word;
     text-align: center;
 }
+#filter_IS{
+text-align: start;
+font-weight: 550;
+
+}
+#filter_lengend{
+font-size: 25px;
+font-weight: 700;
+
+}
