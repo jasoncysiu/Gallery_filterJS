@@ -10,13 +10,13 @@ $(document).ready(function(){
   var afterFilter = function(result, jQ){
     $('#total_movies').text(result.length);
 
-    var checkboxes  = $("#genre_criteria :input:gt(0)");
+    var checkboxes  = $("#outline_criteria :input:gt(0)");
 
     checkboxes.each(function(){
       var c = $(this), count = 0
 
       if(result.length > 0){
-        count = jQ.where({ '#genre_criteria': c.val() }).count;
+        count = jQ.where({ '#outline_criteria': c.val() }).count;
       }
       c.next().text(c.val() + '(' + count + ')')
     });
@@ -82,12 +82,12 @@ $(document).ready(function(){
   // FJS.addCriteria({field: 'year', ele: '#year_filter', type: 'range', all: 'all'});
   // FJS.addCriteria({field: 'rating', ele: '#rating_filter', type: 'range'});
   // FJS.addCriteria({field: 'runtime', ele: '#runtime_filter', type: 'range'});
-  FJS.addCriteria({field: 'genre', ele: '#genre_criteria input:checkbox'});
+  FJS.addCriteria({field: 'outline', ele: '#outline_criteria input:checkbox'});
   FJS.addCriteria({field: 'certificate', ele: '#certificate_criteria input:checkbox'});
   /*
    * Add multiple criterial.
     FJS.addCriteria([
-      {field: 'genre', ele: '#genre_criteria input:checkbox'},
+      {field: 'genre', ele: '#outline_criteria input:checkbox'},
       {field: 'year', ele: '#year_filter', type: 'range'}
     ])
   */
@@ -120,9 +120,9 @@ function initSliders(){
     }
   });
 
-  $('#genre_criteria :checkbox').prop('checked', true);
+  $('#outline_criteria :checkbox').prop('checked', true);
   $('#all_genre').on('click', function(){
-    $('#genre_criteria :checkbox').prop('checked', $(this).is(':checked'));
+    $('#outline_criteria :checkbox').prop('checked', $(this).is(':checked'));
   });
 
 //Inter. Style

@@ -16,7 +16,7 @@
       <h1 class="title">FILTER.JS</h1>
       <div class="sidebar col-md-3">
         <div>
-          <h4 class='col-md-6'>Movies (<span id="total_movies">0</span>)</h4>
+          <h4 class='col-md-6'>Interaction (<span id="total_movies">0</span>)</h4>
           <div class="col-md-6 progress">
             <div class="progress-bar" id="stream_progress" style="width: 0%;">0%</div>
           </div>
@@ -29,54 +29,167 @@
         <br>
       
       
-        <div class="well">
-          <fieldset id="genre_criteria">
-            <legend>Genre</legend>
-            <div class="checkbox">
-              <label>
-                <input type="checkbox" value="All" id="all_genre">
-                <span>All</span>
-              </label>
-            </div>
-            <div class="checkbox">
-              <label>
-                <input type="checkbox" value="Static">
-                <span>Static</span>
-              </label>
-            </div>
-            <div class="checkbox">
-              <label>
-                <input type="checkbox" value="Dynamic">
-                <span>Dynamic</span>
-              </label>
-            </div>
-            <div class="checkbox">
-              <label>
-                <input type="checkbox" value="No Interaction" id="No Interaction">
-                <span>No Interaction</span>
-              </label>
-            </div>
-          </fieldset>
+        <div class="well" >
+                 
+          
+  <fieldset id="outline_criteria" >
+    <legend id="filter_lengend">Model</legend>
+    <div id="filter_text" class="checkbox">
+      <label>
+        <input type="checkbox" value="All" id="all_genre">
+        <span>All</span>
+      </label>
+    </div>
+
+
+    <h4 id="filter_IS">Audio</h4>
+
+    <div id="filter_text" class="checkbox">
+      <label>
+        <input type="checkbox" value="Audio classification" >
+        <span>Audio classification</span>
+      </label>
+    </div>
+
+    <div id="filter_text" class="checkbox">
+      <label>
+        <input type="checkbox" value="Image classification" >
+        <span>Image classification</span>
+      </label>
+    </div>
+
+
+    <div id="filter_text" class="checkbox">
+      <label>
+        <input type="checkbox" value="Speech recongnition" >
+        <span>Speech recongnition</span>
+      </label>
+    </div>
+
+  
+    <h4 id="filter_IS">Vision</h4>
+
+
+    <div id="filter_text" class="checkbox">
+      <label>
+        <input type="checkbox" value="Barcode scanning" >
+        <span>Barcode scanning</span>
+      </label>
+    </div>
+
+    <div id="filter_text" class="checkbox">
+      <label>
+        <input type="checkbox" value="Entity extraction" >
+        <span>Entity extraction</span>
+      </label>
+    </div>
+
+    <div id="filter_text" class="checkbox">
+      <label>
+        <input type="checkbox" value="Text recognition" >
+        <span>Text recognition</span>
+      </label>
+    </div>
+    <div id="filter_text" class="checkbox">
+      <label>
+        <input type="checkbox" value="Object detection and tracking" >
+        <span>Object detection and tracking</span>
+      </label>
+    </div>
+
+
+    <div id="filter_text" class="checkbox">
+      <label>
+        <input type="checkbox" value="Face detection" >
+        <span>Face detection</span>
+      </label>
+    </div>
+
+    <div id="filter_text" class="checkbox">
+      <label>
+        <input type="checkbox" value="Pose detection" >
+        <span>Pose detection</span>
+      </label>
+    </div>
+
+    <div id="filter_text" class="checkbox">
+      <label>
+        <input type="checkbox" value="Selfie segmentation" >
+        <span>Selfie segmentation</span>
+      </label>
+    </div>
+
+
+    <div id="filter_text" class="checkbox">
+      <label>
+        <input type="checkbox" value="Style transfer" >
+        <span>Style transfer</span>
+      </label>
+    </div>
+
+
+    <div id="filter_text" class="checkbox">
+      <label>
+        <input type="checkbox" value="Image segmentation" >
+        <span>Image segmentation</span>
+      </label>
+    </div>
+    <div id="filter_text" class="checkbox">
+      <label>
+        <input type="checkbox" value="Style transfer" >
+        <span>Style transfer</span>
+      </label>
+    </div>
+
+    <div id="filter_text" class="checkbox">
+      <label>
+        <input type="checkbox" value="Text prediction">
+        <span>Text prediction</span>
+      </label>
+    </div>
+    <div id="filter_text" class="checkbox">
+      <label>
+        <input type="checkbox" value="Dynamic">
+        <span>Dynamic</span>
+      </label>
+    </div>
+    <div id="filter_text" class="checkbox">
+      <label>
+        <input type="checkbox" value="No Interaction" id="No Interaction">
+        <span>No Interaction</span>
+      </label>
+    </div>
+  </fieldset>
 <br>
-         
-       
+
+    
+            
+     
+        </div>
+
+
+          
+        <div class="well" >
+
+       <!-- Interaction Style -->
+
 <fieldset id="certificate_criteria">
-  <legend id="filter_lengend">certificate_criteria</legend>
-  <div class="checkbox">
-    <label>
-  <input type="checkbox" value="All" id="all_IS">
-  <span>All</span>
-  </label>
-  </div>
+<legend id="filter_lengend">Interaction Style</legend>
+<div class="checkbox">
+<label>
+<input type="checkbox" value="All" id="all_IS">
+<span>All</span>
+</label>
+</div>
 <h4 id="filter_IS">No interaction</h4>
 <div class="checkbox">
-  <label>
+<label>
 <input type="checkbox" value="Importing files">
 <span>Importing files</span>
 </label>
 </div>
 <div class="checkbox">
-  <label>
+<label>
 <input type="checkbox" value="No interaction with hardware input">
 <span>No interaction with hardware input</span>
 </label>
@@ -87,13 +200,13 @@
 
 </div>
 <div class="checkbox">
-    <label>
+<label>
 <input type="checkbox" value="Pop-up messages">
 <span>Pop-up messages</span>
 </label>
 </div>
 <div class="checkbox">
-    <label>
+<label>
 <input type="checkbox" value="Vibration">
 <span>Vibration</span>
 </label>
@@ -158,21 +271,21 @@
 
 
 <div class="checkbox">
-    <label>
+<label>
 <input type="checkbox" value="Camera adjustment">
 <span>Camera adjustment</span>
 </label>
 
 </div>
 
- 
+
 
 </fieldset>
 
-    
-            
-     
-        </div>
+
+  
+
+</div>
       </div>
 
       
@@ -192,7 +305,13 @@
       </span>
       <div class="caption">
         <h4><%= _fid %>. <%= name %></h4>
-       
+        <div class="outline" id="card_text">
+          <br>
+          <b>Model : </b><%= outline %> <br>
+          <b>Representation : </b><%= representation %><br>
+          <b>App category :</b> <%= director %>
+          
+        </div>
         <div class="detail">
           <dl>
             <img src=<%= year %> style="width: 24.5rem;  display: block;
@@ -204,7 +323,8 @@
             <dd><%= stars %></dt> -->
             <!-- <dt>Year</dt> -->
             <!-- <dd><%= year %></dd> -->
-            <dd><%= certificate %></dd>
+            <br>
+            <dd id="card_title">Style : <%= certificate %></dd>
 
           </dl>
         </div>
