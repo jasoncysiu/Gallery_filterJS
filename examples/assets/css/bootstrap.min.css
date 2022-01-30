@@ -3,12 +3,23 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */ /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-html {
-  font-family: sans-serif;
+
+  /* Font unused */
+ @import url('http://fonts.cdnfonts.com/css/century-gothic');
+ /*   font-family: 'century gothic', sans-serif!important; */
+ @import url('http://fonts.cdnfonts.com/css/aurulent-sans-mono');
+
+ /* Font used */
+ @import url('http://fonts.cdnfonts.com/css/fontype-rounded');
+
+ html {
+  /* font-family: sans-serif; */
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 body {
+  font-family: 'Fontype Rounded', sans-serif!important;
+  /* font-family: 'Aurulent Sans Mono', sans-serif!important; */
   margin: 0;
 }
 article,
