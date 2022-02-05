@@ -7,11 +7,11 @@ $(document).ready(function(){
     console.log(record)
   };
 
+//This function counts how many items remain after filtering
   var afterFilter = function(result, jQ){
     $('#total_movies').text(result.length);
 
     var checkboxes  = $("#outline_criteria :input:gt(0)");
-
     checkboxes.each(function(){
       var c = $(this), count = 0
 
@@ -22,17 +22,32 @@ $(document).ready(function(){
     });
 
 
-    var checkboxes_IS  = $("#certificate_criteria :input:gt(0)");
+    // var checkboxes_IS  = $("#certificate_criteria :input:gt(0)");
 
-    checkboxes_IS.each(function(){
-      var c = $(this), count = 0
+    // checkboxes_IS.each(function(){
+    //   var c = $(this), count = 0
 
-      if(result.length > 0){
-        count = jQ.where({ '#certificate_criteria': c.val() }).count;
-      }
-      c.next().text(c.val() + '(' + count + ')')
-    });
+    //   if(result.length > 0){
+    //     count = jQ.where({ '#certificate_criteria': c.val() }).count;
+    //   }
+    //   c.next().text(c.val() + '(' + count + ')')
+    // });
+
+    // var representation  = $("#representation :input:gt(0)");
+
+    // representation.each(function(){
+    //   var c = $(this), count = 0
+
+    //   if(result.length > 0){
+    //     count = jQ.where({ '#representation': c.val() }).count;
+    //   }
+    //   c.next().text(c.val() + '(' + count + ')')
+    // });
   }
+
+
+
+  // =========================================================== 
 
   var FJS = FilterJS(movies, '#movies', {
     template: '#movie-template',
@@ -84,6 +99,8 @@ $(document).ready(function(){
   // FJS.addCriteria({field: 'runtime', ele: '#runtime_filter', type: 'range'});
   FJS.addCriteria({field: 'outline', ele: '#outline_criteria input:checkbox'});
   FJS.addCriteria({field: 'certificate', ele: '#certificate_criteria input:checkbox'});
+  FJS.addCriteria({field: 'representation', ele: '#representation input:checkbox'});
+
   /*
    * Add multiple criterial.
     FJS.addCriteria([
@@ -129,5 +146,12 @@ function initSliders(){
   $('#certificate_criteria :checkbox').prop('checked', true);
   $('#all_IS').on('click', function(){
     $('#certificate_criteria :checkbox').prop('checked', $(this).is(':checked'));
+  });
+
+
+  //representation
+  $('#representation :checkbox').prop('checked', true);
+  $('#all_representation').on('click', function(){
+    $('#representation :checkbox').prop('checked', $(this).is(':checked'));
   });
 }

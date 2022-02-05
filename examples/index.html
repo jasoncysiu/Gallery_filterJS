@@ -22,7 +22,7 @@
         <div>
           <h4 class='col-md-6'>Interaction (<span id="total_movies">0</span>)</h4>
           <div class="col-md-6 progress">
-            <div class="progress-bar" id="stream_progress" style="width: 0%;">0%</div>
+            <div class="progress-bar" id="stream_progress" style="width:1 0%;">0%</div>
           </div>
         </div>
         <div>
@@ -286,17 +286,71 @@
 
 </fieldset>
 
-
   
 
+
+
 </div>
+
+
+
+<div class="well" >
+  
+<fieldset id="representation" >
+  <legend id="filter_lengend">Representation</legend>
+  <div id="filter_text" class="checkbox">
+    <label>
+      <input type="checkbox" value="All" id="all_representation">
+      <span>All</span>
+    </label>
+  </div>
+  <div id="filter_text" class="checkbox">
+    <label>
+      <input type="checkbox" value="Visual" >
+      <span>Visual</span>
+    </label>
+  </div>
+  <div id="filter_text" class="checkbox">
+    <label>
+      <input type="checkbox" value="Aural" >
+      <span>Aural</span>
+    </label>
+  </div>
+  <div id="filter_text" class="checkbox">
+    <label>
+      <input type="checkbox" value="Text" >
+      <span>Text</span>
+    </label>
+  </div>
+  <div id="filter_text" class="checkbox">
+    <label>
+      <input type="checkbox" value="Haptic" >
+      <span>Haptic</span>
+    </label>
+  </div>
+  <div id="filter_text" class="checkbox">
+    <label>
+      <input type="checkbox" value="None" >
+      <span>None</span>
+    </label>
+  </div>
+
+</fieldset>
+</div>
+
       </div>
 
-      
+      <!-- Representation -->
 
+
+
+      <!-- card -->
       <div class="col-md-9">
         <div class="movies content row" id="movies"> </div>
       </div>
+    
+    
+    
     </div>
   </div>
 </div>
