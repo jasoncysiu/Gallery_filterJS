@@ -7017,7 +7017,7 @@ text-align: center;
   text-transform: uppercase;
 
 }
-#button_model:hover {
+/* #button_model:hover {
   background: #f47c20;
   background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(orange));
   background: -moz-linear-gradient(top,  #f88e11,  #f06015);
@@ -7026,7 +7026,7 @@ text-align: center;
 #button_model:active {
   position: relative;
   top: 1px;
-}
+} */
 /* End - (Model) texts looking like tags */
 
 
@@ -7050,7 +7050,7 @@ text-align: center;
   text-transform: uppercase;
 
 }
-#button_rep:hover {
+/* #button_rep:hover {
   background: #f47c20;
   background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
   background: -moz-linear-gradient(top,  #f88e11,  #f06015);
@@ -7059,7 +7059,7 @@ text-align: center;
 #button_rep:active {
   position: relative;
   top: 1px;
-}
+} */
 /* End - (Representation) texts looking like tags */
 
 
@@ -7082,7 +7082,7 @@ text-align: center;
   font-family: 'century gothic', sans-serif!important;
   text-transform: uppercase;
 }
-#button_style:hover {
+/* #button_style:hover {
   background: #f47c20;
   background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
   background: -moz-linear-gradient(top,  #f88e11,  #f06015);
@@ -7091,14 +7091,14 @@ text-align: center;
 #button_style:active {
   position: relative;
   top: 1px;
-}
+} */
 /* End - (style) texts looking like tags */
 
 /* Start - (Cat) texts looking like tags */
 #button_Cat {
   display: inline-block;
   border: solid 1px #da7c0c;
-  background: blueviolet;
+  background: #33FFFF;
   text-decoration: none;
   font: 14px/100% Arial, Helvetica, sans-serif;
   padding: .5em 2em .55em;
@@ -7114,7 +7114,7 @@ text-align: center;
   text-transform: uppercase;
 
 }
-#button_Cat:hover {
+/* #button_Cat:hover {
   background: #f47c20;
   background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
   background: -moz-linear-gradient(top,  #f88e11,  #f06015);
@@ -7123,6 +7123,14 @@ text-align: center;
 #button_Cat:active {
   position: relative;
   top: 1px;
-}
+} */
 /* End - (Cat) texts looking like tags */
 /* ================ End -  Texts look like tags ================  */
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  
+}
