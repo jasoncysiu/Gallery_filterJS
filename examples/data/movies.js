@@ -717,7 +717,7 @@ var movies = [
     "date": "1974-04-30T10:29:29+05:74",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "??? - NAVER"
+    "name": "네이버-Naver"
   },
   {
     "id": 46,
@@ -733,7 +733,7 @@ var movies = [
     "date": "1974-04-30T10:29:29+05:75",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "??? - NAVER"
+    "name": "네이버-Naver"
   },
   {
     "id": 47,
@@ -749,7 +749,7 @@ var movies = [
     "date": "1974-04-30T10:29:29+05:76",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "??? - NAVER"
+    "name": "네이버-Naver"
   },
   {
     "id": 48,
@@ -765,7 +765,7 @@ var movies = [
     "date": "1974-04-30T10:29:29+05:77",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "??? - NAVER"
+    "name": "네이버-Naver"
   },
   {
     "id": 49,
@@ -781,7 +781,7 @@ var movies = [
     "date": "1974-04-30T10:29:29+05:78",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "??? - NAVER"
+    "name": "네이버-Naver"
   },
   {
     "id": 50,
@@ -797,7 +797,7 @@ var movies = [
     "date": "1974-04-30T10:29:29+05:79",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "??? - NAVER"
+    "name": "네이버-Naver"
   },
   {
     "id": 51,
@@ -813,7 +813,7 @@ var movies = [
     "date": "1974-04-30T10:29:29+05:80",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "??? - NAVER"
+    "name": "네이버-Naver"
   },
   {
     "id": 52,
@@ -829,7 +829,7 @@ var movies = [
     "date": "1974-04-30T10:29:29+05:81",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "??? - NAVER"
+    "name": "네이버-Naver"
   },
   {
     "id": 53,
@@ -845,7 +845,7 @@ var movies = [
     "date": "1974-04-30T10:29:29+05:82",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "??? - NAVER"
+    "name": "네이버-Naver"
   },
   {
     "id": 54,
@@ -861,7 +861,7 @@ var movies = [
     "date": "1974-04-30T10:29:29+05:83",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "??? - NAVER"
+    "name": "네이버-Naver"
   },
   {
     "id": 55,
@@ -877,7 +877,7 @@ var movies = [
     "date": "1974-04-30T10:29:29+05:84",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "??? - NAVER"
+    "name": "네이버-Naver"
   },
   {
     "id": 56,
@@ -893,7 +893,7 @@ var movies = [
     "date": "1974-04-30T10:29:29+05:85",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "??? - NAVER"
+    "name": "네이버-Naver"
   },
   {
     "id": 57,
@@ -909,7 +909,7 @@ var movies = [
     "date": "1974-04-30T10:29:29+05:86",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "??? - NAVER"
+    "name": "네이버-Naver"
   },
   {
     "id": 58,
@@ -925,7 +925,7 @@ var movies = [
     "date": "1974-04-30T10:29:29+05:87",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "??? - NAVER"
+    "name": "네이버-Naver"
   },
   {
     "id": 59,
@@ -941,7 +941,7 @@ var movies = [
     "date": "1974-04-30T10:29:29+05:88",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "??? - NAVER"
+    "name": "네이버-Naver"
   },
   {
     "id": 60,
@@ -957,7 +957,7 @@ var movies = [
     "date": "1974-04-30T10:29:29+05:89",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "??? - NAVER"
+    "name": "네이버-Naver"
   },
   {
     "id": 61,
@@ -973,7 +973,7 @@ var movies = [
     "date": "1974-04-30T10:29:29+05:90",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "??? - NAVER"
+    "name": "네이버-Naver"
   },
   {
     "id": 62,
@@ -989,7 +989,7 @@ var movies = [
     "date": "1974-04-30T10:29:29+05:91",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "??? - NAVER"
+    "name": "네이버-Naver"
   },
   {
     "id": 63,
@@ -1005,7 +1005,7 @@ var movies = [
     "date": "1974-04-30T10:29:29+05:92",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "??? - NAVER"
+    "name": "네이버-Naver"
   },
   {
     "id": 64,
@@ -1021,7 +1021,7 @@ var movies = [
     "date": "1974-04-30T10:29:29+05:93",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "??? - NAVER"
+    "name": "네이버-Naver"
   },
   {
     "id": 65,
@@ -1037,7 +1037,7 @@ var movies = [
     "date": "1974-04-30T10:29:29+05:94",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "??? - NAVER"
+    "name": "네이버-Naver"
   },
   {
     "id": 66,
@@ -1053,7 +1053,7 @@ var movies = [
     "date": "1974-04-30T10:29:29+05:95",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "??? - NAVER"
+    "name": "네이버-Naver"
   },
   {
     "id": 67,
@@ -1069,7 +1069,7 @@ var movies = [
     "date": "1974-04-30T10:29:29+05:96",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "??? - NAVER"
+    "name": "네이버-Naver"
   },
   {
     "id": 68,
