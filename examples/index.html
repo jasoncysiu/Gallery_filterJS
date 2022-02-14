@@ -34,13 +34,23 @@
          ">
          <div class="container">
             <h1 class="title"></h1>
+            <div class="center">
+               <p style="font-size: 13px; background: orange" id="button_list"> Model </p><br><br>
+               <p style="font-size: 13px; background: #33FFFF" id="button_list"> App category </p><br><br>
+               <p style="font-size: 13px;  background: yellow;" id="button_list"> Representation </p><br><br>
+      
+             
+               <p style="font-size: 13px; background: #90EE90" id="button_list">Interaction Style </p><br><br>
+
+            </div>
             <br>
+
             <div class="sidebar col-md-3">
                <div>
                   <h4 class='col-md-6'>Interaction (<span id="total_movies">0</span>)</h4>
-                  <div class="col-md-6 progress">
+                  <!-- <div class="col-md-6 progress">
                      <div class="progress-bar" id="stream_progress" style="width:1 0%;">0%</div>
-                  </div>
+                  </div> -->
                </div>
                <div>
                   <label class="sr-only" for="searchbox">Search</label>
@@ -61,81 +71,129 @@
                      <div id="filter_text" class="checkbox">
                         <label>
                         <input type="checkbox" value="Audio classification" >
+                        <div class="icon_model">
                         <span>Audio classification</span>
+                        <img  src="\examples\assets\css\images\question_mark.png" title="This model classifies different categories of sounds.">
+                     </div>
+      
+                        
                         </label>
                      </div>
                      <div id="filter_text" class="checkbox">
                         <label>
                         <input type="checkbox" value="Speech recongnition" >
-                        <span>Speech recongnition</span>
+                        <div class="icon_model">
+                           <span>Speech recongnition</span>
+                           <img src="\examples\assets\css\images\question_mark.png" title="This model understands the spoken words of the person speaking, and convert them to texts.">
+                           </div>
                         </label>
                      </div>
                      <h4 id="filter_IS">Vision</h4>
                      <div id="filter_text" class="checkbox">
                         <label>
-                        <input type="checkbox" value="Barcode scanning" >
-                        <span>Barcode scanning</span>
-                        </label>
+                           <input type="checkbox" value="Barcode scanning" >
+                           <div class="icon_model">
+                              <span>Barcode scanning</span>
+                              <img src="\examples\assets\css\images\question_mark.png" title="This model understands the spoken words of the person speaking, and convert them to texts.">
+                              </div>
+                           </label>
+                     </div>
+                     <div id="filter_text" class="checkbox">
+
+                        <label>
+                           <input type="checkbox" value="Entity extraction" >
+                           <div class="icon_model">
+                              <span>Entity extraction</span>
+                              <img src="\examples\assets\css\images\question_mark.png" title="This model understands the spoken words of the person speaking, and convert them to texts.">
+                              </div>
+                           </label>
                      </div>
                      <div id="filter_text" class="checkbox">
                         <label>
-                        <input type="checkbox" value="Entity extraction" >
-                        <span>Entity extraction</span>
-                        </label>
+                           <input type="checkbox" value="Face detection" >
+                           <div class="icon_model">
+                              <span>Face detection</span>
+                              <img src="\examples\assets\css\images\question_mark.png" title="This model understands the spoken words of the person speaking, and convert them to texts.">
+                              </div>
+                           </label>
+                     </div>
+                     <div id="filter_text" class="checkbox">
+
+                        <label>
+                           <input type="checkbox" value="Object detection and tracking" >
+                           <div class="icon_model">
+                              <span>Object detection and <br>tracking</span>
+                              <img src="\examples\assets\css\images\question_mark.png" title="This model understands the spoken words of the person speaking, and convert them to texts.">
+                              </div>
+                           </label>
                      </div>
                      <div id="filter_text" class="checkbox">
                         <label>
-                        <input type="checkbox" value="Face detection" >
-                        <span>Face detection</span>
-                        </label>
+                           <input type="checkbox" value="Pose detection" >
+                           <div class="icon_model">
+                              <span>Pose detection</span>
+                              <img src="\examples\assets\css\images\question_mark.png" title="This model understands the spoken words of the person speaking, and convert them to texts.">
+                              </div>
+                           </label>
+                     </div>
+                     <div id="filter_text" class="checkbox">
+
+
+                        <label>
+                           <input type="checkbox" value="Selfie segmentation" >
+                           <div class="icon_model">
+                              <span>Selfie segmentation</span>
+                              <img src="\examples\assets\css\images\question_mark.png" title="This model understands the spoken words of the person speaking, and convert them to texts.">
+                              </div>
+                           </label>
+                     </div>
+                     <div id="filter_text" class="checkbox">
+
+                        <label>
+                           <input type="checkbox" value="Style transfer" >
+                           <div class="icon_model">
+                              <span>Style transfer</span>
+                              <img src="\examples\assets\css\images\question_mark.png" title="This model understands the spoken words of the person speaking, and convert them to texts.">
+                              </div>
+                           </label>
                      </div>
                      <div id="filter_text" class="checkbox">
                         <label>
-                        <input type="checkbox" value="Object detection and tracking" >
-                        <span>Object detection and tracking</span>
-                        </label>
+                           <input type="checkbox" value="Image classification" >
+                           <div class="icon_model">
+                              <span>Image classification</span>
+                              <img src="\examples\assets\css\images\question_mark.png" title="This model understands the spoken words of the person speaking, and convert them to texts.">
+                              </div>
+                           </label>
+                     </div>
+                     <div id="filter_text" class="checkbox">
+
+                        <label>
+                           <input type="checkbox" value="Image segmentation" >
+                           <div class="icon_model">
+                              <span>Image segmentation</span>
+                              <img src="\examples\assets\css\images\question_mark.png" title="This model understands the spoken words of the person speaking, and convert them to texts.">
+                              </div>
+                           </label>
+                     </div>
+                     <div id="filter_text" class="checkbox">
+
+                        <label>
+                           <input type="checkbox" value="Text prediction" >
+                           <div class="icon_model">
+                              <span>Text prediction</span>
+                              <img src="\examples\assets\css\images\question_mark.png" title="This model understands the spoken words of the person speaking, and convert them to texts.">
+                              </div>
+                           </label>
                      </div>
                      <div id="filter_text" class="checkbox">
                         <label>
-                        <input type="checkbox" value="Pose detection" >
-                        <span>Pose detection</span>
-                        </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
-                        <input type="checkbox" value="Selfie segmentation" >
-                        <span>Selfie segmentation</span>
-                        </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
-                        <input type="checkbox" value="Style transfer" >
-                        <span>Style transfer</span>
-                        </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
-                        <input type="checkbox" value="Image classification" >
-                        <span>Image classification</span>
-                        </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
-                        <input type="checkbox" value="Image segmentation" >
-                        <span>Image segmentation</span>
-                        </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
-                        <input type="checkbox" value="Text prediction">
-                        <span>Text prediction</span>
-                        </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
-                        <input type="checkbox" value="Text recognition" >
-                        <span>Text recognition</span>
-                        </label>
+                           <input type="checkbox" value="Speech recongnition" >
+                           <div class="icon_model">
+                              <span>Text recognition</span>
+                              <img src="\examples\assets\css\images\question_mark.png" title="This model understands the spoken words of the person speaking, and convert them to texts.">
+                              </div>
+                           </label>
                      </div>
                   </fieldset>
                   <br>
@@ -281,7 +339,7 @@
             <!-- card -->
             <div class="col-md-9">
 
-               <div class="center">
+               <!-- <div class="center">
                   <p style="font-size: 13px;" id="button_style">Interaction Style </p>
                   &nbsp
                   <p style="font-size: 13px;" id="button_model"> Model </p>
@@ -289,7 +347,7 @@
                   <p style="font-size: 13px;" id="button_rep"> Representation </p>
                   &nbsp
                   <p style="font-size: 13px;" id="button_Cat"> App category </p>
-               </div>
+               </div> -->
                &nbsp
 
                <div class="movies content row" id="movies"> </div>

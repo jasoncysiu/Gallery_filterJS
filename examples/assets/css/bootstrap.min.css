@@ -7124,12 +7124,51 @@ text-align: center;
   top: 1px;
 } */
 /* End - (Cat) texts looking like tags */
+
+#button_list {
+  display: inline-block;
+  border: solid 1px #da7c0c;
+  text-decoration: none;
+  font: 14px/100% Arial, Helvetica, sans-serif;
+  padding: .55em 2.6em .55em;
+  -webkit-border-radius: .5em; 
+  -moz-border-radius: .5em;
+  border-radius: 6.3em;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+  box-shadow: 0 1px 2px rgba(0,0,0,.2);
+  font-size: 0.7em;
+  font-family: 'century gothic', sans-serif!important;
+  text-transform: uppercase;
+
+}
 /* ================ End -  Texts look like tags ================  */
 
 .center {
-  display: flex;
-  justify-content: center;
+  display: block;
+  width: 60px;
+  /* display: flex; */
+  /* justify-content: center; */
   align-items: center;
   height: 35px;
-  
+  /* position: relative; */
+  position: fixed;
+  margin-left: 1160px;
+  margin-top: 350px;
+  z-index: 9999;
+  background-color: #FBF7EB;
+  height: 120px;
+  width: 1000px;
+}
+
+/* ================ icon after models ================  */
+
+
+.icon_model img {
+  margin-left:10px;
+}
+.icon_model span, .icon_model img {
+  display:inline-block;
+  height: 14px;
+  cursor: default;
 }
