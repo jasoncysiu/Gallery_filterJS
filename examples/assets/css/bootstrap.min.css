@@ -7146,11 +7146,7 @@ text-align: center;
 
 .center {
   display: block;
-  width: 60px;
-  /* display: flex; */
   /* justify-content: center; */
-  align-items: center;
-  height: 35px;
   /* position: relative; */
   position: fixed;
   margin-left: 1160px;
@@ -7159,6 +7155,8 @@ text-align: center;
   background-color: #FBF7EB;
   height: 120px;
   width: 1000px;
+  
+
 }
 
 /* ================ icon after models ================  */
