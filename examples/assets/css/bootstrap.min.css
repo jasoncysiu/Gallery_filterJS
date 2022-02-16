@@ -18,6 +18,15 @@
   -ms-text-size-adjust: 100%;
 
 }
+#body_id{
+  background-color: #FBF7EB;   font-family: 'Fontype Rounded', sans-serif!important;
+         -webkit-transform: scale(2);
+    transform: scale(0.9);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;    
+    margin-right: 200px;    
+    overflow-x:hidden;
+}
 body {
   /* font-family: 'Aurulent Sans Mono', sans-serif!important; */
   margin: 0;
@@ -7140,24 +7149,24 @@ text-align: center;
   font-size: 0.7em;
   font-family: 'century gothic', sans-serif!important;
   text-transform: uppercase;
-
-}
+ }
 /* ================ End -  Texts look like tags ================  */
 
-.center {
+#taglist {
   display: block;
   /* justify-content: center; */
   /* position: relative; */
+
   position: fixed;
   margin-left: 1160px;
   margin-top: 350px;
   z-index: 9999;
   background-color: #FBF7EB;
   height: 120px;
-  width: 1000px;
-  
+  width:55%
 
-}
+
+  }
 
 /* ================ icon after models ================  */
 
