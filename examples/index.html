@@ -29,18 +29,17 @@
          <script src="../dist/filter.js" type="text/javascript"></script>
          <script src="data/movies.js" type="text/javascript"></script>
          <script src="index.js" type="text/javascript"></script>
+
+
       </head>
 
       <body id="body_id">
 
-<div id="taglist">
-   <p style="font-size: 13px; background: orange" id="button_list"> Model </p><br><br>
-   <p style="font-size: 13px; background: #33FFFF" id="button_list"> App category </p><br><br>
-   <p style="font-size: 13px;  background: yellow;" id="button_list"> Representation </p><br><br>
-   <p style="font-size: 13px; background: #90EE90" id="button_list">Interaction Style </p><br><br>
-</div>
+      
 
-<div >
+
+
+
          <div class="container">
             <h1 class="title"></h1>
         
@@ -360,9 +359,6 @@
                <div class="movies content row" id="movies"> </div>
             </div>
          </div>
-      </div>
-         </div>
-         </div>
          <script id="movie-template" type="text/html">
             <div class="col-md-4 movie">
               <div class="thumbnail">
@@ -400,16 +396,15 @@
                       <!-- <dd><%= year %></dd> -->
                       <br>            
                       <dd id="card_title">
-                        <p id="button_style"><%= certificate %> </p>
-                        <p id="button_model"><%= outline %> </p>
-                        <p id="button_rep"><%= representation %> </p>
-                        <p id="button_Cat"><%= director %> </p>
+                        <button id="button_style" title="Interaction Style"><%= certificate %> </button>
+                        <button id="button_model" title="Model"><%= outline %> </button>
+                        <button id="button_rep"  title="Representation"><%= representation %> </button>
+                        <button id="button_Cat" title="App category"><%= director %> </button>
                       </dd>
                     </dl>
                   </div>
                 </div>
               </div>
-            </div>
          </script>
          <script id="genre_template" type="text/html">
             <div class="checkbox">

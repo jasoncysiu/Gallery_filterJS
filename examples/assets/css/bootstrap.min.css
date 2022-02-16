@@ -24,7 +24,7 @@
     transform: scale(0.9);
     -webkit-transform-origin: 0 0;
     transform-origin: 0 0;    
-    margin-right: 200px;    
+    margin-left: 100px;    
     overflow-x:hidden;
 }
 body {
@@ -1600,6 +1600,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  
 }
 @media (min-width: 768px) {
   .container {
@@ -7013,7 +7014,7 @@ text-align: center;
   background: orange;
   text-decoration: none;
   font: 14px/100% Arial, Helvetica, sans-serif;
-  padding: .5em 2em .55em;
+  padding: .5em 1.5em .55em;
   
   -webkit-border-radius: .5em; 
   -moz-border-radius: .5em;
@@ -7024,7 +7025,9 @@ text-align: center;
   font-size: 0.7em;
   font-family: 'century gothic', sans-serif!important;
   text-transform: uppercase;
-
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  cursor: default;
 }
 /* #button_model:hover {
   background: #f47c20;
@@ -7057,6 +7060,8 @@ text-align: center;
   font-size: 0.7em;
   font-family: 'century gothic', sans-serif!important;
   text-transform: uppercase;
+  margin-bottom: 0.5em;
+  cursor: default;
 
 }
 /* #button_rep:hover {
@@ -7090,6 +7095,8 @@ text-align: center;
   font-size: 0.7em;
   font-family: 'century gothic', sans-serif!important;
   text-transform: uppercase;
+  cursor: default;
+
 }
 /* #button_style:hover {
   background: #f47c20;
@@ -7120,6 +7127,7 @@ text-align: center;
   font-size: 0.7em;
   font-family: 'century gothic', sans-serif!important;
   text-transform: uppercase;
+  cursor: default;
 
 }
 /* #button_Cat:hover {
@@ -7152,21 +7160,7 @@ text-align: center;
  }
 /* ================ End -  Texts look like tags ================  */
 
-#taglist {
-  display: block;
-  /* justify-content: center; */
-  /* position: relative; */
 
-  position: fixed;
-  margin-left: 1160px;
-  margin-top: 350px;
-  z-index: 9999;
-  background-color: #FBF7EB;
-  height: 120px;
-  width:55%
-
-
-  }
 
 /* ================ icon after models ================  */
 
@@ -7179,3 +7173,4 @@ text-align: center;
   height: 14px;
   cursor: default;
 }
+
