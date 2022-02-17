@@ -1,0 +1,97 @@
+```{r}
+#problem : now the same images have different tags, so there will be dubplicates when displaying to the gallery. 
+# example : ( PlantVillage has interaction styles of pop-up messages, instrction ) So there will be one image for instrction, and one for pop-up messages, when displaying to the gallery. 
+#Solution : all items with the same image links (which is the ID here) are seperated by common, instead of seperating them into difft rows. 
+
+library(tidyverse)
+library(jsonlite)
+library(janitor)
+df <- read.csv("C:/Users/sjsa3/Documents/GitHub/Gallery_filterJS/examples/data/movie.csv")
+
+```
+
+
+```{r comma-sep}
+			  
+	comma_sep <- 		   df %>% group_by(year) %>% 
+       summarise(
+               id             = paste(id), 
+  outline        = paste(outline, collapse=","), 
+  genre          = paste(genre, collapse=", "), 
+  certificate    = paste(certificate, collapse=", "), 
+  representation = paste(representation, collapse=", "), 
+  pkg_name       = paste(pkg_name), 
+  rating         = paste(rating), 
+ runtime        = paste(runtime), 
+ date           = paste(date), 
+ director = paste(director), 
+ actor          = paste(actor), 
+ stars          = paste(stars),
+ name = paste(name)
+              ) %>% distinct(year,.keep_all = TRUE)
+
+
+
+
+```
+```{r remove-dup}
+
+library(data.table)
+outline_rmv_dup <- setDT(comma_sep)[, list(outline= toString(unique(strsplit(outline,
+            ',\\s*')[[1]]))), by = year] %>% select(outline)%>% as.data.frame()
+
+
+genre_rmv_dup <- setDT(comma_sep)[, list(genre= toString(unique(strsplit(genre,
+            ',\\s*')[[1]]))), by = year] %>% select(genre)%>% as_tibble()
+
+
+certificate_rmv_dup <- setDT(comma_sep)[, list(certificate= toString(unique(strsplit(certificate,
+            ',\\s*')[[1]]))), by = year] %>% select(certificate)%>% as_tibble()
+
+
+representation_rmv_dup <- setDT(comma_sep)[, list(representation= toString(unique(strsplit(representation,
+            ',\\s*')[[1]]))), by = year] %>% select(representation)%>% as_tibble()
+
+
+
+ 
+# add quotation
+#add " in the first & end of every text 
+outline_rmv_dup <- gsub(",", "\",\"", outline_rmv_dup$outline) %>% as_data_frame()
+outline_rmv_dup<- outline_rmv_dup %>%
+   mutate(across(everything(), 
+       ~ case_when(!is.na(.) ~ str_c('[\"', .,'\"]'), TRUE ~ NA_character_)))%>% rename(outline=value)
+
+
+genre_rmv_dup <- gsub(",", "\",\"", genre_rmv_dup$genre) %>% as_data_frame()
+genre_rmv_dup<- genre_rmv_dup %>%
+   mutate(across(everything(), 
+       ~ case_when(!is.na(.) ~ str_c('[\"', .,'\"]'), TRUE ~ NA_character_)))%>% rename(genre=value)
+
+
+certificate_rmv_dup <- gsub(",", "\",\"", certificate_rmv_dup$certificate) %>% as_data_frame()
+certificate_rmv_dup<- certificate_rmv_dup %>%
+   mutate(across(everything(), 
+       ~ case_when(!is.na(.) ~ str_c('[\"', .,'\"]'), TRUE ~ NA_character_)))%>% rename(certificate=value)
+
+
+representation_rmv_dup <- gsub(",", "\",\"", representation_rmv_dup$representation) %>% as_data_frame()
+representation_rmv_dup<- representation_rmv_dup %>%
+   mutate(across(everything(), 
+       ~ case_when(!is.na(.) ~ str_c('[\"', .,'\"]'), TRUE ~ NA_character_)))%>% rename(representation=value)
+```
+
+
+```{r remove-dup}
+
+comma_sep <- comma_sep %>% select(-outline,-genre,-certificate,-representation)%>% cbind(outline_rmv_dup,genre_rmv_dup,certificate_rmv_dup,representation_rmv_dup)
+
+```
+
+```{r export}
+comma_sep %>% write.csv("C:/Users/sjsa3/Documents/GitHub/Gallery_filterJS/examples/data/movie_commaSep.csv")
+
+
+```
+
+
