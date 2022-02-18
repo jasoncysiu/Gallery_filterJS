@@ -1,67 +1,77 @@
 var movies =[
+
+
   {
     "id": 1,
-    "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/ai.fritz.heartbeat.FD.gif?raw=true",
-    "pkg_name": "ai.fritz.heartbeat",
+    "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.cut.cutout.photo.background.editor.gif?raw=true",
+    "pkg_name": "com.cut.cutout.photo.background.editor",
     "rating": 5,
     "runtime": 50,
-    "date": "1974-04-30T10:29:29+05:97",
-    "director": "Libraries and Demo",
+    "date": "1974-04-30T10:29:29+05:154",
+    "director": "Photography",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "Fritz AI Studio",
-    "outline": ["Face detection"],
-    "genre": ["Static"," Dynamic"],
-    "certificate": ["Pop-up messages"," Instruction"," Illustration of correct input"," Vibration"," Camera adjustment"," Photo editor"],
-    "representation": ["Text"," Visual"," Haptic"]
-  },
+    "name": "Cutout Photos - Background Eraser with Cut & Paste",
+    "outline": ["Selfie segmentation"],
+    "genre": ["Static"," Dynamic"," No Interaction"],
+    "certificate": ["Instruction"," Photo editor"," Importing files"],
+    "representation": ["Text"," Visual"," None"]
+  }
+
+  ,
   {
-    "id": 2,
-    "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/ai.fritz.heartbeat.IL.gif?raw=true",
-    "pkg_name": "ai.fritz.heartbeat",
+    "id": 22,
+    "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.cyberlink.youcammakeup.gif?raw=true",
+    "pkg_name": "com.cyberlink.youcammakeup",
     "rating": 5,
     "runtime": 50,
-    "date": "1974-04-30T10:29:29+05:117",
-    "director": "Libraries and Demo",
+    "date": "1974-04-30T10:29:29+05:157",
+    "director": "Photography",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "Fritz AI Studio",
-    "outline": ["Image classification"],
-    "genre": ["Dynamic"," Static"],
-    "certificate": ["Auto focusing object"," Pop-up messages"," Instruction"," Illustration of correct input"," Vibration"," Camera adjustment"," Text suggestion"],
-    "representation": ["Visual"," Text"," Haptic"]
+    "name": "YouCam Makeup - Selfie Editor",
+    "outline": ["Face detection"," Selfie segmentation"," Style transfer"],
+    "genre": ["Dynamic"],
+    "certificate": ["Auto focusing object"," Camera adjustment"," Photo editor"],
+    "representation": ["Visual"]
   },
+  
+  
   {
     "id": 3,
-    "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/ai.fritz.heartbeat.OD.gif?raw=true",
-    "pkg_name": "ai.fritz.heartbeat",
+    "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.aresmob.transmaster_OD.gif?raw=true",
+    "pkg_name": "com.aresmob.transmaster",
     "rating": 5,
     "runtime": 50,
-    "date": "1974-04-30T10:29:29+05:103",
-    "director": "Libraries and Demo",
+    "date": "1974-04-30T10:29:29+05:55",
+    "director": "Tools",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "Fritz AI Studio",
-    "outline": ["Object detection and tracking"],
-    "genre": ["Dynamic"," Static"],
-    "certificate": ["Auto focusing object"," Pop-up messages"," Instruction"," Illustration of correct input"," Vibration"," Camera adjustment"," Text suggestion"],
-    "representation": ["Visual"," Text"," Haptic"]
-  },
+    "name": "Translator Foto?translate, scan & print photo, pdf 15",
+    "outline": ["Image classification"],
+    "genre": ["Static"," Dynamic"],
+    "certificate": ["Camera frame"," Pop-up messages"," Photo editor"],
+    "representation": ["Visual"," Text"]
+  }
+  
+  
+  ,
+
   {
-    "id": 4,
-    "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/ai.fritz.heartbeat.PD.gif?raw=true",
-    "pkg_name": "ai.fritz.heartbeat",
+    "id":4,
+    "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.eraserphoto.cutout.backgroundeditor_face.gif?raw=true",
+    "pkg_name": "com.eraserphoto.cutout.backgroundeditor",
     "rating": 5,
     "runtime": 50,
-    "date": "1974-04-30T10:29:29+05:110",
-    "director": "Libraries and Demo",
+    "date": "1974-04-30T10:29:29+05:176",
+    "director": "Photography",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "Fritz AI Studio",
-    "outline": ["Pose detection"],
-    "genre": ["Dynamic"," Static"],
-    "certificate": ["Auto focusing object"," Pop-up messages"," Instruction"," Illustration of correct input"," Vibration"," Camera adjustment"],
-    "representation": ["Visual"," Text"," Haptic"]
+    "name": "Cut And Paste Photo Editor With Background Eraser",
+    "outline": ["Face detection"," Selfie segmentation"],
+    "genre": ["Static"," No Interaction"],
+    "certificate": ["Pop-up messages"," Instruction"," Camera frame"," Illustration of correct input"," Vibration"," Importing files"],
+    "representation": ["Text"," Visual"," Haptic"," None"]
   },
   {
     "id": 5,
@@ -159,22 +169,27 @@ var movies =[
     "certificate": ["Camera adjustment"," Photo editor"," Camera frame"," Pop-up messages"],
     "representation": ["Visual"," Text"]
   },
+
   {
-    "id": 11,
-    "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.aresmob.transmaster_OD.gif?raw=true",
-    "pkg_name": "com.aresmob.transmaster",
+    "id":11,
+    "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.easilydo.mail.gif?raw=true",
+    "pkg_name": "com.easilydo.mail",
     "rating": 5,
     "runtime": 50,
-    "date": "1974-04-30T10:29:29+05:55",
-    "director": "Tools",
+    "date": "1974-04-30T10:29:29+05:175",
+    "director": "Productivity",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "Translator Foto?translate, scan & print photo, pdf 15",
-    "outline": ["Image classification"],
-    "genre": ["Static"," Dynamic"],
-    "certificate": ["Camera frame"," Pop-up messages"," Photo editor"],
-    "representation": ["Visual"," Text"]
-  },
+    "name": "Email - Lightning Fast & Secure Mail",
+    "outline": ["Text prediction"],
+    "genre": ["Static"],
+    "certificate": ["Pop-up messages"],
+    "representation": ["Text"]
+  }
+  
+
+
+ ,
   {
     "id": 12,
     "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.aresmob.transmaster_PDF.gif?raw=true",
@@ -318,39 +333,41 @@ var movies =[
     "genre": ["Static"],
     "certificate": ["Pop-up messages"," Vibration"],
     "representation": ["Text"," Haptic"]
-  },
+  },  
   {
     "id": 21,
-    "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.cut.cutout.photo.background.editor.gif?raw=true",
-    "pkg_name": "com.cut.cutout.photo.background.editor",
+    "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.dengtacj.stock.gif?raw=true",
+    "pkg_name": "com.dengtacj.stock",
     "rating": 5,
     "runtime": 50,
-    "date": "1974-04-30T10:29:29+05:154",
-    "director": "Photography",
+    "date": "1974-04-30T10:29:29+05:170",
+    "director": "Finance",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "Cutout Photos - Background Eraser with Cut & Paste",
-    "outline": ["Selfie segmentation"],
-    "genre": ["Static"," Dynamic"," No Interaction"],
-    "certificate": ["Instruction"," Photo editor"," Importing files"],
-    "representation": ["Text"," Visual"," None"]
+    "name": "dengtacj stock",
+    "outline": ["Speech recongnition"],
+    "genre": ["No Interaction"," Static"],
+    "certificate": ["No interaction with hardware input"," Vibration"],
+    "representation": ["None"," Haptic"]
   },
+
   {
     "id": 22,
-    "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.cyberlink.youcammakeup.gif?raw=true",
-    "pkg_name": "com.cyberlink.youcammakeup",
+    "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.draw.clash.drawit.gif?raw=true",
+    "pkg_name": "com.draw.clash.drawit",
     "rating": 5,
     "runtime": 50,
-    "date": "1974-04-30T10:29:29+05:157",
-    "director": "Photography",
+    "date": "1974-04-30T10:29:29+05:172",
+    "director": "Entertainment",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "YouCam Makeup - Selfie Editor",
-    "outline": ["Face detection"," Selfie segmentation"," Style transfer"],
-    "genre": ["Dynamic"],
-    "certificate": ["Auto focusing object"," Camera adjustment"," Photo editor"],
-    "representation": ["Visual"]
-  },
+    "name": "Draw Clash - AI Guess Drawing Game",
+    "outline": ["Image classification"],
+    "genre": ["Static"],
+    "certificate": ["Pop-up messages"," Instruction"," Illustration of correct input"],
+    "representation": ["Text"," Visual"]
+  } 
+  ,
   {
     "id": 23,
     "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.dailyselfie.newlook.studio.gif?raw=true",
@@ -367,70 +384,93 @@ var movies =[
     "certificate": ["Importing files"," No interaction with hardware input"],
     "representation": ["None"]
   },
+
+
+
   {
     "id": 24,
-    "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.dengtacj.stock.gif?raw=true",
-    "pkg_name": "com.dengtacj.stock",
+    "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/ai.fritz.heartbeat.FD.gif?raw=true",
+    "pkg_name": "ai.fritz.heartbeat",
     "rating": 5,
     "runtime": 50,
-    "date": "1974-04-30T10:29:29+05:170",
-    "director": "Finance",
+    "date": "1974-04-30T10:29:29+05:97",
+    "director": "Libraries and Demo",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "dengtacj stock",
-    "outline": ["Speech recongnition"],
-    "genre": ["No Interaction"," Static"],
-    "certificate": ["No interaction with hardware input"," Vibration"],
-    "representation": ["None"," Haptic"]
+    "name": "Fritz AI Studio",
+    "outline": ["Face detection"],
+    "genre": ["Static"," Dynamic"],
+    "certificate": ["Pop-up messages"," Instruction"," Illustration of correct input"," Vibration"," Camera adjustment"," Photo editor"],
+    "representation": ["Text"," Visual"," Haptic"]
   },
   {
     "id": 25,
-    "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.draw.clash.drawit.gif?raw=true",
-    "pkg_name": "com.draw.clash.drawit",
+    "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/ai.fritz.heartbeat.IL.gif?raw=true",
+    "pkg_name": "ai.fritz.heartbeat",
     "rating": 5,
     "runtime": 50,
-    "date": "1974-04-30T10:29:29+05:172",
-    "director": "Entertainment",
+    "date": "1974-04-30T10:29:29+05:117",
+    "director": "Libraries and Demo",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "Draw Clash - AI Guess Drawing Game",
+    "name": "Fritz AI Studio",
     "outline": ["Image classification"],
-    "genre": ["Static"],
-    "certificate": ["Pop-up messages"," Instruction"," Illustration of correct input"],
-    "representation": ["Text"," Visual"]
+    "genre": ["Dynamic"," Static"],
+    "certificate": ["Auto focusing object"," Pop-up messages"," Instruction"," Illustration of correct input"," Vibration"," Camera adjustment"," Text suggestion"],
+    "representation": ["Visual"," Text"," Haptic"]
   },
   {
     "id": 26,
-    "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.easilydo.mail.gif?raw=true",
-    "pkg_name": "com.easilydo.mail",
+    "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/ai.fritz.heartbeat.OD.gif?raw=true",
+    "pkg_name": "ai.fritz.heartbeat",
     "rating": 5,
     "runtime": 50,
-    "date": "1974-04-30T10:29:29+05:175",
-    "director": "Productivity",
+    "date": "1974-04-30T10:29:29+05:103",
+    "director": "Libraries and Demo",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "Email - Lightning Fast & Secure Mail",
-    "outline": ["Text prediction"],
-    "genre": ["Static"],
-    "certificate": ["Pop-up messages"],
-    "representation": ["Text"]
+    "name": "Fritz AI Studio",
+    "outline": ["Object detection and tracking"],
+    "genre": ["Dynamic"," Static"],
+    "certificate": ["Auto focusing object"," Pop-up messages"," Instruction"," Illustration of correct input"," Vibration"," Camera adjustment"," Text suggestion"],
+    "representation": ["Visual"," Text"," Haptic"]
   },
+
+
   {
     "id": 27,
-    "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.eraserphoto.cutout.backgroundeditor_face.gif?raw=true",
-    "pkg_name": "com.eraserphoto.cutout.backgroundeditor",
+    "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/ai.fritz.heartbeat.PD.gif?raw=true",
+    "pkg_name": "ai.fritz.heartbeat",
     "rating": 5,
     "runtime": 50,
-    "date": "1974-04-30T10:29:29+05:176",
-    "director": "Photography",
+    "date": "1974-04-30T10:29:29+05:110",
+    "director": "Libraries and Demo",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": "Cut And Paste Photo Editor With Background Eraser",
-    "outline": ["Face detection"," Selfie segmentation"],
-    "genre": ["Static"," No Interaction"],
-    "certificate": ["Pop-up messages"," Instruction"," Camera frame"," Illustration of correct input"," Vibration"," Importing files"],
-    "representation": ["Text"," Visual"," Haptic"," None"]
+    "name": "Fritz AI Studio",
+    "outline": ["Pose detection"],
+    "genre": ["Dynamic"," Static"],
+    "certificate": ["Auto focusing object"," Pop-up messages"," Instruction"," Illustration of correct input"," Vibration"," Camera adjustment"],
+    "representation": ["Visual"," Text"," Haptic"]
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   {
     "id": 28,
     "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.fabbyhair.android.gif?raw=true",
