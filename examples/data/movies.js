@@ -13,9 +13,9 @@ var movies =[
     "stars": "Marlon Brando",
     "name": "Cutout Photos - Background Eraser with Cut & Paste",
     "outline": ["Selfie segmentation"],
-    "genre": ["Static"," Dynamic"," No Interaction"],
-    "certificate": ["Instruction"," Photo editor"," Importing files"],
-    "representation": ["Text"," Visual"," None"]
+    "genre": ["Static","Dynamic","No Interaction"],
+    "certificate": ["Instruction","Photo editor","Importing files"],
+    "representation": ["Text","Visual","None"]
   }
 
   ,
@@ -30,9 +30,9 @@ var movies =[
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
     "name": "YouCam Makeup - Selfie Editor",
-    "outline": ["Face detection"," Selfie segmentation"," Style transfer"],
+    "outline": ["Face detection","Selfie segmentation","Style transfer"],
     "genre": ["Dynamic"],
-    "certificate": ["Auto focusing object"," Camera adjustment"," Photo editor"],
+    "certificate": ["Auto focusing object","Camera adjustment","Photo editor"],
     "representation": ["Visual"]
   },
   
@@ -49,9 +49,9 @@ var movies =[
     "stars": "Marlon Brando",
     "name": "Translator Foto?translate, scan & print photo, pdf 15",
     "outline": ["Image classification"],
-    "genre": ["Static"," Dynamic"],
-    "certificate": ["Camera frame"," Pop-up messages"," Photo editor"],
-    "representation": ["Visual"," Text"]
+    "genre": ["Static","Dynamic"],
+    "certificate": ["Camera frame","Pop-up messages","Photo editor"],
+    "representation": ["Visual","Text"]
   }
   
   
@@ -68,10 +68,10 @@ var movies =[
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
     "name": "Cut And Paste Photo Editor With Background Eraser",
-    "outline": ["Face detection"," Selfie segmentation"],
-    "genre": ["Static"," No Interaction"],
-    "certificate": ["Pop-up messages"," Instruction"," Camera frame"," Illustration of correct input"," Vibration"," Importing files"],
-    "representation": ["Text"," Visual"," Haptic"," None"]
+    "outline": ["Face detection","Selfie segmentation"],
+    "genre": ["Static","No Interaction"],
+    "certificate": ["Pop-up messages","Instruction","Camera frame","Illustration of correct input","Vibration","Importing files"],
+    "representation": ["Text","Visual","Haptic","None"]
   },
   {
     "id": 5,
@@ -102,8 +102,8 @@ var movies =[
     "name": "Anyline Scanner",
     "outline": ["Barcode scanning"],
     "genre": ["Static"],
-    "certificate": ["Camera frame"," Flashlight"," Vibration"],
-    "representation": ["Visual"," Haptic"]
+    "certificate": ["Camera frame","Flashlight","Vibration"],
+    "representation": ["Visual","Haptic"]
   },
   {
     "id": 7,
@@ -132,10 +132,10 @@ var movies =[
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
     "name": "CHINA RESOURCES BANK ",
-    "outline": ["Entity extraction"," Text recognition"],
-    "genre": ["Static"," Dynamic"],
-    "certificate": ["Instruction"," Camera frame"," Object marker"," Vibration"],
-    "representation": ["Text"," Visual"," Haptic"]
+    "outline": ["Entity extraction","Text recognition"],
+    "genre": ["Static","Dynamic"],
+    "certificate": ["Instruction","Camera frame","Object marker","Vibration"],
+    "representation": ["Text","Visual","Haptic"]
   },
   {
     "id": 9,
@@ -165,9 +165,9 @@ var movies =[
     "stars": "Marlon Brando",
     "name": "Translator Foto?translate, scan & print photo, pdf 6",
     "outline": ["Text recognition"],
-    "genre": ["Dynamic"," Static"],
-    "certificate": ["Camera adjustment"," Photo editor"," Camera frame"," Pop-up messages"],
-    "representation": ["Visual"," Text"]
+    "genre": ["Dynamic","Static"],
+    "certificate": ["Camera adjustment","Photo editor","Camera frame","Pop-up messages"],
+    "representation": ["Visual","Text"]
   },
 
   {
@@ -202,9 +202,9 @@ var movies =[
     "stars": "Marlon Brando",
     "name": "Translator Foto?translate, scan & print photo, pdf 10",
     "outline": ["Text recognition"],
-    "genre": ["No Interaction"," Static"],
-    "certificate": ["Importing files"," Instruction"],
-    "representation": ["None"," Text"]
+    "genre": ["No Interaction","Static"],
+    "certificate": ["Importing files","Instruction"],
+    "representation": ["None","Text"]
   },
   {
     "id": 13,
@@ -218,9 +218,9 @@ var movies =[
     "stars": "Marlon Brando",
     "name": "Translator Foto?translate, scan & print photo, pdf 12",
     "outline": ["Text recognition"],
-    "genre": ["Static"," Dynamic"],
-    "certificate": ["Pop-up messages"," Camera frame"," Camera adjustment"],
-    "representation": ["Text"," Visual"]
+    "genre": ["Static","Dynamic"],
+    "certificate": ["Pop-up messages","Camera frame","Camera adjustment"],
+    "representation": ["Text","Visual"]
   },
   {
     "id": 14,
@@ -235,7 +235,7 @@ var movies =[
     "name": "Badoo - Dating. Chat. Meet.",
     "outline": ["Face detection"],
     "genre": ["No Interaction"],
-    "certificate": ["Importing files"," No interaction with hardware input"],
+    "certificate": ["Importing files","No interaction with hardware input"],
     "representation": ["None"]
   },
   {
@@ -251,8 +251,8 @@ var movies =[
     "name": "Baidu Map",
     "outline": ["Barcode scanning"],
     "genre": ["Static"],
-    "certificate": ["Pop-up messages"," Instruction"," Camera frame"," Flashlight"," Vibration"],
-    "representation": ["Text"," Visual"," Haptic"]
+    "certificate": ["Pop-up messages","Instruction","Camera frame","Flashlight","Vibration"],
+    "representation": ["Text","Visual","Haptic"]
   },
   {
     "id": 16,
@@ -266,9 +266,9 @@ var movies =[
     "stars": "Marlon Brando",
     "name": "Baidu Map",
     "outline": ["Text recognition"],
-    "genre": ["Dynamic"," Static"],
-    "certificate": ["Photo editor"," Instruction"," Pop-up messages"],
-    "representation": ["Visual"," Text"]
+    "genre": ["Dynamic","Static"],
+    "certificate": ["Photo editor","Instruction","Pop-up messages"],
+    "representation": ["Visual","Text"]
   },
   {
     "id": 17,
@@ -283,7 +283,7 @@ var movies =[
     "name": "Sweet Selfie: Camera & Editor",
     "outline": ["Face detection"],
     "genre": ["Dynamic"],
-    "certificate": ["Auto focusing object"," Photo editor"],
+    "certificate": ["Auto focusing object","Photo editor"],
     "representation": ["Visual"]
   },
   {
@@ -315,8 +315,8 @@ var movies =[
     "name": "chinasoft mall ",
     "outline": ["Barcode scanning"],
     "genre": ["Static"],
-    "certificate": ["Pop-up messages"," Instruction"," Camera frame"," Vibration"," Auditory feedback (Static)"],
-    "representation": ["Text"," Visual"," Haptic"," Aural"]
+    "certificate": ["Pop-up messages","Instruction","Camera frame","Vibration","Auditory feedback (Static)"],
+    "representation": ["Text","Visual","Haptic","Aural"]
   },
   {
     "id": 20,
@@ -331,8 +331,8 @@ var movies =[
     "name": "chinasoft mall ",
     "outline": ["Speech recongnition"],
     "genre": ["Static"],
-    "certificate": ["Pop-up messages"," Vibration"],
-    "representation": ["Text"," Haptic"]
+    "certificate": ["Pop-up messages","Vibration"],
+    "representation": ["Text","Haptic"]
   },  
   {
     "id": 21,
@@ -346,9 +346,9 @@ var movies =[
     "stars": "Marlon Brando",
     "name": "dengtacj stock",
     "outline": ["Speech recongnition"],
-    "genre": ["No Interaction"," Static"],
-    "certificate": ["No interaction with hardware input"," Vibration"],
-    "representation": ["None"," Haptic"]
+    "genre": ["No Interaction","Static"],
+    "certificate": ["No interaction with hardware input","Vibration"],
+    "representation": ["None","Haptic"]
   },
 
   {
@@ -364,8 +364,8 @@ var movies =[
     "name": "Draw Clash - AI Guess Drawing Game",
     "outline": ["Image classification"],
     "genre": ["Static"],
-    "certificate": ["Pop-up messages"," Instruction"," Illustration of correct input"],
-    "representation": ["Text"," Visual"]
+    "certificate": ["Pop-up messages","Instruction","Illustration of correct input"],
+    "representation": ["Text","Visual"]
   } 
   ,
   {
@@ -379,9 +379,9 @@ var movies =[
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
     "name": "Sweet Camera - Selfie Beauty Camera, Filters",
-    "outline": ["Face detection"," Selfie segmentation"],
+    "outline": ["Face detection","Selfie segmentation"],
     "genre": ["No Interaction"],
-    "certificate": ["Importing files"," No interaction with hardware input"],
+    "certificate": ["Importing files","No interaction with hardware input"],
     "representation": ["None"]
   },
 
@@ -399,9 +399,9 @@ var movies =[
     "stars": "Marlon Brando",
     "name": "Fritz AI Studio",
     "outline": ["Face detection"],
-    "genre": ["Static"," Dynamic"],
-    "certificate": ["Pop-up messages"," Instruction"," Illustration of correct input"," Vibration"," Camera adjustment"," Photo editor"],
-    "representation": ["Text"," Visual"," Haptic"]
+    "genre": ["Static","Dynamic"],
+    "certificate": ["Pop-up messages","Instruction","Illustration of correct input","Vibration","Camera adjustment","Photo editor"],
+    "representation": ["Text","Visual","Haptic"]
   },
   {
     "id": 25,
@@ -415,9 +415,9 @@ var movies =[
     "stars": "Marlon Brando",
     "name": "Fritz AI Studio",
     "outline": ["Image classification"],
-    "genre": ["Dynamic"," Static"],
-    "certificate": ["Auto focusing object"," Pop-up messages"," Instruction"," Illustration of correct input"," Vibration"," Camera adjustment"," Text suggestion"],
-    "representation": ["Visual"," Text"," Haptic"]
+    "genre": ["Dynamic","Static"],
+    "certificate": ["Auto focusing object","Pop-up messages","Instruction","Illustration of correct input","Vibration","Camera adjustment","Text suggestion"],
+    "representation": ["Visual","Text","Haptic"]
   },
   {
     "id": 26,
@@ -431,9 +431,9 @@ var movies =[
     "stars": "Marlon Brando",
     "name": "Fritz AI Studio",
     "outline": ["Object detection and tracking"],
-    "genre": ["Dynamic"," Static"],
-    "certificate": ["Auto focusing object"," Pop-up messages"," Instruction"," Illustration of correct input"," Vibration"," Camera adjustment"," Text suggestion"],
-    "representation": ["Visual"," Text"," Haptic"]
+    "genre": ["Dynamic","Static"],
+    "certificate": ["Auto focusing object","Pop-up messages","Instruction","Illustration of correct input","Vibration","Camera adjustment","Text suggestion"],
+    "representation": ["Visual","Text","Haptic"]
   },
 
 
@@ -449,9 +449,9 @@ var movies =[
     "stars": "Marlon Brando",
     "name": "Fritz AI Studio",
     "outline": ["Pose detection"],
-    "genre": ["Dynamic"," Static"],
-    "certificate": ["Auto focusing object"," Pop-up messages"," Instruction"," Illustration of correct input"," Vibration"," Camera adjustment"],
-    "representation": ["Visual"," Text"," Haptic"]
+    "genre": ["Dynamic","Static"],
+    "certificate": ["Auto focusing object","Pop-up messages","Instruction","Illustration of correct input","Vibration","Camera adjustment"],
+    "representation": ["Visual","Text","Haptic"]
   },
 
 
@@ -484,7 +484,7 @@ var movies =[
     "name": "Fabby Look  -  hair color changer & style effects",
     "outline": ["Face detection"],
     "genre": ["Dynamic"],
-    "certificate": ["Auto focusing object"," Photo editor"],
+    "certificate": ["Auto focusing object","Photo editor"],
     "representation": ["Visual"]
   },
   {
@@ -499,9 +499,9 @@ var movies =[
     "stars": "Marlon Brando",
     "name": "Ba Duan Jin - a martial arts guide",
     "outline": ["Pose detection"],
-    "genre": ["Dynamic"," Static"],
-    "certificate": ["Auditory feedback (Dynamic)"," Auto focusing object"," Pop-up messages"," Instruction"," Camera frame"," Illustration of correct input"," Vibration"," Auditory feedback (Static)"," Camera adjustment"],
-    "representation": ["Aural"," Visual"," Text"," Haptic"]
+    "genre": ["Dynamic","Static"],
+    "certificate": ["Auditory feedback (Dynamic)","Auto focusing object","Pop-up messages","Instruction","Camera frame","Illustration of correct input","Vibration","Auditory feedback (Static)","Camera adjustment"],
+    "representation": ["Aural","Visual","Text","Haptic"]
   },
   {
     "id": 30,
@@ -532,8 +532,8 @@ var movies =[
     "name": "Finger shopping",
     "outline": ["Barcode scanning"],
     "genre": ["Static"],
-    "certificate": ["Pop-up messages"," Camera frame"," Vibration"],
-    "representation": ["Text"," Visual"," Haptic"]
+    "certificate": ["Pop-up messages","Camera frame","Vibration"],
+    "representation": ["Text","Visual","Haptic"]
   },
   {
     "id": 32,
@@ -548,7 +548,7 @@ var movies =[
     "name": "Fishbrain - Fishing App",
     "outline": ["Image classification"],
     "genre": ["No Interaction"],
-    "certificate": ["Importing files"," No interaction with hardware input"],
+    "certificate": ["Importing files","No interaction with hardware input"],
     "representation": ["None"]
   },
   {
@@ -562,10 +562,10 @@ var movies =[
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
     "name": "GEICO Mobile - Car Insurance",
-    "outline": ["Image classification"," Face detection"],
-    "genre": ["Dynamic"," No Interaction"],
-    "certificate": ["Auditory feedback (Dynamic)"," Auto focusing object"," No interaction with hardware input"],
-    "representation": ["Aural"," Visual"," None"]
+    "outline": ["Image classification","Face detection"],
+    "genre": ["Dynamic","No Interaction"],
+    "certificate": ["Auditory feedback (Dynamic)","Auto focusing object","No interaction with hardware input"],
+    "representation": ["Aural","Visual","None"]
   },
   {
     "id": 34,
@@ -579,9 +579,9 @@ var movies =[
     "stars": "Marlon Brando",
     "name": "Google Arts & Culture",
     "outline": ["Image classification"],
-    "genre": ["Dynamic"," Static"],
-    "certificate": ["Auto focusing object"," Camera adjustment"," Instruction"],
-    "representation": ["Visual"," Text"]
+    "genre": ["Dynamic","Static"],
+    "certificate": ["Auto focusing object","Camera adjustment","Instruction"],
+    "representation": ["Visual","Text"]
   },
   {
     "id": 35,
@@ -612,8 +612,8 @@ var movies =[
     "name": "Google Arts & Culture",
     "outline": ["Face detection"],
     "genre": ["Static"],
-    "certificate": ["Pop-up messages"," Instruction"," Camera frame"," Illustration of correct input"],
-    "representation": ["Text"," Visual"]
+    "certificate": ["Pop-up messages","Instruction","Camera frame","Illustration of correct input"],
+    "representation": ["Text","Visual"]
   },
   {
     "id": 37,
@@ -644,7 +644,7 @@ var movies =[
     "name": "Google Arts & Culture",
     "outline": ["Style transfer"],
     "genre": ["Static"],
-    "certificate": ["Pop-up messages"," Instruction"],
+    "certificate": ["Pop-up messages","Instruction"],
     "representation": ["Text"]
   },
   {
@@ -658,9 +658,9 @@ var movies =[
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
     "name": "PhotoScan by Google Photos",
-    "outline": ["Image segmentation"," Object detection and tracking"],
+    "outline": ["Image segmentation","Object detection and tracking"],
     "genre": ["Dynamic"],
-    "certificate": ["Auto focusing object"," Camera adjustment"],
+    "certificate": ["Auto focusing object","Camera adjustment"],
     "representation": ["Visual"]
   },
   {
@@ -690,10 +690,10 @@ var movies =[
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
     "name": "Google Translate",
-    "outline": ["Speech recongnition"," Text recognition"],
-    "genre": ["Dynamic"," Static"," No Interaction"],
-    "certificate": ["Auditory feedback (Dynamic)"," Text suggestion"," Pop-up messages"," Instruction"," Auditory feedback (Static)"," Auto focusing object"," Camera adjustment"," Photo editor"," Importing files"," Camera frame"," Illustration of correct input"],
-    "representation": ["Aural"," Text"," Visual"," None"]
+    "outline": ["Speech recongnition","Text recognition"],
+    "genre": ["Dynamic","Static","No Interaction"],
+    "certificate": ["Auditory feedback (Dynamic)","Text suggestion","Pop-up messages","Instruction","Auditory feedback (Static)","Auto focusing object","Camera adjustment","Photo editor","Importing files","Camera frame","Illustration of correct input"],
+    "representation": ["Aural","Text","Visual","None"]
   },
   {
     "id": 42,
@@ -706,10 +706,10 @@ var movies =[
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
     "name": "Google Quick Search",
-    "outline": ["Image classification"," Speech recongnition"],
-    "genre": ["Dynamic"," No Interaction"," Static"],
-    "certificate": ["Auditory feedback (Dynamic)"," Auto focusing object"," Camera adjustment"," Photo editor"," Importing files"," Camera frame"," Illustration of correct input"," Instruction"," Pop-up messages"," Text suggestion"],
-    "representation": ["Aural"," Visual"," None"," Text"]
+    "outline": ["Image classification","Speech recongnition"],
+    "genre": ["Dynamic","No Interaction","Static"],
+    "certificate": ["Auditory feedback (Dynamic)","Auto focusing object","Camera adjustment","Photo editor","Importing files","Camera frame","Illustration of correct input","Instruction","Pop-up messages","Text suggestion"],
+    "representation": ["Aural","Visual","None","Text"]
   },
   {
     "id": 43,
@@ -721,11 +721,11 @@ var movies =[
     "director": "Communication",
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
-    "name": " Live Transcribe & Notification ",
+    "name": "Live Transcribe & Notification ",
     "outline": ["Audio classification"],
-    "genre": ["Static"," Dynamic"],
-    "certificate": ["Pop-up messages"," Instruction"," Illustration of correct input"," Vibration"," Auditory feedback (Dynamic)"],
-    "representation": ["Text"," Visual"," Haptic"," Aural"]
+    "genre": ["Static","Dynamic"],
+    "certificate": ["Pop-up messages","Instruction","Illustration of correct input","Vibration","Auditory feedback (Dynamic)"],
+    "representation": ["Text","Visual","Haptic","Aural"]
   },
   {
     "id": 44,
@@ -756,8 +756,8 @@ var movies =[
     "name": "Image Recognition Tensorflow Object Detection A.I. ",
     "outline": ["Image classification"],
     "genre": ["Static"],
-    "certificate": ["Pop-up messages"," Vibration"],
-    "representation": ["Text"," Haptic"]
+    "certificate": ["Pop-up messages","Vibration"],
+    "representation": ["Text","Haptic"]
   },
   {
     "id": 46,
@@ -772,8 +772,8 @@ var movies =[
     "name": "Nimo TV - Live Game Streaming",
     "outline": ["Barcode scanning"],
     "genre": ["Static"],
-    "certificate": ["Pop-up messages"," Instruction"," Camera frame"," Illustration of correct input"],
-    "representation": ["Text"," Visual"]
+    "certificate": ["Pop-up messages","Instruction","Camera frame","Illustration of correct input"],
+    "representation": ["Text","Visual"]
   },
   {
     "id": 47,
@@ -788,8 +788,8 @@ var movies =[
     "name": "iArt Camera  -  Magic Effect, Face Aging Booth",
     "outline": ["Face detection"],
     "genre": ["Static"],
-    "certificate": ["Camera frame"," Vibration"],
-    "representation": ["Visual"," Haptic"]
+    "certificate": ["Camera frame","Vibration"],
+    "representation": ["Visual","Haptic"]
   },
   {
     "id": 48,
@@ -802,9 +802,9 @@ var movies =[
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
     "name": "HybridForms",
-    "outline": ["Image classification"," Text recognition"],
+    "outline": ["Image classification","Text recognition"],
     "genre": ["No Interaction"],
-    "certificate": ["Importing files"," No interaction with hardware input"],
+    "certificate": ["Importing files","No interaction with hardware input"],
     "representation": ["None"]
   },
   {
@@ -819,9 +819,9 @@ var movies =[
     "stars": "Marlon Brando",
     "name": "Simply Piano by JoyTunes",
     "outline": ["Audio classification"],
-    "genre": ["Dynamic"," Static"],
-    "certificate": ["Auditory feedback (Dynamic)"," Pop-up messages"," Instruction"," Illustration of correct input"," Auditory feedback (Static)"," Text suggestion"],
-    "representation": ["Aural"," Text"," Visual"]
+    "genre": ["Dynamic","Static"],
+    "certificate": ["Auditory feedback (Dynamic)","Pop-up messages","Instruction","Illustration of correct input","Auditory feedback (Static)","Text suggestion"],
+    "representation": ["Aural","Text","Visual"]
   },
   {
     "id": 50,
@@ -834,9 +834,9 @@ var movies =[
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
     "name": "Kwai - Watch cool&funny videos",
-    "outline": ["Face detection"," Selfie segmentation"],
+    "outline": ["Face detection","Selfie segmentation"],
     "genre": ["Dynamic"],
-    "certificate": ["Camera adjustment"," Photo editor"],
+    "certificate": ["Camera adjustment","Photo editor"],
     "representation": ["Visual"]
   },
   {
@@ -867,9 +867,9 @@ var movies =[
     "stars": "Marlon Brando",
     "name": "BeautyPlus Me - Easy Photo Editor & Selfie Camera",
     "outline": ["Face detection"],
-    "genre": ["Static"," Dynamic"],
-    "certificate": ["Pop-up messages"," Instruction"," Illustration of correct input"," Camera adjustment"," Photo editor"," Auto focusing object"],
-    "representation": ["Text"," Visual"]
+    "genre": ["Static","Dynamic"],
+    "certificate": ["Pop-up messages","Instruction","Illustration of correct input","Camera adjustment","Photo editor","Auto focusing object"],
+    "representation": ["Text","Visual"]
   },
   {
     "id": 53,
@@ -883,9 +883,9 @@ var movies =[
     "stars": "Marlon Brando",
     "name": "Style My Hair: Discover Your Next Look",
     "outline": ["Face detection"],
-    "genre": ["Static"," Dynamic"],
-    "certificate": ["Pop-up messages"," Instruction"," Camera frame"," Photo editor"],
-    "representation": ["Text"," Visual"]
+    "genre": ["Static","Dynamic"],
+    "certificate": ["Pop-up messages","Instruction","Camera frame","Photo editor"],
+    "representation": ["Text","Visual"]
   },
   {
     "id": 54,
@@ -915,9 +915,9 @@ var movies =[
     "stars": "Marlon Brando",
     "name": "네이버-Naver",
     "outline": ["Image classification"],
-    "genre": ["Dynamic"," Static"],
-    "certificate": ["Text suggestion"," Auditory feedback (Static)"," Auto focusing object"," Camera adjustment"," Photo editor"," Pop-up messages"," Instruction"," Camera frame"," Illustration of correct input"," Vibration"],
-    "representation": ["Text"," Aural"," Visual"," Haptic"]
+    "genre": ["Dynamic","Static"],
+    "certificate": ["Text suggestion","Auditory feedback (Static)","Auto focusing object","Camera adjustment","Photo editor","Pop-up messages","Instruction","Camera frame","Illustration of correct input","Vibration"],
+    "representation": ["Text","Aural","Visual","Haptic"]
   },
   {
     "id": 56,
@@ -931,9 +931,9 @@ var movies =[
     "stars": "Marlon Brando",
     "name": "네이버-Naver",
     "outline": ["Speech recongnition"],
-    "genre": ["Dynamic"," Static"],
-    "certificate": ["Auditory feedback (Dynamic)"," Pop-up messages"," Instruction"," Illustration of correct input"," Auditory feedback (Static)"," Text suggestion"],
-    "representation": ["Aural"," Text"," Visual"]
+    "genre": ["Dynamic","Static"],
+    "certificate": ["Auditory feedback (Dynamic)","Pop-up messages","Instruction","Illustration of correct input","Auditory feedback (Static)","Text suggestion"],
+    "representation": ["Aural","Text","Visual"]
   },
   {
     "id": 57,
@@ -947,9 +947,9 @@ var movies =[
     "stars": "Marlon Brando",
     "name": "네이버-Naver",
     "outline": ["Text recognition"],
-    "genre": ["Static"," Dynamic"],
-    "certificate": ["Vibration"," Auditory feedback (Dynamic)"," Pop-up messages"," Instruction"," Illustration of correct input"," Auditory feedback (Static)"," Text suggestion"],
-    "representation": ["Haptic"," Aural"," Text"," Visual"]
+    "genre": ["Static","Dynamic"],
+    "certificate": ["Vibration","Auditory feedback (Dynamic)","Pop-up messages","Instruction","Illustration of correct input","Auditory feedback (Static)","Text suggestion"],
+    "representation": ["Haptic","Aural","Text","Visual"]
   },
   {
     "id": 58,
@@ -964,8 +964,8 @@ var movies =[
     "name": "Redbaby",
     "outline": ["Barcode scanning"],
     "genre": ["Static"],
-    "certificate": ["Pop-up messages"," Instruction"," Camera frame"," Flashlight"," Vibration"],
-    "representation": ["Text"," Visual"," Haptic"]
+    "certificate": ["Pop-up messages","Instruction","Camera frame","Flashlight","Vibration"],
+    "representation": ["Text","Visual","Haptic"]
   },
   {
     "id": 59,
@@ -980,8 +980,8 @@ var movies =[
     "name": "Redbaby",
     "outline": ["Image classification"],
     "genre": ["Static"],
-    "certificate": ["Pop-up messages"," Instruction"," Vibration"," Camera frame"," Illustration of correct input"],
-    "representation": ["Text"," Haptic"," Visual"]
+    "certificate": ["Pop-up messages","Instruction","Vibration","Camera frame","Illustration of correct input"],
+    "representation": ["Text","Haptic","Visual"]
   },
   {
     "id": 60,
@@ -996,8 +996,8 @@ var movies =[
     "name": "Not Hotdog",
     "outline": ["Image classification"],
     "genre": ["Static"],
-    "certificate": ["Pop-up messages"," Vibration"],
-    "representation": ["Text"," Haptic"]
+    "certificate": ["Pop-up messages","Vibration"],
+    "representation": ["Text","Haptic"]
   },
   {
     "id": 61,
@@ -1010,10 +1010,10 @@ var movies =[
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
     "name": "Bank of Urumqi ",
-    "outline": ["Entity extraction"," Face detection"],
-    "genre": ["Static"," Dynamic"],
-    "certificate": ["Instruction"," Camera frame"," Vibration"," Camera adjustment"," Object marker"],
-    "representation": ["Text"," Visual"," Haptic"]
+    "outline": ["Entity extraction","Face detection"],
+    "genre": ["Static","Dynamic"],
+    "certificate": ["Instruction","Camera frame","Vibration","Camera adjustment","Object marker"],
+    "representation": ["Text","Visual","Haptic"]
   },
   {
     "id": 62,
@@ -1028,8 +1028,8 @@ var movies =[
     "name": "Bank of Urumqi ",
     "outline": ["Barcode scanning"],
     "genre": ["Static"],
-    "certificate": ["Pop-up messages"," Camera frame"],
-    "representation": ["Text"," Visual"]
+    "certificate": ["Pop-up messages","Camera frame"],
+    "representation": ["Text","Visual"]
   },
   {
     "id": 63,
@@ -1043,9 +1043,9 @@ var movies =[
     "stars": "Marlon Brando",
     "name": "Sleep as Android: Sleep cycle alarm",
     "outline": ["Audio classification"],
-    "genre": ["No Interaction"," Static"," Dynamic"],
-    "certificate": ["No interaction with hardware input"," Pop-up messages"," Instruction"," Auditory feedback (Dynamic)"],
-    "representation": ["None"," Text"," Aural"]
+    "genre": ["No Interaction","Static","Dynamic"],
+    "certificate": ["No interaction with hardware input","Pop-up messages","Instruction","Auditory feedback (Dynamic)"],
+    "representation": ["None","Text","Aural"]
   },
   {
     "id": 64,
@@ -1059,9 +1059,9 @@ var movies =[
     "stars": "Marlon Brando",
     "name": "Freja eID - My ID in an app",
     "outline": ["Face detection"],
-    "genre": ["Static"," Dynamic"],
-    "certificate": ["Pop-up messages"," Instruction"," Camera frame"," Illustration of correct input"," Camera adjustment"," Auto focusing object"," Object marker"],
-    "representation": ["Text"," Visual"]
+    "genre": ["Static","Dynamic"],
+    "certificate": ["Pop-up messages","Instruction","Camera frame","Illustration of correct input","Camera adjustment","Auto focusing object","Object marker"],
+    "representation": ["Text","Visual"]
   },
   {
     "id": 65,
@@ -1106,10 +1106,10 @@ var movies =[
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
     "name": "Bank of hrb",
-    "outline": ["Entity extraction"," Text recognition"],
-    "genre": ["Static"," Dynamic"],
-    "certificate": ["Instruction"," Camera frame"," Object marker"],
-    "representation": ["Text"," Visual"]
+    "outline": ["Entity extraction","Text recognition"],
+    "genre": ["Static","Dynamic"],
+    "certificate": ["Instruction","Camera frame","Object marker"],
+    "representation": ["Text","Visual"]
   },
   {
     "id": 68,
@@ -1123,9 +1123,9 @@ var movies =[
     "stars": "Marlon Brando",
     "name": "Insta Cut Out  -  background changer & cutout photo",
     "outline": ["Selfie segmentation"],
-    "genre": ["No Interaction"," Dynamic"," Static"],
-    "certificate": ["Importing files"," Photo editor"," Instruction"," Illustration of correct input"],
-    "representation": ["None"," Visual"," Text"]
+    "genre": ["No Interaction","Dynamic","Static"],
+    "certificate": ["Importing files","Photo editor","Instruction","Illustration of correct input"],
+    "representation": ["None","Visual","Text"]
   },
   {
     "id": 69,
@@ -1140,8 +1140,8 @@ var movies =[
     "name": "Future Me: Face Aging App, Ethnicity Analyzer",
     "outline": ["Face detection"],
     "genre": ["Static"],
-    "certificate": ["Pop-up messages"," Camera frame"],
-    "representation": ["Text"," Visual"]
+    "certificate": ["Pop-up messages","Camera frame"],
+    "representation": ["Text","Visual"]
   },
   {
     "id": 70,
@@ -1154,10 +1154,10 @@ var movies =[
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
     "name": "GlassesOn | Pupils & Lenses",
-    "outline": ["Face detection"," Image classification"],
-    "genre": ["Static"," Dynamic"],
-    "certificate": ["Camera frame"," Instruction"," Illustration of correct input"," Vibration"," Auditory feedback"," Camera adjustment"," Auto focusing object"," Pop-up messages"],
-    "representation": ["Visual"," Text"," Haptic"," Audio"]
+    "outline": ["Face detection","Image classification"],
+    "genre": ["Static","Dynamic"],
+    "certificate": ["Camera frame","Instruction","Illustration of correct input","Vibration","Auditory feedback","Camera adjustment","Auto focusing object","Pop-up messages"],
+    "representation": ["Visual","Text","Haptic","Audio"]
   },
   {
     "id": 71,
@@ -1171,9 +1171,9 @@ var movies =[
     "stars": "Marlon Brando",
     "name": "Anyline Scanner",
     "outline": ["Image classification"],
-    "genre": ["Static"," Dynamic"],
-    "certificate": ["Instruction"," Camera frame"," Flashlight"," Vibration"," Auto focusing object"," Object marker"],
-    "representation": ["Text"," Visual"," Haptic"]
+    "genre": ["Static","Dynamic"],
+    "certificate": ["Instruction","Camera frame","Flashlight","Vibration","Auto focusing object","Object marker"],
+    "representation": ["Text","Visual","Haptic"]
   },
   {
     "id": 72,
@@ -1187,9 +1187,9 @@ var movies =[
     "stars": "Marlon Brando",
     "name": "Anyline Scanner",
     "outline": ["Entity extraction"],
-    "genre": ["Static"," Dynamic"],
-    "certificate": ["Instruction"," Camera frame"," Flashlight"," Vibration"," Object marker"],
-    "representation": ["Text"," Visual"," Haptic"]
+    "genre": ["Static","Dynamic"],
+    "certificate": ["Instruction","Camera frame","Flashlight","Vibration","Object marker"],
+    "representation": ["Text","Visual","Haptic"]
   },
   {
     "id": 73,
@@ -1204,7 +1204,7 @@ var movies =[
     "name": "Objects Classify Machine Learning TensorFlow",
     "outline": ["Image classification"],
     "genre": ["Static"],
-    "certificate": ["Pop-up messages"," Instruction"],
+    "certificate": ["Pop-up messages","Instruction"],
     "representation": ["Text"]
   },
   {
@@ -1220,7 +1220,7 @@ var movies =[
     "name": "Speech Recognition TensorFlow Machine Learning",
     "outline": ["Speech recongnition"],
     "genre": ["Static"],
-    "certificate": ["Pop-up messages"," Instruction"],
+    "certificate": ["Pop-up messages","Instruction"],
     "representation": ["Text"]
   },
   {
@@ -1234,10 +1234,10 @@ var movies =[
     "actor": "Al Pacino",
     "stars": "Marlon Brando",
     "name": "PlantVillage",
-    "outline": ["Image classification"," Object detection and tracking"],
-    "genre": ["Static"," Dynamic"],
-    "certificate": ["Pop-up messages"," Instruction"," Illustration of correct input"," Vibration"," Camera adjustment"," Auto focusing object"," Text suggestion"," Object marker"],
-    "representation": ["Text"," Visual"," Haptic"]
+    "outline": ["Image classification","Object detection and tracking"],
+    "genre": ["Static","Dynamic"],
+    "certificate": ["Pop-up messages","Instruction","Illustration of correct input","Vibration","Camera adjustment","Auto focusing object","Text suggestion","Object marker"],
+    "representation": ["Text","Visual","Haptic"]
   },
   {
     "id": 76,
@@ -1251,8 +1251,8 @@ var movies =[
     "stars": "Marlon Brando",
     "name": "TF object_detection",
     "outline": ["Object detection and tracking"],
-    "genre": ["Static"," Dynamic"],
-    "certificate": ["Pop-up messages"," Camera adjustment"],
-    "representation": ["Text"," Visual"]
+    "genre": ["Static","Dynamic"],
+    "certificate": ["Pop-up messages","Camera adjustment"],
+    "representation": ["Text","Visual"]
   }
  ]
