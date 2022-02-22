@@ -145,7 +145,7 @@ More detail for `range` filter. It is expected to set ranges as values like '20-
   Example:
 
 ```html
-<input checked="checked" value="20-30" type="checkbox">
+<input checked="checked" value=" 20-30" type="checkbox">
 ```
 
 **For nested field selection**: In the below object, to select filter on name `field` option value would be `detail.name` and for city `detail.address.city`.

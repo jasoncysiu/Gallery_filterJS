@@ -1352,7 +1352,7 @@ mark {
   text-transform: lowercase;
 }
 .text-uppercase {
-  text-transform: uppercase;
+   /* text-transform: uppercase; */
 }
 .text-capitalize {
   text-transform: capitalize;
@@ -1486,7 +1486,7 @@ abbr[title] {
 }
 .initialism {
   font-size: 90%;
-  text-transform: uppercase;
+   /* text-transform: uppercase; */
 }
 blockquote {
   padding: 10px 20px;
@@ -7004,6 +7004,7 @@ text-align: justify;
   font-size: 17px;
   font-weight: 500;
 text-align: center;
+line-height: 2;
 }
 
 /* ================ Start -  Texts look like tags ================  */
@@ -7024,7 +7025,7 @@ text-align: center;
   box-shadow: 0 1px 2px rgba(0,0,0,.2);
   font-size: 0.7em;
   font-family: 'century gothic', sans-serif!important;
-  text-transform: uppercase;
+   /* text-transform: uppercase; */
   margin-bottom: 0.5em;
   margin-top: 0.5em;
   cursor: default;
@@ -7059,10 +7060,9 @@ text-align: center;
   box-shadow: 0 1px 2px rgba(0,0,0,.2);
   font-size: 0.7em;
   font-family: 'century gothic', sans-serif!important;
-  text-transform: uppercase;
+    /* text-transform: uppercase; */
   margin-bottom: 0.5em;
   cursor: default;
-
 }
 /* #button_rep:hover {
   background: #f47c20;
@@ -7094,9 +7094,8 @@ text-align: center;
   box-shadow: 0 1px 2px rgba(0,0,0,.2);
   font-size: 0.7em;
   font-family: 'century gothic', sans-serif!important;
-  text-transform: uppercase;
+   /* text-transform: uppercase; */
   cursor: default;
-
 }
 /* #button_style:hover {
   background: #f47c20;
@@ -7126,7 +7125,7 @@ text-align: center;
   box-shadow: 0 1px 2px rgba(0,0,0,.2);
   font-size: 0.7em;
   font-family: 'century gothic', sans-serif!important;
-  text-transform: uppercase;
+   /* text-transform: uppercase; */
   cursor: default;
 
 }
@@ -7156,7 +7155,7 @@ text-align: center;
   box-shadow: 0 1px 2px rgba(0,0,0,.2);
   font-size: 0.7em;
   font-family: 'century gothic', sans-serif!important;
-  text-transform: uppercase;
+   /* text-transform: uppercase; */
  }
 /* ================ End -  Texts look like tags ================  */
 
