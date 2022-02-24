@@ -135,7 +135,7 @@ F.render = function(records){
     }
   });
 };
-
+// !!
 F.renderItem = function(record, i){
   if(!record){
     return;
@@ -367,6 +367,7 @@ F.bindEvent = function(ele, eventName){
 
 };
 
+//Searching
 F.initSearch = function(opts){
   if(!opts || !opts.ele){
     return;
@@ -547,38 +548,38 @@ F.clear = function(){
   }
 }
 
-F.initPagination = function(){
-  var self = this,
-  opts = this.opts.pagination;
+// F.initPagination = function(){
+//   var self = this,
+//   opts = this.opts.pagination;
 
-  if(!opts.perPage){
-    opts.perPage = {}
-  }
+//   if(!opts.perPage){
+//     opts.perPage = {}
+//   }
 
-  if(!opts.perPage.values){
-    opts.perPage.values = [10, 20, 30];
-  }
+//   if(!opts.perPage.values){
+//     opts.perPage.values = [10, 20, 30];
+//   }
 
-  this.page = { currentPage: 1, perPage: opts.perPage.values };
+//   this.page = { currentPage: 1, perPage: opts.perPage.values };
 
-  this.paginator = new Paginator(this.lastResult().length, this.opts.pagination, function(currentPage, perPage){
-    self.page = { currentPage: currentPage, perPage: perPage }
+//   this.paginator = new Paginator(this.lastResult().length, this.opts.pagination, function(currentPage, perPage){
+//     self.page = { currentPage: currentPage, perPage: perPage }
 
-    if(self.has_search){
-      self.show(self.lastSearchResult())
-    }else{
-      self.show(self.lastResult())
-    }
-  })
+//     if(self.has_search){
+//       self.show(self.lastSearchResult())
+//     }else{
+//       self.show(self.lastResult())
+//     }
+//   })
 
-  this.filter();
-};
+//   this.filter();
+// };
 
-F.renderPagination = function(totalCount){
-  if(this.has_pagination){
-    this.paginator.setRecordCount(totalCount);
-  }
-};
+// F.renderPagination = function(totalCount){
+//   if(this.has_pagination){
+//     this.paginator.setRecordCount(totalCount);
+//   }
+// };
 
 F.parseValues = function(field, values){
   var type = typeof this.Model.schema == 'undefined' ? 'String' : this.Model.schema[field];

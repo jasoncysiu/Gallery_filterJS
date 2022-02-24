@@ -400,10 +400,15 @@
                    <br>            
                    <dd id="card_title">
                 
-                     <button id="button_style" title="This app uses the interaction of <%= certificate %> to engage with user."><%= certificate %> </button>
-                     <button id="button_model" title="This app uses a model of <%= outline %>."><%= outline %> </button>
-                     <button id="button_rep"  title="This app presented the information using <%= representation %> element to user."><%= representation %></button>
-                     <button id="button_Cat" title="The category of this app is <%= director %>."><%= director %> </button>
+                     <button id="button_style" title="➡ The category of this app is <%= director %>.
+➡ The app uses the interaction of <%= certificate %> to engage with user. 
+➡ It uses a model of<%= outline %>.
+➡ The information is presented using <%= representation %> element to user. ">
+                        <br>▼<%= director %> <br><br>
+                        ▼<%= certificate %> <br><br>
+                        ▼<%= outline %> <br><br>
+                        ▼<%= representation %> <br><br>   
+
                    </dd>
                  </dl>
                </div>
