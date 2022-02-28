@@ -7031,6 +7031,7 @@ line-height: 2;
   font-family: 'century gothic', sans-serif!important;
    /* text-transform: uppercase; */
   cursor: default;
+  line-height: 1.5;
 }
 
 /* #button_style:hover {

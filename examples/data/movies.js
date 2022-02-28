@@ -6,12 +6,12 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:154",
-      "director": "Photography",
+      "director": " ▼ Photography",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Cutout Photos - Background Eraser with Cut & Paste",
       "outline": [
-         "Selfie segmentation"
+         " ▼ Selfie segmentation"
       ],
       "genre": [
          "Static",
@@ -19,15 +19,13 @@ var movies =[
          "No Interaction"
       ],
       "certificate": [
-         "Instruction",
-         "Photo editor",
-         "Importing files"
+         " ▼ Instruction ",
+         " ▼ Photo editor",
+         " ▼ Importing files"
       ],
       "representation": [
-         "Text",
-         "Visual",
-         "None"
-      ]
+         " ▼ Text",
+         " ▼ Visual"      ]
    },
    {
       "id": 2,
@@ -36,25 +34,25 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:157",
-      "director": "Photography",
+      "director": " ▼ Photography",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "YouCam Makeup - Selfie Editor",
       "outline": [
-         "Face detection",
-         "Selfie segmentation",
-         "Style transfer"
+         " ▼ Face detection",
+         " ▼ Selfie segmentation",
+         " ▼ Style transfer"
       ],
       "genre": [
          "Dynamic"
       ],
       "certificate": [
-         "Auto focusing object",
-         "Camera adjustment",
-         "Photo editor"
+         " ▼ Auto focusing object",
+         " ▼ Camera adjustment",
+         " ▼ Photo editor"
       ],
       "representation": [
-         "Visual"
+         " ▼ Visual"
       ]
    },
    {
@@ -64,25 +62,25 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:55",
-      "director": "Tools",
+      "director": " ▼ Tools",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Translator Foto?translate, scan & print photo, pdf 15",
       "outline": [
-         "Image classification"
+         " ▼ Image classification"
       ],
       "genre": [
          "Static",
          "Dynamic"
       ],
       "certificate": [
-         "Camera frame",
-         "Pop-up messages",
-         "Photo editor"
+         " ▼ Camera frame",
+         " ▼ Pop-up messages",
+         " ▼ Photo editor"
       ],
       "representation": [
-         "Visual",
-         "Text"
+         " ▼ Visual",
+         " ▼ Text"
       ]
    },
    {
@@ -92,32 +90,30 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:176",
-      "director": "Photography",
+      "director": " ▼ Photography",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Cut And Paste Photo Editor With Background Eraser",
       "outline": [
-         "Face detection",
-         "Selfie segmentation"
+         " ▼ Face detection",
+         " ▼ Selfie segmentation"
       ],
       "genre": [
          "Static",
          "No Interaction"
       ],
       "certificate": [
-         "Pop-up messages",
-         "Instruction",
-         "Camera frame",
-         "Illustration of correct input",
-         "Vibration",
-         "Importing files"
+         " ▼ Pop-up messages",
+         " ▼ Instruction ",
+         " ▼ Camera frame",
+         " ▼ Illustration of correct input",
+         " ▼ Vibration",
+         " ▼ Importing files"
       ],
       "representation": [
-         "Text",
-         "Visual",
-         "Haptic",
-         "None"
-      ]
+         " ▼ Text",
+         " ▼ Visual",
+         " ▼ Haptic"      ]
    },
    {
       "id": 5,
@@ -126,21 +122,21 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:116",
-      "director": "Libraries and Demo",
+      "director": " ▼ Libraries and Demo",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Fritz AI Studio",
       "outline": [
-         "Style transfer"
+         " ▼ Style transfer"
       ],
       "genre": [
          "No Interaction"
       ],
       "certificate": [
-         "No interaction with hardware input"
+         " ▼ No interaction with hardware input"
       ],
       "representation": [
-         "None"
+         " ▼ Text"
       ]
    },
    {
@@ -150,24 +146,24 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:338",
-      "director": "Tools",
+      "director": " ▼ Tools",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Anyline Scanner",
       "outline": [
-         "Barcode scanning"
+         " ▼ Barcode scanning"
       ],
       "genre": [
          "Static"
       ],
       "certificate": [
-         "Camera frame",
-         "Flashlight",
-         "Vibration"
+         " ▼ Camera frame",
+         " ▼ Flashlight",
+         " ▼ Vibration"
       ],
       "representation": [
-         "Visual",
-         "Haptic"
+         " ▼ Visual",
+         " ▼ Haptic"
       ]
    },
    {
@@ -177,21 +173,21 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:124",
-      "director": "Libraries and Demo",
+      "director": " ▼ Libraries and Demo",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Face Recognition",
       "outline": [
-         "Face detection"
+         " ▼ Face detection"
       ],
       "genre": [
          "Dynamic"
       ],
       "certificate": [
-         "Auto focusing object"
+         " ▼ Auto focusing object"
       ],
       "representation": [
-         "Visual"
+         " ▼ Visual"
       ]
    },
    {
@@ -201,28 +197,28 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:125",
-      "director": "Finance",
+      "director": " ▼ Finance",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "CINA RESOURCES BANK",
       "outline": [
-         "Entity extraction",
-         "Text recognition"
+         " ▼ Entity extraction",
+         " ▼ Text recognition"
       ],
       "genre": [
          "Static",
          "Dynamic"
       ],
       "certificate": [
-         "Instruction",
-         "Camera frame",
-         "Object marker",
-         "Vibration"
+         " ▼ Instruction ",
+         " ▼ Camera frame",
+         " ▼ Object marker",
+         " ▼ Vibration"
       ],
       "representation": [
-         "Text",
-         "Visual",
-         "Haptic"
+         " ▼ Text",
+         " ▼ Visual",
+         " ▼ Haptic"
       ]
    },
    {
@@ -232,21 +228,21 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:133",
-      "director": "Photography",
+      "director": " ▼ Photography",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "PhotoWonder: Pro Beauty Photo Editor&Collage Maker",
       "outline": [
-         "Face detection"
+         " ▼ Face detection"
       ],
       "genre": [
          "Dynamic"
       ],
       "certificate": [
-         "Photo editor"
+         " ▼ Photo editor"
       ],
       "representation": [
-         "Visual"
+         " ▼ Visual"
       ]
    },
    {
@@ -256,26 +252,26 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:46",
-      "director": "Tools",
+      "director": " ▼ Tools",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Translator Foto?translate, scan & print photo, pdf 6",
       "outline": [
-         "Text recognition"
+         " ▼ Text recognition"
       ],
       "genre": [
          "Dynamic",
          "Static"
       ],
       "certificate": [
-         "Camera adjustment",
-         "Photo editor",
-         "Camera frame",
-         "Pop-up messages"
+         " ▼ Camera adjustment",
+         " ▼ Photo editor",
+         " ▼ Camera frame",
+         " ▼ Pop-up messages"
       ],
       "representation": [
-         "Visual",
-         "Text"
+         " ▼ Visual",
+         " ▼ Text"
       ]
    },
    {
@@ -285,21 +281,21 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:175",
-      "director": "Productivity",
+      "director": " ▼ Productivity",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Email - Lightning Fast & Secure Mail",
       "outline": [
-         "Text prediction"
+         " ▼ Text prediction"
       ],
       "genre": [
          "Static"
       ],
       "certificate": [
-         "Pop-up messages"
+         " ▼ Pop-up messages"
       ],
       "representation": [
-         "Text"
+         " ▼ Text"
       ]
    },
    {
@@ -309,24 +305,23 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:50",
-      "director": "Tools",
+      "director": " ▼ Tools",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Translator Foto?translate, scan & print photo, pdf 10",
       "outline": [
-         "Text recognition"
+         " ▼ Text recognition"
       ],
       "genre": [
          "No Interaction",
          "Static"
       ],
       "certificate": [
-         "Importing files",
-         "Instruction"
+         " ▼ Importing files",
+         " ▼ Instruction "
       ],
       "representation": [
-         "None",
-         "Text"
+         " ▼ Text"
       ]
    },
    {
@@ -336,25 +331,25 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:52",
-      "director": "Tools",
+      "director": " ▼ Tools",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Translator Foto?translate, scan & print photo, pdf 12",
       "outline": [
-         "Text recognition"
+         " ▼ Text recognition"
       ],
       "genre": [
          "Static",
          "Dynamic"
       ],
       "certificate": [
-         "Pop-up messages",
-         "Camera frame",
-         "Camera adjustment"
+         " ▼ Pop-up messages",
+         " ▼ Camera frame",
+         " ▼ Camera adjustment"
       ],
       "representation": [
-         "Text",
-         "Visual"
+         " ▼ Text",
+         " ▼ Visual"
       ]
    },
    {
@@ -364,22 +359,22 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:134",
-      "director": "Dating",
+      "director": " ▼ Dating",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Badoo - Dating. Chat. Meet.",
       "outline": [
-         "Face detection"
+         " ▼ Face detection"
       ],
       "genre": [
          "No Interaction"
       ],
       "certificate": [
-         "Importing files",
-         "No interaction with hardware input"
+         " ▼ Importing files",
+         " ▼ No interaction with hardware input"
       ],
       "representation": [
-         "None"
+         " ▼ Text"
       ]
    },
    {
@@ -389,27 +384,27 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:136",
-      "director": "Tools",
+      "director": " ▼ Tools",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Baidu Map",
       "outline": [
-         "Barcode scanning"
+         " ▼ Barcode scanning"
       ],
       "genre": [
          "Static"
       ],
       "certificate": [
-         "Pop-up messages",
-         "Instruction",
-         "Camera frame",
-         "Flashlight",
-         "Vibration"
+         " ▼ Pop-up messages",
+         " ▼ Instruction ",
+         " ▼ Camera frame",
+         " ▼ Flashlight",
+         " ▼ Vibration"
       ],
       "representation": [
-         "Text",
-         "Visual",
-         "Haptic"
+         " ▼ Text",
+         " ▼ Visual",
+         " ▼ Haptic"
       ]
    },
    {
@@ -419,25 +414,25 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:141",
-      "director": "Tools",
+      "director": " ▼ Tools",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Baidu Map",
       "outline": [
-         "Text recognition"
+         " ▼ Text recognition"
       ],
       "genre": [
          "Dynamic",
          "Static"
       ],
       "certificate": [
-         "Photo editor",
-         "Instruction",
-         "Pop-up messages"
+         " ▼ Photo editor",
+         " ▼ Instruction ",
+         " ▼ Pop-up messages"
       ],
       "representation": [
-         "Visual",
-         "Text"
+         " ▼ Visual",
+         " ▼ Text"
       ]
    },
    {
@@ -447,22 +442,22 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:144",
-      "director": "Photography",
+      "director": " ▼ Photography",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Sweet Selfie: Camera & Editor",
       "outline": [
-         "Face detection"
+         " ▼ Face detection"
       ],
       "genre": [
          "Dynamic"
       ],
       "certificate": [
-         "Auto focusing object",
-         "Photo editor"
+         " ▼ Auto focusing object",
+         " ▼ Photo editor"
       ],
       "representation": [
-         "Visual"
+         " ▼ Visual"
       ]
    },
    {
@@ -472,21 +467,21 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:151",
-      "director": "Shopping",
+      "director": " ▼ Shopping",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "chinasoft mall ",
       "outline": [
-         "Barcode scanning"
+         " ▼ Barcode scanning"
       ],
       "genre": [
          "No Interaction"
       ],
       "certificate": [
-         "Importing files"
+         " ▼ Importing files"
       ],
       "representation": [
-         "None"
+         " ▼ Text"
       ]
    },
    {
@@ -496,28 +491,28 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:146",
-      "director": "Shopping",
+      "director": " ▼ Shopping",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "chinasoft mall ",
       "outline": [
-         "Barcode scanning"
+         " ▼ Barcode scanning"
       ],
       "genre": [
          "Static"
       ],
       "certificate": [
-         "Pop-up messages",
-         "Instruction",
-         "Camera frame",
-         "Vibration",
-         "Auditory feedback (Static)"
+         " ▼ Pop-up messages",
+         " ▼ Instruction ",
+         " ▼ Camera frame",
+         " ▼ Vibration",
+         " ▼ Auditory feedback (Static)"
       ],
       "representation": [
-         "Text",
-         "Visual",
-         "Haptic",
-         "Aural"
+         " ▼ Text",
+         " ▼ Visual",
+         " ▼ Haptic",
+         " ▼ Aural"
       ]
    },
    {
@@ -527,23 +522,23 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:152",
-      "director": "Shopping",
+      "director": " ▼ Shopping",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "chinasoft mall ",
       "outline": [
-         "Speech recongnition"
+         " ▼ Speech recongnition"
       ],
       "genre": [
          "Static"
       ],
       "certificate": [
-         "Pop-up messages",
-         "Vibration"
+         " ▼ Pop-up messages",
+         " ▼ Vibration"
       ],
       "representation": [
-         "Text",
-         "Haptic"
+         " ▼ Text",
+         " ▼ Haptic"
       ]
    },
    {
@@ -553,24 +548,24 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:170",
-      "director": "Finance",
+      "director": " ▼ Finance",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "dengtacj stock",
       "outline": [
-         "Speech recongnition"
+         " ▼ Speech recongnition"
       ],
       "genre": [
          "No Interaction",
          "Static"
       ],
       "certificate": [
-         "No interaction with hardware input",
-         "Vibration"
+         " ▼ No interaction with hardware input",
+         " ▼ Vibration"
       ],
       "representation": [
-         "None",
-         "Haptic"
+         " ▼ Text",
+         " ▼ Haptic"
       ]
    },
    {
@@ -580,24 +575,24 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:172",
-      "director": "Entertainment",
+      "director": " ▼ Entertainment",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Draw Clash - AI Guess Drawing Game",
       "outline": [
-         "Image classification"
+         " ▼ Image classification"
       ],
       "genre": [
          "Static"
       ],
       "certificate": [
-         "Pop-up messages",
-         "Instruction",
-         "Illustration of correct input"
+         " ▼ Pop-up messages",
+         " ▼ Instruction ",
+         " ▼ Illustration of correct input"
       ],
       "representation": [
-         "Text",
-         "Visual"
+         " ▼ Text",
+         " ▼ Visual"
       ]
    },
    {
@@ -607,23 +602,23 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:166",
-      "director": "Photography",
+      "director": " ▼ Photography",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Sweet Camera - Selfie Beauty Camera, Filters",
       "outline": [
-         "Face detection",
-         "Selfie segmentation"
+         " ▼ Face detection",
+         " ▼ Selfie segmentation"
       ],
       "genre": [
          "No Interaction"
       ],
       "certificate": [
-         "Importing files",
-         "No interaction with hardware input"
+         " ▼ Importing files",
+         " ▼ No interaction with hardware input"
       ],
       "representation": [
-         "None"
+         " ▼ Text"
       ]
    },
    {
@@ -633,29 +628,29 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:97",
-      "director": "Libraries and Demo",
+      "director": " ▼ Libraries and Demo",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Fritz AI Studio",
       "outline": [
-         "Face detection"
+         " ▼ Face detection"
       ],
       "genre": [
          "Static",
          "Dynamic"
       ],
       "certificate": [
-         "Pop-up messages",
-         "Instruction",
-         "Illustration of correct input",
-         "Vibration",
-         "Camera adjustment",
-         "Photo editor"
+         " ▼ Pop-up messages",
+         " ▼ Instruction ",
+         " ▼ Illustration of correct input",
+         " ▼ Vibration",
+         " ▼ Camera adjustment",
+         " ▼ Photo editor"
       ],
       "representation": [
-         "Text",
-         "Visual",
-         "Haptic"
+         " ▼ Text",
+         " ▼ Visual",
+         " ▼ Haptic"
       ]
    },
    {
@@ -665,30 +660,30 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:117",
-      "director": "Libraries and Demo",
+      "director": " ▼ Libraries and Demo",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Fritz AI Studio",
       "outline": [
-         "Image classification"
+         " ▼ Image classification"
       ],
       "genre": [
          "Dynamic",
          "Static"
       ],
       "certificate": [
-         "Auto focusing object",
-         "Pop-up messages",
-         "Instruction",
-         "Illustration of correct input",
-         "Vibration",
-         "Camera adjustment",
-         "Text suggestion"
+         " ▼ Auto focusing object",
+         " ▼ Pop-up messages",
+         " ▼ Instruction ",
+         " ▼ Illustration of correct input",
+         " ▼ Vibration",
+         " ▼ Camera adjustment",
+         " ▼ Text suggestion"
       ],
       "representation": [
-         "Visual",
-         "Text",
-         "Haptic"
+         " ▼ Visual",
+         " ▼ Text",
+         " ▼ Haptic"
       ]
    },
    {
@@ -698,30 +693,30 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:103",
-      "director": "Libraries and Demo",
+      "director": " ▼ Libraries and Demo",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Fritz AI Studio",
       "outline": [
-         "Object detection and tracking"
+         " ▼ Object detection and tracking"
       ],
       "genre": [
          "Dynamic",
          "Static"
       ],
       "certificate": [
-         "Auto focusing object",
-         "Pop-up messages",
-         "Instruction",
-         "Illustration of correct input",
-         "Vibration",
-         "Camera adjustment",
-         "Text suggestion"
+         " ▼ Auto focusing object",
+         " ▼ Pop-up messages",
+         " ▼ Instruction ",
+         " ▼ Illustration of correct input",
+         " ▼ Vibration",
+         " ▼ Camera adjustment",
+         " ▼ Text suggestion"
       ],
       "representation": [
-         "Visual",
-         "Text",
-         "Haptic"
+         " ▼ Visual",
+         " ▼ Text",
+         " ▼ Haptic"
       ]
    },
    {
@@ -731,29 +726,29 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:110",
-      "director": "Libraries and Demo",
+      "director": " ▼ Libraries and Demo",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Fritz AI Studio",
       "outline": [
-         "Pose detection"
+         " ▼ Pose detection"
       ],
       "genre": [
          "Dynamic",
          "Static"
       ],
       "certificate": [
-         "Auto focusing object",
-         "Pop-up messages",
-         "Instruction",
-         "Illustration of correct input",
-         "Vibration",
-         "Camera adjustment"
+         " ▼ Auto focusing object",
+         " ▼ Pop-up messages",
+         " ▼ Instruction ",
+         " ▼ Illustration of correct input",
+         " ▼ Vibration",
+         " ▼ Camera adjustment"
       ],
       "representation": [
-         "Visual",
-         "Text",
-         "Haptic"
+         " ▼ Visual",
+         " ▼ Text",
+         " ▼ Haptic"
       ]
    },
    {
@@ -763,22 +758,22 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:188",
-      "director": "Photography",
+      "director": " ▼ Photography",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Fabby Look  -  hair color changer & style effects",
       "outline": [
-         "Face detection"
+         " ▼ Face detection"
       ],
       "genre": [
          "Dynamic"
       ],
       "certificate": [
-         "Auto focusing object",
-         "Photo editor"
+         " ▼ Auto focusing object",
+         " ▼ Photo editor"
       ],
       "representation": [
-         "Visual"
+         " ▼ Visual"
       ]
    },
    {
@@ -788,33 +783,33 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:58",
-      "director": "Health and Fitness",
+      "director": " ▼ Health and Fitness",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Ba Duan Jin - a martial arts guide",
       "outline": [
-         "Pose detection"
+         " ▼ Pose detection"
       ],
       "genre": [
          "Dynamic",
          "Static"
       ],
       "certificate": [
-         "Auditory feedback (Dynamic)",
-         "Auto focusing object",
-         "Pop-up messages",
-         "Instruction",
-         "Camera frame",
-         "Illustration of correct input",
-         "Vibration",
-         "Auditory feedback (Static)",
-         "Camera adjustment"
+         " ▼ Auditory feedback (Dynamic)",
+         " ▼ Auto focusing object",
+         " ▼ Pop-up messages",
+         " ▼ Instruction ",
+         " ▼ Camera frame",
+         " ▼ Illustration of correct input",
+         " ▼ Vibration",
+         " ▼ Auditory feedback (Static)",
+         " ▼ Camera adjustment"
       ],
       "representation": [
-         "Aural",
-         "Visual",
-         "Text",
-         "Haptic"
+         " ▼ Aural",
+         " ▼ Visual",
+         " ▼ Text",
+         " ▼ Haptic"
       ]
    },
    {
@@ -824,21 +819,21 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:193",
-      "director": "Shopping",
+      "director": " ▼ Shopping",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Finger shopping",
       "outline": [
-         "Barcode scanning"
+         " ▼ Barcode scanning"
       ],
       "genre": [
          "No Interaction"
       ],
       "certificate": [
-         "Importing files"
+         " ▼ Importing files"
       ],
       "representation": [
-         "None"
+         " ▼ Text"
       ]
    },
    {
@@ -848,25 +843,25 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:190",
-      "director": "Shopping",
+      "director": " ▼ Shopping",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Finger shopping",
       "outline": [
-         "Barcode scanning"
+         " ▼ Barcode scanning"
       ],
       "genre": [
          "Static"
       ],
       "certificate": [
-         "Pop-up messages",
-         "Camera frame",
-         "Vibration"
+         " ▼ Pop-up messages",
+         " ▼ Camera frame",
+         " ▼ Vibration"
       ],
       "representation": [
-         "Text",
-         "Visual",
-         "Haptic"
+         " ▼ Text",
+         " ▼ Visual",
+         " ▼ Haptic"
       ]
    },
    {
@@ -876,22 +871,22 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:194",
-      "director": "Sports",
+      "director": " ▼ Sports",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Fishbrain - Fishing App",
       "outline": [
-         "Image classification"
+         " ▼ Image classification"
       ],
       "genre": [
          "No Interaction"
       ],
       "certificate": [
-         "Importing files",
-         "No interaction with hardware input"
+         " ▼ Importing files",
+         " ▼ No interaction with hardware input"
       ],
       "representation": [
-         "None"
+         " ▼ Text"
       ]
    },
    {
@@ -901,27 +896,27 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:196",
-      "director": "Finance",
+      "director": " ▼ Finance",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "GEICO Mobile - Car Insurance",
       "outline": [
-         "Image classification",
-         "Face detection"
+         " ▼ Image classification",
+         " ▼ Face detection"
       ],
       "genre": [
          "Dynamic",
          "No Interaction"
       ],
       "certificate": [
-         "Auditory feedback (Dynamic)",
-         "Auto focusing object",
-         "No interaction with hardware input"
+         " ▼ Auditory feedback (Dynamic)",
+         " ▼ Auto focusing object",
+         " ▼ No interaction with hardware input"
       ],
       "representation": [
-         "Aural",
-         "Visual",
-         "None"
+         " ▼ Aural",
+         " ▼ Visual",
+         " ▼ Text"
       ]
    },
    {
@@ -931,25 +926,25 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:199",
-      "director": "Education",
+      "director": " ▼ Education",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Google Arts & Culture",
       "outline": [
-         "Image classification"
+         " ▼ Image classification"
       ],
       "genre": [
          "Dynamic",
          "Static"
       ],
       "certificate": [
-         "Auto focusing object",
-         "Camera adjustment",
-         "Instruction"
+         " ▼ Auto focusing object",
+         " ▼ Camera adjustment",
+         " ▼ Instruction "
       ],
       "representation": [
-         "Visual",
-         "Text"
+         " ▼ Visual",
+         " ▼ Text"
       ]
    },
    {
@@ -959,21 +954,21 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:202",
-      "director": "Education",
+      "director": " ▼ Education",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Google Arts & Culture",
       "outline": [
-         "Image classification"
+         " ▼ Image classification"
       ],
       "genre": [
          "No Interaction"
       ],
       "certificate": [
-         "Importing files"
+         " ▼ Importing files"
       ],
       "representation": [
-         "None"
+         " ▼ Text"
       ]
    },
    {
@@ -983,25 +978,25 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:203",
-      "director": "Education",
+      "director": " ▼ Education",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Google Arts & Culture",
       "outline": [
-         "Face detection"
+         " ▼ Face detection"
       ],
       "genre": [
          "Static"
       ],
       "certificate": [
-         "Pop-up messages",
-         "Instruction",
-         "Camera frame",
-         "Illustration of correct input"
+         " ▼ Pop-up messages",
+         " ▼ Instruction ",
+         " ▼ Camera frame",
+         " ▼ Illustration of correct input"
       ],
       "representation": [
-         "Text",
-         "Visual"
+         " ▼ Text",
+         " ▼ Visual"
       ]
    },
    {
@@ -1011,21 +1006,21 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:207",
-      "director": "Education",
+      "director": " ▼ Education",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Google Arts & Culture",
       "outline": [
-         "Style transfer"
+         " ▼ Style transfer"
       ],
       "genre": [
          "No Interaction"
       ],
       "certificate": [
-         "Importing files"
+         " ▼ Importing files"
       ],
       "representation": [
-         "None"
+         " ▼ Text"
       ]
    },
    {
@@ -1035,22 +1030,22 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:208",
-      "director": "Education",
+      "director": " ▼ Education",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Google Arts & Culture",
       "outline": [
-         "Style transfer"
+         " ▼ Style transfer"
       ],
       "genre": [
          "Static"
       ],
       "certificate": [
-         "Pop-up messages",
-         "Instruction"
+         " ▼ Pop-up messages",
+         " ▼ Instruction "
       ],
       "representation": [
-         "Text"
+         " ▼ Text"
       ]
    },
    {
@@ -1060,23 +1055,23 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:210",
-      "director": "Photography",
+      "director": " ▼ Photography",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "PhotoScan by Google Photos",
       "outline": [
-         "Image segmentation",
-         "Object detection and tracking"
+         " ▼ Image segmentation",
+         " ▼ Object detection and tracking"
       ],
       "genre": [
          "Dynamic"
       ],
       "certificate": [
-         "Auto focusing object",
-         "Camera adjustment"
+         " ▼ Auto focusing object",
+         " ▼ Camera adjustment"
       ],
       "representation": [
-         "Visual"
+         " ▼ Visual"
       ]
    },
    {
@@ -1086,21 +1081,21 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:214",
-      "director": "Photography",
+      "director": " ▼ Photography",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Gallery Go",
       "outline": [
-         "Image classification"
+         " ▼ Image classification"
       ],
       "genre": [
          "No Interaction"
       ],
       "certificate": [
-         "No interaction with hardware input"
+         " ▼ No interaction with hardware input"
       ],
       "representation": [
-         "None"
+         " ▼ Text"
       ]
    },
    {
@@ -1110,13 +1105,13 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:215",
-      "director": "Tools",
+      "director": " ▼ Tools",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Google Translate",
       "outline": [
-         "Speech recongnition",
-         "Text recognition"
+         " ▼ Speech recongnition",
+         " ▼ Text recognition"
       ],
       "genre": [
          "Dynamic",
@@ -1124,23 +1119,22 @@ var movies =[
          "No Interaction"
       ],
       "certificate": [
-         "Auditory feedback (Dynamic)",
-         "Text suggestion",
-         "Pop-up messages",
-         "Instruction",
-         "Auditory feedback (Static)",
-         "Auto focusing object",
-         "Camera adjustment",
-         "Photo editor",
-         "Importing files",
-         "Camera frame",
-         "Illustration of correct input"
+         " ▼ Auditory feedback (Dynamic)",
+         " ▼ Text suggestion",
+         " ▼ Pop-up messages",
+         " ▼ Instruction ",
+         " ▼ Auditory feedback (Static)",
+         " ▼ Auto focusing object",
+         " ▼ Camera adjustment",
+         " ▼ Photo editor",
+         " ▼ Importing files",
+         " ▼ Camera frame",
+         " ▼ Illustration of correct input"
       ],
       "representation": [
-         "Aural",
-         "Text",
-         "Visual",
-         "None"
+         " ▼ Aural",
+         " ▼ Text",
+         " ▼ Visual"
       ]
    },
    {
@@ -1150,13 +1144,13 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:228",
-      "director": "Tools",
+      "director": " ▼ Tools",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Google Quick Search",
       "outline": [
-         "Image classification",
-         "Speech recongnition"
+         " ▼ Image classification",
+         " ▼ Speech recongnition"
       ],
       "genre": [
          "Dynamic",
@@ -1164,22 +1158,21 @@ var movies =[
          "Static"
       ],
       "certificate": [
-         "Auditory feedback (Dynamic)",
-         "Auto focusing object",
-         "Camera adjustment",
-         "Photo editor",
-         "Importing files",
-         "Camera frame",
-         "Illustration of correct input",
-         "Instruction",
-         "Pop-up messages",
-         "Text suggestion"
+         " ▼ Auditory feedback (Dynamic)",
+         " ▼ Auto focusing object",
+         " ▼ Camera adjustment",
+         " ▼ Photo editor",
+         " ▼ Importing files",
+         " ▼ Camera frame",
+         " ▼ Illustration of correct input",
+         " ▼ Instruction ",
+         " ▼ Pop-up messages",
+         " ▼ Text suggestion"
       ],
       "representation": [
-         "Aural",
-         "Visual",
-         "None",
-         "Text"
+         " ▼ Aural",
+         " ▼ Visual",
+         " ▼ Text"
       ]
    },
    {
@@ -1189,29 +1182,29 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:241",
-      "director": "Communication",
+      "director": " ▼ Communication",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Live Transcribe & Notification ",
       "outline": [
-         "Audio classification"
+         " ▼ Audio classification"
       ],
       "genre": [
          "Static",
          "Dynamic"
       ],
       "certificate": [
-         "Pop-up messages",
-         "Instruction",
-         "Illustration of correct input",
-         "Vibration",
-         "Auditory feedback (Dynamic)"
+         " ▼ Pop-up messages",
+         " ▼ Instruction ",
+         " ▼ Illustration of correct input",
+         " ▼ Vibration",
+         " ▼ Auditory feedback (Dynamic)"
       ],
       "representation": [
-         "Text",
-         "Visual",
-         "Haptic",
-         "Aural"
+         " ▼ Text",
+         " ▼ Visual",
+         " ▼ Haptic",
+         " ▼ Aural"
       ]
    },
    {
@@ -1221,21 +1214,21 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:246",
-      "director": "Productivity",
+      "director": " ▼ Productivity",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Grammarly - Grammar Keyboard",
       "outline": [
-         "Text prediction"
+         " ▼ Text prediction"
       ],
       "genre": [
          "Dynamic"
       ],
       "certificate": [
-         "Text suggestion"
+         " ▼ Text suggestion"
       ],
       "representation": [
-         "Text"
+         " ▼ Text"
       ]
    },
    {
@@ -1245,23 +1238,23 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:247",
-      "director": "Libraries and Demo",
+      "director": " ▼ Libraries and Demo",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Image Recognition Tensorflow Object Detection A.I. ",
       "outline": [
-         "Image classification"
+         " ▼ Image classification"
       ],
       "genre": [
          "Static"
       ],
       "certificate": [
-         "Pop-up messages",
-         "Vibration"
+         " ▼ Pop-up messages",
+         " ▼ Vibration"
       ],
       "representation": [
-         "Text",
-         "Haptic"
+         " ▼ Text",
+         " ▼ Haptic"
       ]
    },
    {
@@ -1271,25 +1264,25 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:249",
-      "director": "Entertainment",
+      "director": " ▼ Entertainment",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Nimo TV - Live Game Streaming",
       "outline": [
-         "Barcode scanning"
+         " ▼ Barcode scanning"
       ],
       "genre": [
          "Static"
       ],
       "certificate": [
-         "Pop-up messages",
-         "Instruction",
-         "Camera frame",
-         "Illustration of correct input"
+         " ▼ Pop-up messages",
+         " ▼ Instruction ",
+         " ▼ Camera frame",
+         " ▼ Illustration of correct input"
       ],
       "representation": [
-         "Text",
-         "Visual"
+         " ▼ Text",
+         " ▼ Visual"
       ]
    },
    {
@@ -1299,23 +1292,23 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:253",
-      "director": "Photography",
+      "director": " ▼ Photography",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "iArt Camera  -  Magic Effect, Face Aging Booth",
       "outline": [
-         "Face detection"
+         " ▼ Face detection"
       ],
       "genre": [
          "Static"
       ],
       "certificate": [
-         "Camera frame",
-         "Vibration"
+         " ▼ Camera frame",
+         " ▼ Vibration"
       ],
       "representation": [
-         "Visual",
-         "Haptic"
+         " ▼ Visual",
+         " ▼ Haptic"
       ]
    },
    {
@@ -1325,23 +1318,23 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:255",
-      "director": "Productivity",
+      "director": " ▼ Productivity",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "HybridForms",
       "outline": [
-         "Image classification",
-         "Text recognition"
+         " ▼ Image classification",
+         " ▼ Text recognition"
       ],
       "genre": [
          "No Interaction"
       ],
       "certificate": [
-         "Importing files",
-         "No interaction with hardware input"
+         " ▼ Importing files",
+         " ▼ No interaction with hardware input"
       ],
       "representation": [
-         "None"
+         " ▼ Text"
       ]
    },
    {
@@ -1351,29 +1344,29 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:67",
-      "director": "Education",
+      "director": " ▼ Education",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Simply Piano by JoyTunes",
       "outline": [
-         "Audio classification"
+         " ▼ Audio classification"
       ],
       "genre": [
          "Dynamic",
          "Static"
       ],
       "certificate": [
-         "Auditory feedback (Dynamic)",
-         "Pop-up messages",
-         "Instruction",
-         "Illustration of correct input",
-         "Auditory feedback (Static)",
-         "Text suggestion"
+         " ▼ Auditory feedback (Dynamic)",
+         " ▼ Pop-up messages",
+         " ▼ Instruction ",
+         " ▼ Illustration of correct input",
+         " ▼ Auditory feedback (Static)",
+         " ▼ Text suggestion"
       ],
       "representation": [
-         "Aural",
-         "Text",
-         "Visual"
+         " ▼ Aural",
+         " ▼ Text",
+         " ▼ Visual"
       ]
    },
    {
@@ -1383,23 +1376,23 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:259",
-      "director": "Entertainment",
+      "director": " ▼ Entertainment",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Kwai - Watch cool&funny videos",
       "outline": [
-         "Face detection",
-         "Selfie segmentation"
+         " ▼ Face detection",
+         " ▼ Selfie segmentation"
       ],
       "genre": [
          "Dynamic"
       ],
       "certificate": [
-         "Camera adjustment",
-         "Photo editor"
+         " ▼ Camera adjustment",
+         " ▼ Photo editor"
       ],
       "representation": [
-         "Visual"
+         " ▼ Visual"
       ]
    },
    {
@@ -1409,21 +1402,21 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:263",
-      "director": "Photography",
+      "director": " ▼ Photography",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Super Selfie Camera",
       "outline": [
-         "Face detection"
+         " ▼ Face detection"
       ],
       "genre": [
          "Dynamic"
       ],
       "certificate": [
-         "Auto focusing object"
+         " ▼ Auto focusing object"
       ],
       "representation": [
-         "Visual"
+         " ▼ Visual"
       ]
    },
    {
@@ -1433,28 +1426,28 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:264",
-      "director": "Photography",
+      "director": " ▼ Photography",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "BeautyPlus Me - Easy Photo Editor & Selfie Camera",
       "outline": [
-         "Face detection"
+         " ▼ Face detection"
       ],
       "genre": [
          "Static",
          "Dynamic"
       ],
       "certificate": [
-         "Pop-up messages",
-         "Instruction",
-         "Illustration of correct input",
-         "Camera adjustment",
-         "Photo editor",
-         "Auto focusing object"
+         " ▼ Pop-up messages",
+         " ▼ Instruction ",
+         " ▼ Illustration of correct input",
+         " ▼ Camera adjustment",
+         " ▼ Photo editor",
+         " ▼ Auto focusing object"
       ],
       "representation": [
-         "Text",
-         "Visual"
+         " ▼ Text",
+         " ▼ Visual"
       ]
    },
    {
@@ -1464,26 +1457,26 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:270",
-      "director": "Lifestyle",
+      "director": " ▼ Lifestyle",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Style My Hair: Discover Your Next Look",
       "outline": [
-         "Face detection"
+         " ▼ Face detection"
       ],
       "genre": [
          "Static",
          "Dynamic"
       ],
       "certificate": [
-         "Pop-up messages",
-         "Instruction",
-         "Camera frame",
-         "Photo editor"
+         " ▼ Pop-up messages",
+         " ▼ Instruction ",
+         " ▼ Camera frame",
+         " ▼ Photo editor"
       ],
       "representation": [
-         "Text",
-         "Visual"
+         " ▼ Text",
+         " ▼ Visual"
       ]
    },
    {
@@ -1493,21 +1486,21 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:83",
-      "director": "Tools",
+      "director": " ▼ Tools",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "네이버-Naver",
       "outline": [
-         "Audio classification"
+         " ▼ Audio classification"
       ],
       "genre": [
          "Dynamic"
       ],
       "certificate": [
-         "Auditory feedback (Dynamic)"
+         " ▼ Auditory feedback (Dynamic)"
       ],
       "representation": [
-         "Aural"
+         " ▼ Aural"
       ]
    },
    {
@@ -1517,34 +1510,34 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:73",
-      "director": "Tools",
+      "director": " ▼ Tools",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "네이버-Naver",
       "outline": [
-         "Image classification"
+         " ▼ Image classification"
       ],
       "genre": [
          "Dynamic",
          "Static"
       ],
       "certificate": [
-         "Text suggestion",
-         "Auditory feedback (Static)",
-         "Auto focusing object",
-         "Camera adjustment",
-         "Photo editor",
-         "Pop-up messages",
-         "Instruction",
-         "Camera frame",
-         "Illustration of correct input",
-         "Vibration"
+         " ▼ Text suggestion",
+         " ▼ Auditory feedback (Static)",
+         " ▼ Auto focusing object",
+         " ▼ Camera adjustment",
+         " ▼ Photo editor",
+         " ▼ Pop-up messages",
+         " ▼ Instruction ",
+         " ▼ Camera frame",
+         " ▼ Illustration of correct input",
+         " ▼ Vibration"
       ],
       "representation": [
-         "Text",
-         "Aural",
-         "Visual",
-         "Haptic"
+         " ▼ Text",
+         " ▼ Aural",
+         " ▼ Visual",
+         " ▼ Haptic"
       ]
    },
    {
@@ -1554,29 +1547,29 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:91",
-      "director": "Tools",
+      "director": " ▼ Tools",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "네이버-Naver",
       "outline": [
-         "Speech recongnition"
+         " ▼ Speech recongnition"
       ],
       "genre": [
          "Dynamic",
          "Static"
       ],
       "certificate": [
-         "Auditory feedback (Dynamic)",
-         "Pop-up messages",
-         "Instruction",
-         "Illustration of correct input",
-         "Auditory feedback (Static)",
-         "Text suggestion"
+         " ▼ Auditory feedback (Dynamic)",
+         " ▼ Pop-up messages",
+         " ▼ Instruction ",
+         " ▼ Illustration of correct input",
+         " ▼ Auditory feedback (Static)",
+         " ▼ Text suggestion"
       ],
       "representation": [
-         "Aural",
-         "Text",
-         "Visual"
+         " ▼ Aural",
+         " ▼ Text",
+         " ▼ Visual"
       ]
    },
    {
@@ -1586,31 +1579,31 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:84",
-      "director": "Tools",
+      "director": " ▼ Tools",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "네이버-Naver",
       "outline": [
-         "Text recognition"
+         " ▼ Text recognition"
       ],
       "genre": [
          "Static",
          "Dynamic"
       ],
       "certificate": [
-         "Vibration",
-         "Auditory feedback (Dynamic)",
-         "Pop-up messages",
-         "Instruction",
-         "Illustration of correct input",
-         "Auditory feedback (Static)",
-         "Text suggestion"
+         " ▼ Vibration",
+         " ▼ Auditory feedback (Dynamic)",
+         " ▼ Pop-up messages",
+         " ▼ Instruction ",
+         " ▼ Illustration of correct input",
+         " ▼ Auditory feedback (Static)",
+         " ▼ Text suggestion"
       ],
       "representation": [
-         "Haptic",
-         "Aural",
-         "Text",
-         "Visual"
+         " ▼ Haptic",
+         " ▼ Aural",
+         " ▼ Text",
+         " ▼ Visual"
       ]
    },
    {
@@ -1620,27 +1613,27 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:278",
-      "director": "Shopping",
+      "director": " ▼ Shopping",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Redbaby",
       "outline": [
-         "Barcode scanning"
+         " ▼ Barcode scanning"
       ],
       "genre": [
          "Static"
       ],
       "certificate": [
-         "Pop-up messages",
-         "Instruction",
-         "Camera frame",
-         "Flashlight",
-         "Vibration"
+         " ▼ Pop-up messages",
+         " ▼ Instruction ",
+         " ▼ Camera frame",
+         " ▼ Flashlight",
+         " ▼ Vibration"
       ],
       "representation": [
-         "Text",
-         "Visual",
-         "Haptic"
+         " ▼ Text",
+         " ▼ Visual",
+         " ▼ Haptic"
       ]
    },
    {
@@ -1650,27 +1643,27 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:274",
-      "director": "Shopping",
+      "director": " ▼ Shopping",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Redbaby",
       "outline": [
-         "Image classification"
+         " ▼ Image classification"
       ],
       "genre": [
          "Static"
       ],
       "certificate": [
-         "Pop-up messages",
-         "Instruction",
-         "Vibration",
-         "Camera frame",
-         "Illustration of correct input"
+         " ▼ Pop-up messages",
+         " ▼ Instruction ",
+         " ▼ Vibration",
+         " ▼ Camera frame",
+         " ▼ Illustration of correct input"
       ],
       "representation": [
-         "Text",
-         "Haptic",
-         "Visual"
+         " ▼ Text",
+         " ▼ Haptic",
+         " ▼ Visual"
       ]
    },
    {
@@ -1680,23 +1673,23 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:284",
-      "director": "Entertainment",
+      "director": " ▼ Entertainment",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Not Hotdog",
       "outline": [
-         "Image classification"
+         " ▼ Image classification"
       ],
       "genre": [
          "Static"
       ],
       "certificate": [
-         "Pop-up messages",
-         "Vibration"
+         " ▼ Pop-up messages",
+         " ▼ Vibration"
       ],
       "representation": [
-         "Text",
-         "Haptic"
+         " ▼ Text",
+         " ▼ Haptic"
       ]
    },
    {
@@ -1706,29 +1699,29 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:288",
-      "director": "Finance",
+      "director": " ▼ Finance",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Bank of Urumqi ",
       "outline": [
-         "Entity extraction",
-         "Face detection"
+         " ▼ Entity extraction",
+         " ▼ Face detection"
       ],
       "genre": [
          "Static",
          "Dynamic"
       ],
       "certificate": [
-         "Instruction",
-         "Camera frame",
-         "Vibration",
-         "Camera adjustment",
-         "Object marker"
+         " ▼ Instruction ",
+         " ▼ Camera frame",
+         " ▼ Vibration",
+         " ▼ Camera adjustment",
+         " ▼ Object marker"
       ],
       "representation": [
-         "Text",
-         "Visual",
-         "Haptic"
+         " ▼ Text",
+         " ▼ Visual",
+         " ▼ Haptic"
       ]
    },
    {
@@ -1738,23 +1731,23 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:286",
-      "director": "Finance",
+      "director": " ▼ Finance",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Bank of Urumqi ",
       "outline": [
-         "Barcode scanning"
+         " ▼ Barcode scanning"
       ],
       "genre": [
          "Static"
       ],
       "certificate": [
-         "Pop-up messages",
-         "Camera frame"
+         " ▼ Pop-up messages",
+         " ▼ Camera frame"
       ],
       "representation": [
-         "Text",
-         "Visual"
+         " ▼ Text",
+         " ▼ Visual"
       ]
    },
    {
@@ -1764,12 +1757,12 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:298",
-      "director": "Lifestyle",
+      "director": " ▼ Lifestyle",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Sleep as Android: Sleep cycle alarm",
       "outline": [
-         "Audio classification"
+         " ▼ Audio classification"
       ],
       "genre": [
          "No Interaction",
@@ -1777,15 +1770,14 @@ var movies =[
          "Dynamic"
       ],
       "certificate": [
-         "No interaction with hardware input",
-         "Pop-up messages",
-         "Instruction",
-         "Auditory feedback (Dynamic)"
+         " ▼ No interaction with hardware input",
+         " ▼ Pop-up messages",
+         " ▼ Instruction ",
+         " ▼ Auditory feedback (Dynamic)"
       ],
       "representation": [
-         "None",
-         "Text",
-         "Aural"
+         " ▼ Text",
+         " ▼ Aural"
       ]
    },
    {
@@ -1795,29 +1787,29 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:302",
-      "director": "Business",
+      "director": " ▼ Business",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Freja eID - My ID in an app",
       "outline": [
-         "Face detection"
+         " ▼ Face detection"
       ],
       "genre": [
          "Static",
          "Dynamic"
       ],
       "certificate": [
-         "Pop-up messages",
-         "Instruction",
-         "Camera frame",
-         "Illustration of correct input",
-         "Camera adjustment",
-         "Auto focusing object",
-         "Object marker"
+         " ▼ Pop-up messages",
+         " ▼ Instruction ",
+         " ▼ Camera frame",
+         " ▼ Illustration of correct input",
+         " ▼ Camera adjustment",
+         " ▼ Auto focusing object",
+         " ▼ Object marker"
       ],
       "representation": [
-         "Text",
-         "Visual"
+         " ▼ Text",
+         " ▼ Visual"
       ]
    },
    {
@@ -1827,21 +1819,21 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:316",
-      "director": "Photography",
+      "director": " ▼ Photography",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Blur Photo Editor -Blur image background like DSLR",
       "outline": [
-         "Selfie segmentation"
+         " ▼ Selfie segmentation"
       ],
       "genre": [
          "Dynamic"
       ],
       "certificate": [
-         "Photo editor"
+         " ▼ Photo editor"
       ],
       "representation": [
-         "Visual"
+         " ▼ Visual"
       ]
    },
    {
@@ -1851,21 +1843,21 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:317",
-      "director": "Photography",
+      "director": " ▼ Photography",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Blur Photo Editor -Blur image background like DSLR",
       "outline": [
-         "Selfie segmentation"
+         " ▼ Selfie segmentation"
       ],
       "genre": [
          "No Interaction"
       ],
       "certificate": [
-         "Importing files"
+         " ▼ Importing files"
       ],
       "representation": [
-         "None"
+         " ▼ Text"
       ]
    },
    {
@@ -1875,26 +1867,26 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:318",
-      "director": "Finance",
+      "director": " ▼ Finance",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Bank of hrb",
       "outline": [
-         "Entity extraction",
-         "Text recognition"
+         " ▼ Entity extraction",
+         " ▼ Text recognition"
       ],
       "genre": [
          "Static",
          "Dynamic"
       ],
       "certificate": [
-         "Instruction",
-         "Camera frame",
-         "Object marker"
+         " ▼ Instruction ",
+         " ▼ Camera frame",
+         " ▼ Object marker"
       ],
       "representation": [
-         "Text",
-         "Visual"
+         " ▼ Text",
+         " ▼ Visual"
       ]
    },
    {
@@ -1904,12 +1896,12 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:324",
-      "director": "Photography",
+      "director": " ▼ Photography",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Insta Cut Out  -  background changer & cutout photo",
       "outline": [
-         "Selfie segmentation"
+         " ▼ Selfie segmentation"
       ],
       "genre": [
          "No Interaction",
@@ -1917,15 +1909,14 @@ var movies =[
          "Static"
       ],
       "certificate": [
-         "Importing files",
-         "Photo editor",
-         "Instruction",
-         "Illustration of correct input"
+         " ▼ Importing files",
+         " ▼ Photo editor",
+         " ▼ Instruction ",
+         " ▼ Illustration of correct input"
       ],
       "representation": [
-         "None",
-         "Visual",
-         "Text"
+         " ▼ Visual",
+         " ▼ Text"
       ]
    },
    {
@@ -1935,23 +1926,23 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:328",
-      "director": "Entertainment",
+      "director": " ▼ Entertainment",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Future Me: Face Aging App, Ethnicity Analyzer",
       "outline": [
-         "Face detection"
+         " ▼ Face detection"
       ],
       "genre": [
          "Static"
       ],
       "certificate": [
-         "Pop-up messages",
-         "Camera frame"
+         " ▼ Pop-up messages",
+         " ▼ Camera frame"
       ],
       "representation": [
-         "Text",
-         "Visual"
+         " ▼ Text",
+         " ▼ Visual"
       ]
    },
    {
@@ -1961,32 +1952,32 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:344",
-      "director": "Medical",
+      "director": " ▼ Medical",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "GlassesOn | Pupils & Lenses",
       "outline": [
-         "Face detection",
-         "Image classification"
+         " ▼ Face detection",
+         " ▼ Image classification"
       ],
       "genre": [
          "Static",
          "Dynamic"
       ],
       "certificate": [
-         "Camera frame",
-         "Instruction",
-         "Illustration of correct input",
-         "Vibration",
-         "Auditory feedback",
-         "Camera adjustment",
-         "Auto focusing object",
-         "Pop-up messages"
+         " ▼ Camera frame",
+         " ▼ Instruction ",
+         " ▼ Illustration of correct input",
+         " ▼ Vibration",
+         " ▼ Auditory feedback",
+         " ▼ Camera adjustment",
+         " ▼ Auto focusing object",
+         " ▼ Pop-up messages"
       ],
       "representation": [
-         "Visual",
-         "Text",
-         "Haptic",
+         " ▼ Visual",
+         " ▼ Text",
+         " ▼ Haptic",
          "Audio"
       ]
    },
@@ -1997,29 +1988,29 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:332",
-      "director": "Tools",
+      "director": " ▼ Tools",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Anyline Scanner",
       "outline": [
-         "Image classification"
+         " ▼ Image classification"
       ],
       "genre": [
          "Static",
          "Dynamic"
       ],
       "certificate": [
-         "Instruction",
-         "Camera frame",
-         "Flashlight",
-         "Vibration",
-         "Auto focusing object",
-         "Object marker"
+         " ▼ Instruction ",
+         " ▼ Camera frame",
+         " ▼ Flashlight",
+         " ▼ Vibration",
+         " ▼ Auto focusing object",
+         " ▼ Object marker"
       ],
       "representation": [
-         "Text",
-         "Visual",
-         "Haptic"
+         " ▼ Text",
+         " ▼ Visual",
+         " ▼ Haptic"
       ]
    },
    {
@@ -2029,28 +2020,28 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:341",
-      "director": "Tools",
+      "director": " ▼ Tools",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Anyline Scanner",
       "outline": [
-         "Entity extraction"
+         " ▼ Entity extraction"
       ],
       "genre": [
          "Static",
          "Dynamic"
       ],
       "certificate": [
-         "Instruction",
-         "Camera frame",
-         "Flashlight",
-         "Vibration",
-         "Object marker"
+         " ▼ Instruction ",
+         " ▼ Camera frame",
+         " ▼ Flashlight",
+         " ▼ Vibration",
+         " ▼ Object marker"
       ],
       "representation": [
-         "Text",
-         "Visual",
-         "Haptic"
+         " ▼ Text",
+         " ▼ Visual",
+         " ▼ Haptic"
       ]
    },
    {
@@ -2060,22 +2051,22 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:346",
-      "director": "Tools",
+      "director": " ▼ Tools",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Objects Classify Machine Learning TensorFlow",
       "outline": [
-         "Image classification"
+         " ▼ Image classification"
       ],
       "genre": [
          "Static"
       ],
       "certificate": [
-         "Pop-up messages",
-         "Instruction"
+         " ▼ Pop-up messages",
+         " ▼ Instruction "
       ],
       "representation": [
-         "Text"
+         " ▼ Text"
       ]
    },
    {
@@ -2085,22 +2076,22 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:348",
-      "director": "Libraries and Demo",
+      "director": " ▼ Libraries and Demo",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "Speech Recognition TensorFlow Machine Learning",
       "outline": [
-         "Speech recongnition"
+         " ▼ Speech recongnition"
       ],
       "genre": [
          "Static"
       ],
       "certificate": [
-         "Pop-up messages",
-         "Instruction"
+         " ▼ Pop-up messages",
+         " ▼ Instruction "
       ],
       "representation": [
-         "Text"
+         " ▼ Text"
       ]
    },
    {
@@ -2110,32 +2101,32 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:30",
-      "director": "Education",
+      "director": " ▼ Education",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "PlantVillage",
       "outline": [
-         "Image classification",
-         "Object detection and tracking"
+         " ▼ Image classification",
+         " ▼ Object detection and tracking"
       ],
       "genre": [
          "Static",
          "Dynamic"
       ],
       "certificate": [
-         "Pop-up messages",
-         "Instruction",
-         "Illustration of correct input",
-         "Vibration",
-         "Camera adjustment",
-         "Auto focusing object",
-         "Text suggestion",
-         "Object marker"
+         " ▼ Pop-up messages",
+         " ▼ Instruction ",
+         " ▼ Illustration of correct input",
+         " ▼ Vibration",
+         " ▼ Camera adjustment",
+         " ▼ Auto focusing object",
+         " ▼ Text suggestion",
+         " ▼ Object marker"
       ],
       "representation": [
-         "Text",
-         "Visual",
-         "Haptic"
+         " ▼ Text",
+         " ▼ Visual",
+         " ▼ Haptic"
       ]
    },
    {
@@ -2145,24 +2136,24 @@ var movies =[
       "rating": 5,
       "runtime": 50,
       "date": "1974-04-30T10:29:29+05:330",
-      "director": "Libraries and Demo",
+      "director": " ▼ Libraries and Demo",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
       "name": "TF object_detection",
       "outline": [
-         "Object detection and tracking"
+         " ▼ Object detection and tracking"
       ],
       "genre": [
          "Static",
          "Dynamic"
       ],
       "certificate": [
-         "Pop-up messages",
-         "Camera adjustment"
+         " ▼ Pop-up messages",
+         " ▼ Camera adjustment"
       ],
       "representation": [
-         "Text",
-         "Visual"
+         " ▼ Text",
+         " ▼ Visual"
       ]
    },
  
@@ -2178,9 +2169,9 @@ var movies =[
     "actor":"Al Pacino",
     "stars":"Marlon Brando",
     "name":"coins.ph",
-    "outline":["Barcode scanning"],
-    "certificate":["Camera frame","Instruction","Pop-up messages"],
-    "representation":["Visual","Text"]
+    "outline":[" ▼ Barcode scanning"],
+    "certificate":[" ▼ Camera frame"," ▼ Instruction "," ▼ Pop-up messages"],
+    "representation":[" ▼ Visual"," ▼ Text"]
    },
    {
     "id": 78,
@@ -2193,9 +2184,9 @@ var movies =[
     "actor":"Al Pacino",
     "stars":"Marlon Brando",
     "name":"coins.ph",
-    "outline":["Barcode scanning"],
-    "certificate":["Importing files"],
-    "representation":["None"]
+    "outline":[" ▼ Barcode scanning"],
+    "certificate":[" ▼ Importing files"],
+    "representation":[" ▼ Text"]
    },
    {
     "id": 79,
@@ -2208,9 +2199,9 @@ var movies =[
     "actor":"Al Pacino",
     "stars":"Marlon Brando",
     "name":"coins.ph",
-    "outline":["Entity extraction"],
-    "certificate":["Camera frame","Instruction","Pop-up messages"],
-    "representation":["Visual","Text"]
+    "outline":[" ▼ Entity extraction"],
+    "certificate":[" ▼ Camera frame"," ▼ Instruction "," ▼ Pop-up messages"],
+    "representation":[" ▼ Visual"," ▼ Text"]
    },
    {
     "id": 80,
@@ -2223,9 +2214,9 @@ var movies =[
     "actor":"Al Pacino",
     "stars":"Marlon Brando",
     "name":"coins.ph",
-    "outline":["Entity extraction"],
-    "certificate":["Importing files"],
-    "representation":["None"]
+    "outline":[" ▼ Entity extraction"],
+    "certificate":[" ▼ Importing files"],
+    "representation":[" ▼ Text"]
    },
    {
     "id": 81,
@@ -2238,9 +2229,9 @@ var movies =[
     "actor":"Al Pacino",
     "stars":"Marlon Brando",
     "name":"coins.ph",
-    "outline":["Face detection"],
-    "certificate":["Camera frame","Instruction","Pop-up messages","Illustration of correct input"],
-    "representation":["Visual","Text"]
+    "outline":[" ▼ Face detection"],
+    "certificate":[" ▼ Camera frame"," ▼ Instruction "," ▼ Pop-up messages"," ▼ Illustration of correct input"],
+    "representation":[" ▼ Visual"," ▼ Text"]
    },
    {
     "id": 82,
@@ -2253,9 +2244,9 @@ var movies =[
     "actor":"Al Pacino",
     "stars":"Marlon Brando",
     "name":"YouCam Makeup",
-    "outline":["Face detection"],
-    "certificate":["Camera frame","Instruction","Pop-up messages","Illustration of correct input"],
-    "representation":["Visual","Text"]
+    "outline":[" ▼ Face detection"],
+    "certificate":[" ▼ Camera frame"," ▼ Instruction "," ▼ Pop-up messages"," ▼ Illustration of correct input"],
+    "representation":[" ▼ Visual"," ▼ Text"]
    },
    {
     "id": 83,
@@ -2268,9 +2259,9 @@ var movies =[
     "actor":"Al Pacino",
     "stars":"Marlon Brando",
     "name":"eBay",
-    "outline":["Barcode scanning"],
-    "certificate":["Camera frame","Auditory feedback (Static)","Instruction","Pop-up messages"],
-    "representation":["Visual","Aural","Text"]
+    "outline":[" ▼ Barcode scanning"],
+    "certificate":[" ▼ Camera frame"," ▼ Auditory feedback (Static)"," ▼ Instruction "," ▼ Pop-up messages"],
+    "representation":[" ▼ Visual"," ▼ Aural"," ▼ Text"]
    },
    {
     "id": 84,
@@ -2283,9 +2274,9 @@ var movies =[
     "actor":"Al Pacino",
     "stars":"Marlon Brando",
     "name":"Crowdsource",
-    "outline":["Image classification"],
-    "certificate":["Pop-up messages"],
-    "representation":["Text"]
+    "outline":[" ▼ Image classification"],
+    "certificate":[" ▼ Pop-up messages"],
+    "representation":[" ▼ Text"]
    },
    {
     "id": 85,
@@ -2298,9 +2289,9 @@ var movies =[
     "actor":"Al Pacino",
     "stars":"Marlon Brando",
     "name":"Crowdsource",
-    "outline":["Image classification"],
-    "certificate":["Instruction","Pop-up messages","Illustration of correct input","Importing files"],
-    "representation":["Text","Visual","None"]
+    "outline":[" ▼ Image classification"],
+    "certificate":[" ▼ Instruction "," ▼ Pop-up messages"," ▼ Illustration of correct input"," ▼ Importing files"],
+    "representation":[" ▼ Text"," ▼ Visual"]
    },
    {
     "id": 86,
@@ -2313,9 +2304,9 @@ var movies =[
     "actor":"Al Pacino",
     "stars":"Marlon Brando",
     "name":"Crowdsource",
-    "outline":["Object detection and tracking"],
-    "certificate":["Pop-up messages","Illustration of correct input","Camera adjustment","Auto focusing object"],
-    "representation":["Text","Visual"]
+    "outline":[" ▼ Object detection and tracking"],
+    "certificate":[" ▼ Pop-up messages"," ▼ Illustration of correct input"," ▼ Camera adjustment"," ▼ Auto focusing object"],
+    "representation":[" ▼ Text"," ▼ Visual"]
    },
    {
     "id": 87,
@@ -2328,9 +2319,9 @@ var movies =[
     "actor":"Al Pacino",
     "stars":"Marlon Brando",
     "name":"Crowdsource",
-    "outline":["Object detection and tracking"],
-    "certificate":["Instruction","Importing files"],
-    "representation":["Text","None"]
+    "outline":[" ▼ Object detection and tracking"],
+    "certificate":[" ▼ Instruction "," ▼ Importing files"],
+    "representation":[" ▼ Text"]
    },
    {
     "id": 88,
@@ -2343,9 +2334,9 @@ var movies =[
     "actor":"Al Pacino",
     "stars":"Marlon Brando",
     "name":"Crowdsource",
-    "outline":["Speech recongnition"],
-    "certificate":["Auditory feedback (Static)"],
-    "representation":["Aural"]
+    "outline":[" ▼ Speech recongnition"],
+    "certificate":[" ▼ Auditory feedback (Static)"],
+    "representation":[" ▼ Aural"]
    },
    {
     "id": 89,
@@ -2358,9 +2349,9 @@ var movies =[
     "actor":"Al Pacino",
     "stars":"Marlon Brando",
     "name":"Photo Translator",
-    "outline":["Image segmentation"],
-    "certificate":["Instruction","Pop-up messages","Photo editor"],
-    "representation":["Text","Visual"]
+    "outline":[" ▼ Image segmentation"],
+    "certificate":[" ▼ Instruction "," ▼ Pop-up messages"," ▼ Photo editor"],
+    "representation":[" ▼ Text"," ▼ Visual"]
    },
    {
     "id": 90,
@@ -2373,9 +2364,9 @@ var movies =[
     "actor":"Al Pacino",
     "stars":"Marlon Brando",
     "name":"",
-    "outline":["Image segmentation"],
-    "certificate":["Importing files","Photo editor"],
-    "representation":["None","Visual"]
+    "outline":[" ▼ Image segmentation"],
+    "certificate":[" ▼ Importing files"," ▼ Photo editor"],
+    "representation":[" ▼ Text"," ▼ Visual"]
    },
    {
     "id": 91,
@@ -2388,9 +2379,9 @@ var movies =[
     "actor":"Al Pacino",
     "stars":"Marlon Brando",
     "name":"HP Smart",
-    "outline":["Image segmentation"],
-    "certificate":["Pop-up messages","Photo editor","Instruction","Camera frame","Auto focusing object"],
-    "representation":["Text","Visual"]
+    "outline":[" ▼ Image segmentation"],
+    "certificate":[" ▼ Pop-up messages"," ▼ Photo editor"," ▼ Instruction "," ▼ Camera frame"," ▼ Auto focusing object"],
+    "representation":[" ▼ Text"," ▼ Visual"]
    },
    {
     "id": 92,
@@ -2403,9 +2394,9 @@ var movies =[
     "actor":"Al Pacino",
     "stars":"Marlon Brando",
     "name":"HP Smart",
-    "outline":["Image segmentation"],
-    "certificate":["Pop-up messages","Photo editor","Instruction"],
-    "representation":["Text","Visual"]
+    "outline":[" ▼ Image segmentation"],
+    "certificate":[" ▼ Pop-up messages"," ▼ Photo editor"," ▼ Instruction "],
+    "representation":[" ▼ Text"," ▼ Visual"]
    },
    {
     "id": 93,
@@ -2418,9 +2409,9 @@ var movies =[
     "actor":"Al Pacino",
     "stars":"Marlon Brando",
     "name":"FaceLab",
-    "outline":["Face detection"],
-    "certificate":["Camera frame","Instruction","Pop-up messages","Illustration of correct input","Photo editor"],
-    "representation":["Visual","Text"]
+    "outline":[" ▼ Face detection"],
+    "certificate":[" ▼ Camera frame"," ▼ Instruction "," ▼ Pop-up messages"," ▼ Illustration of correct input"," ▼ Photo editor"],
+    "representation":[" ▼ Visual"," ▼ Text"]
    },
    {
     "id": 94,
@@ -2433,9 +2424,9 @@ var movies =[
     "actor":"Al Pacino",
     "stars":"Marlon Brando",
     "name":"FaceLab",
-    "outline":["Face detection"],
-    "certificate":["Importing files"],
-    "representation":["None"]
+    "outline":[" ▼ Face detection"],
+    "certificate":[" ▼ Importing files"],
+    "representation":[" ▼ Text"]
    },
    {
     "id": 95,
@@ -2448,9 +2439,9 @@ var movies =[
     "actor":"Al Pacino",
     "stars":"Marlon Brando",
     "name":"iCamera",
-    "outline":["Face detection"],
-    "certificate":["Auto focusing object"],
-    "representation":["Visual"]
+    "outline":[" ▼ Face detection"],
+    "certificate":[" ▼ Auto focusing object"],
+    "representation":[" ▼ Visual"]
    },
    {
     "id": 96,
@@ -2463,9 +2454,9 @@ var movies =[
     "actor":"Al Pacino",
     "stars":"Marlon Brando",
     "name":"Think Dirty",
-    "outline":["Barcode scanning"],
-    "certificate":["Illustration of correct input","Camera frame","Pop-up messages","Instruction"],
-    "representation":["Visual","Text"]
+    "outline":[" ▼ Barcode scanning"],
+    "certificate":[" ▼ Illustration of correct input"," ▼ Camera frame"," ▼ Pop-up messages"," ▼ Instruction "],
+    "representation":[" ▼ Visual"," ▼ Text"]
    },
    {
     "id": 97,
@@ -2478,9 +2469,9 @@ var movies =[
     "actor":"Al Pacino",
     "stars":"Marlon Brando",
     "name":"FunLab",
-    "outline":["Face detection"],
-    "certificate":["Camera frame","Instruction","Pop-up messages","Illustration of correct input"],
-    "representation":["Visual","Text"]
+    "outline":[" ▼ Face detection"],
+    "certificate":[" ▼ Camera frame"," ▼ Instruction "," ▼ Pop-up messages"," ▼ Illustration of correct input"],
+    "representation":[" ▼ Visual"," ▼ Text"]
    },
    {
     "id": 98,
@@ -2493,9 +2484,9 @@ var movies =[
     "actor":"Al Pacino",
     "stars":"Marlon Brando",
     "name":"FunLab",
-    "outline":["Face detection"],
-    "certificate":["Importing files"],
-    "representation":["None"]
+    "outline":[" ▼ Face detection"],
+    "certificate":[" ▼ Importing files"],
+    "representation":[" ▼ Text"]
    },
    {
     "id": 99,
@@ -2508,9 +2499,9 @@ var movies =[
     "actor":"Al Pacino",
     "stars":"Marlon Brando",
     "name":"SHEIN",
-    "outline":["Image classification"],
-    "certificate":["Pop-up messages","Importing files"],
-    "representation":["Text","None"]
+    "outline":[" ▼ Image classification"],
+    "certificate":[" ▼ Pop-up messages"," ▼ Importing files"],
+    "representation":[" ▼ Text"]
    },
    {
     "id": 100,
@@ -2523,9 +2514,9 @@ var movies =[
     "actor":"Al Pacino",
     "stars":"Marlon Brando",
     "name":"Invoice Passbook + Unified Invoice Matching Machine - Cloud Invoice Vehicle Return to Home, Collect Trial Points",
-    "outline":["Barcode scanning"],
-    "certificate":["Pop-up messages","Instruction","Camera frame","Auto focusing object"],
-    "representation":["Text","Visual"]
+    "outline":[" ▼ Barcode scanning"],
+    "certificate":[" ▼ Pop-up messages"," ▼ Instruction "," ▼ Camera frame"," ▼ Auto focusing object"],
+    "representation":[" ▼ Text"," ▼ Visual"]
    }
   
  ]
