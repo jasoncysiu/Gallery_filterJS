@@ -90,8 +90,14 @@ comma_sep <- comma_sep %>% select(-outline,-genre,-certificate,-representation)%
 
 ```{r export}
 comma_sep %>% write.csv("C:/Users/sjsa3/Documents/GitHub/Gallery_filterJS/examples/data/movie_commaSep.csv")
-
-
 ```
 
 
+ ## for the following, I am intending to change the terms on the gallery based on the feedback given by Yujin.
+ https://www.youtube.com/watch?v=_yxdD-ZX-mg
+ 
+ 
+Photo editor -> User personalisation
+Camera adjustment -> User personalisation
+Flashlight alerts
+Object marker -> Object sensor

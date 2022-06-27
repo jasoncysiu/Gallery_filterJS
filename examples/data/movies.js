@@ -40,9 +40,7 @@ var movies =[
       "name": "YouCam Makeup - Selfie Editor",
       "outline": [
          " 👉 Face detection",
-         " 👉 Selfie segmentation",
-         " 👉 Style transfer"
-      ],
+         " 👉 Selfie segmentation"      ],
       "genre": [
          "Dynamic"
       ],
@@ -2665,7 +2663,7 @@ var movies =[
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "YouCam Makeup",
-        "outline": [" 👉 Face detection"," 👉 Face detection"],
+        "outline": [" 👉 Face detection"],
         "certificate": [" 👉 Importing files"," 👉 Pop-up messages"," 👉 Instruction"," 👉 Auto focusing object"],
         "representation": [" 👉 Text"," 👉 Text"," 👉 Visual"]
       },
@@ -2680,7 +2678,7 @@ var movies =[
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "YouCam Makeup",
-        "outline": [" 👉 Image segmentation"," 👉 Image segmentation"],
+        "outline": [" 👉 Image segmentation"],
         "certificate": [" 👉 Importing files"," 👉 Pop-up messages"," 👉 Instruction"," 👉 Illustration of correct input"],
         "representation": [" 👉 Text"," 👉 Text"," 👉 Visual"]
       },
