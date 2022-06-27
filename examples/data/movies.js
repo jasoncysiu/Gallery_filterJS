@@ -46,7 +46,7 @@ var movies =[
       ],
       "certificate": [
          " 👉 Auto focusing object",
-         " 👉 Camera adjustment",
+         " 👉 User personalisation",
          " 👉 Photo editor"
       ],
       "representation": [
@@ -262,7 +262,7 @@ var movies =[
          "Static"
       ],
       "certificate": [
-         " 👉 Camera adjustment",
+         " 👉 User personalisation",
          " 👉 Photo editor",
          " 👉 Camera frame",
          " 👉 Pop-up messages"
@@ -343,7 +343,7 @@ var movies =[
       "certificate": [
          " 👉 Pop-up messages",
          " 👉 Camera frame",
-         " 👉 Camera adjustment"
+         " 👉 User personalisation"
       ],
       "representation": [
          " 👉 Text",
@@ -640,9 +640,8 @@ var movies =[
       "certificate": [
          " 👉 Pop-up messages",
          " 👉 Instruction ",
-         " 👉 Illustration of correct input",
          " 👉 Vibration",
-         " 👉 Camera adjustment",
+         " 👉 User personalisation",
          " 👉 Photo editor"
       ],
       "representation": [
@@ -673,11 +672,8 @@ var movies =[
          " 👉 Auto focusing object",
          " 👉 Pop-up messages",
          " 👉 Instruction ",
-         " 👉 Illustration of correct input",
          " 👉 Vibration",
-         " 👉 Camera adjustment",
-         " 👉 Text suggestion"
-      ],
+         " 👉 User personalisation"      ],
       "representation": [
          " 👉 Visual",
          " 👉 Text",
@@ -706,11 +702,8 @@ var movies =[
          " 👉 Auto focusing object",
          " 👉 Pop-up messages",
          " 👉 Instruction ",
-         " 👉 Illustration of correct input",
          " 👉 Vibration",
-         " 👉 Camera adjustment",
-         " 👉 Text suggestion"
-      ],
+         " 👉 User personalisation"      ],
       "representation": [
          " 👉 Visual",
          " 👉 Text",
@@ -739,9 +732,8 @@ var movies =[
          " 👉 Auto focusing object",
          " 👉 Pop-up messages",
          " 👉 Instruction ",
-         " 👉 Illustration of correct input",
          " 👉 Vibration",
-         " 👉 Camera adjustment"
+         " 👉 User personalisation"
       ],
       "representation": [
          " 👉 Visual",
@@ -801,7 +793,7 @@ var movies =[
          " 👉 Illustration of correct input",
          " 👉 Vibration",
          " 👉 Auditory feedback (Static)",
-         " 👉 Camera adjustment"
+         " 👉 User personalisation"
       ],
       "representation": [
          " 👉 Aural",
@@ -937,7 +929,7 @@ var movies =[
       ],
       "certificate": [
          " 👉 Auto focusing object",
-         " 👉 Camera adjustment",
+         " 👉 User personalisation",
          " 👉 Instruction "
       ],
       "representation": [
@@ -1066,7 +1058,7 @@ var movies =[
       ],
       "certificate": [
          " 👉 Auto focusing object",
-         " 👉 Camera adjustment"
+         " 👉 User personalisation"
       ],
       "representation": [
          " 👉 Visual"
@@ -1123,7 +1115,7 @@ var movies =[
          " 👉 Instruction ",
          " 👉 Auditory feedback (Static)",
          " 👉 Auto focusing object",
-         " 👉 Camera adjustment",
+         " 👉 User personalisation",
          " 👉 Photo editor",
          " 👉 Importing files",
          " 👉 Camera frame",
@@ -1158,7 +1150,7 @@ var movies =[
       "certificate": [
          " 👉 Auditory feedback (Dynamic)",
          " 👉 Auto focusing object",
-         " 👉 Camera adjustment",
+         " 👉 User personalisation",
          " 👉 Photo editor",
          " 👉 Importing files",
          " 👉 Camera frame",
@@ -1196,6 +1188,7 @@ var movies =[
          " 👉 Instruction ",
          " 👉 Illustration of correct input",
          " 👉 Vibration",
+         " 👉 Text suggestion",
          " 👉 Auditory feedback (Dynamic)"
       ],
       "representation": [
@@ -1386,7 +1379,7 @@ var movies =[
          "Dynamic"
       ],
       "certificate": [
-         " 👉 Camera adjustment",
+         " 👉 User personalisation",
          " 👉 Photo editor"
       ],
       "representation": [
@@ -1439,7 +1432,7 @@ var movies =[
          " 👉 Pop-up messages",
          " 👉 Instruction ",
          " 👉 Illustration of correct input",
-         " 👉 Camera adjustment",
+         " 👉 User personalisation",
          " 👉 Photo editor",
          " 👉 Auto focusing object"
       ],
@@ -1495,7 +1488,9 @@ var movies =[
          "Dynamic"
       ],
       "certificate": [
-         " 👉 Auditory feedback (Dynamic)"
+         " 👉 Auditory feedback (Dynamic)",
+         " 👉 Text suggestion"
+
       ],
       "representation": [
          " 👉 Aural"
@@ -1520,10 +1515,9 @@ var movies =[
          "Static"
       ],
       "certificate": [
-         " 👉 Text suggestion",
          " 👉 Auditory feedback (Static)",
          " 👉 Auto focusing object",
-         " 👉 Camera adjustment",
+         " 👉 User personalisation",
          " 👉 Photo editor",
          " 👉 Pop-up messages",
          " 👉 Instruction ",
@@ -1594,9 +1588,8 @@ var movies =[
          " 👉 Pop-up messages",
          " 👉 Instruction ",
          " 👉 Illustration of correct input",
-         " 👉 Auditory feedback (Static)",
-         " 👉 Text suggestion"
-      ],
+         " 👉 Auditory feedback (Static)"
+            ],
       "representation": [
          " 👉 Haptic",
          " 👉 Aural",
@@ -1713,7 +1706,7 @@ var movies =[
          " 👉 Instruction ",
          " 👉 Camera frame",
          " 👉 Vibration",
-         " 👉 Camera adjustment",
+         " 👉 User personalisation",
          " 👉 Object marker"
       ],
       "representation": [
@@ -1801,7 +1794,7 @@ var movies =[
          " 👉 Instruction ",
          " 👉 Camera frame",
          " 👉 Illustration of correct input",
-         " 👉 Camera adjustment",
+         " 👉 User personalisation",
          " 👉 Auto focusing object",
          " 👉 Object marker"
       ],
@@ -1968,7 +1961,7 @@ var movies =[
          " 👉 Illustration of correct input",
          " 👉 Vibration",
          " 👉 Auditory feedback",
-         " 👉 Camera adjustment",
+         " 👉 User personalisation",
          " 👉 Auto focusing object",
          " 👉 Pop-up messages"
       ],
@@ -2116,7 +2109,7 @@ var movies =[
          " 👉 Instruction ",
          " 👉 Illustration of correct input",
          " 👉 Vibration",
-         " 👉 Camera adjustment",
+         " 👉 User personalisation",
          " 👉 Auto focusing object",
          " 👉 Text suggestion",
          " 👉 Object marker"
@@ -2147,7 +2140,7 @@ var movies =[
       ],
       "certificate": [
          " 👉 Pop-up messages",
-         " 👉 Camera adjustment"
+         " 👉 User personalisation"
       ],
       "representation": [
          " 👉 Text",
@@ -2243,7 +2236,7 @@ var movies =[
     "stars":"Marlon Brando",
     "name":"YouCam Makeup",
     "outline":[" 👉 Face detection"],
-    "certificate":[" 👉 Camera frame"," 👉 Instruction "," 👉 Pop-up messages"," 👉 Illustration of correct input"],
+    "certificate":[" 👉 Text suggestion"," 👉 Camera frame"," 👉 Instruction "," 👉 Pop-up messages"," 👉 Illustration of correct input"],
     "representation":[" 👉 Visual"," 👉 Text"]
    },
    {
@@ -2303,7 +2296,7 @@ var movies =[
     "stars":"Marlon Brando",
     "name":"Crowdsource",
     "outline":[" 👉 Object detection and tracking"],
-    "certificate":[" 👉 Pop-up messages"," 👉 Illustration of correct input"," 👉 Camera adjustment"," 👉 Auto focusing object"],
+    "certificate":[" 👉 Pop-up messages"," 👉 Illustration of correct input"," 👉 User personalisation"," 👉 Auto focusing object"],
     "representation":[" 👉 Text"," 👉 Visual"]
    },
    {
@@ -2846,7 +2839,7 @@ var movies =[
         "stars": "Marlon Brando",
         "name": "TroveSkin",
         "outline": [" 👉 Face detection"," 👉 Face detection"],
-        "certificate": [" 👉 Camera frame"," 👉 Pop-up messages"," 👉 Instruction"," 👉 Camera adjustment"],
+        "certificate": [" 👉 Camera frame"," 👉 Pop-up messages"," 👉 Instruction"," 👉 User personalisation"],
         "representation": [" 👉 Visual"," 👉 Text"," 👉 Visual"]
       },
       {
@@ -2906,7 +2899,7 @@ var movies =[
         "stars": "Marlon Brando",
         "name": "SmartBanking",
         "outline": [" 👉 Entity extraction"," 👉 Entity extraction"," 👉 Face detection"],
-        "certificate": [" 👉 Camera frame"," 👉 Instruction"," 👉 Camera frame"," 👉 Text suggestion"," 👉 Camera adjustment"," 👉 Auto focusing object"," 👉 Illustration of correct input"],
+        "certificate": [" 👉 Camera frame"," 👉 Instruction"," 👉 Camera frame"," 👉 Text suggestion"," 👉 User personalisation"," 👉 Auto focusing object"," 👉 Illustration of correct input"],
         "representation": [" 👉 Visual"," 👉 Text"," 👉 Visual"]
       },
       {
@@ -3040,8 +3033,8 @@ var movies =[
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "Look alike",
-        "outline": [" 👉 Face detection"," 👉 Face detection"],
-        "certificate": [" 👉 Importing files"," 👉 Camera frame"," 👉 Illustration of correct input"," 👉 Pop-up messages"," 👉 Auto focusing object"],
+        "outline": [" 👉 Face detection"],
+        "certificate": [" 👉 Importing files"," 👉 Camera frame"," 👉 Illustration of correct input"," 👉 Pop-up messages"," 👉 Auto focusing object"," 👉 Object marker"],
         "representation": [" 👉 Text"," 👉 Visual"," 👉 Text"]
       },
       {
