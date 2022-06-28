@@ -6986,9 +6986,8 @@ font-weight: 550;
 
 }
 #filter_lengend{
-font-size: 25px;
+font-size: 23px;
 font-weight: 700;
-
 }
 
 #filter_text{
@@ -7062,7 +7061,35 @@ line-height: 2;
 }
 .icon_model span, .icon_model img {
   display:inline-block;
-  height: 14px;
+  height: 16px;
   cursor: default;
 }
 
+/* ================ toggle list for filters ================  */
+ /* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #f1f1f1;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  font-weight: 700;
+
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+/* Style the collapsible content. Note: hidden by default */
+.contents {
+
+
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
