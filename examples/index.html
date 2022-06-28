@@ -379,6 +379,7 @@
          </div>
       </div>
       <script id="movie-template" type="javascript/html">
+
          <div class="col-md-4 movie">
            <div class="thumbnail">
 
@@ -401,6 +402,7 @@
                </div> -->
              <!-- End - Elim.1 -->
 
+             
                <div class="detail">
                  <dl>
                    <h4><%= _fid %>. <%= name %></h4> <br>
@@ -416,28 +418,43 @@
                    <br>            
                    <dd id="card_title">
                 
-                     <button id="button_style" title="
+                     <button  class="popup" onclick="myFunction()"  id="button_style" data-title="
    ➡ Category of this app: <%= director %>.
 
-   ➡ User interactions: <%= certificate %> to engage with user. 
+   ➡ User interactions: <%= certificate %> &#13;&#10; to engage with user. 
 
    ➡ AI model:<%= outline %>.
 
    ➡ The information is presented using <%= representation %> element to user. 
 
 ">
-                        <%= director %>
+<span class="popuptext" id="myPopup"> ➡ Category of this app: <%= director %>.
+
+   ➡ User interactions: <%= certificate %> to engage with user.
+
+   ➡ AI model:<%= outline %>.
+
+   ➡ The information is presented using <%= representation %> element to user.</span>
+
                         <%= certificate %> 
                         <%= outline %> 
-                        <%= representation %><br>
+                     </button>  
 
                    </dd>
                  </dl>
                </div>
              </div>
            </div>
+       
+           
       </script>
 
+      <script>
+         function myFunction() {
+         var popup = document.getElementById("myPopup");
+         popup.classList.toggle("show");
+       }
+      </script>
 
       <!-- Animated Collapsibles -->
       <script>
@@ -457,5 +474,8 @@
          }
       </script>
       
+    
+
+
    </body>
 </html>
