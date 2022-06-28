@@ -9,7 +9,7 @@
    These will be noted as "Elim.1", "Elim.2", "modified.1"
    -->
 
-   <!-- To do :
+<!-- To do :
   
   [] Modified to the name of the app, instead of package name
   [] Color of the tag
@@ -17,170 +17,181 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
-      <link href="assets/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
-      <link href="assets/css/jquery-ui-1.10.2.custom.min.css" media="screen" rel="stylesheet" type="text/css">
-      
-      <!-- font -->
-      <link href="http://fonts.cdnfonts.com/css/fontype-rounded" rel="stylesheet">
-      <link href="assets/css/stream.css" media="screen" rel="stylesheet" type="text/css">
-      <script src="assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
-      <script src="assets/js/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
-      <script src="../dist/filter.js" type="text/javascript"></script>
-      <script src="data/movies.js" type="text/javascript"></script>
-      <script src="index.js" type="text/javascript"></script>
-      <script src="https://cdn.jsdelivr.net/npm/gifffer@1.5.4/build/gifffer.min.js" type="text/javascript" ></script>
 
-   </head>
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="assets/scss/gif.css" media="screen" rel="stylesheet" type="text/css">
 
-   <body id="body_id">
 
-      
-      <div class="container">
-         <h1 class="title"></h1>
-     
-         <br>
-         <div class="sidebar col-md-3">
+    <link href="assets/css/jquery-ui-1.10.2.custom.min.css" media="screen" rel="stylesheet" type="text/css">
+
+
+    <!-- font -->
+    <link href="http://fonts.cdnfonts.com/css/fontype-rounded" rel="stylesheet">
+    <link href="assets/css/stream.css" media="screen" rel="stylesheet" type="text/css">
+    <script src="assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="assets/js/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
+    <script src="../dist/filter.js" type="text/javascript"></script>
+    <script src="data/movies.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gifffer@1.5.4/build/gifffer.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="assets/js/libgif.js"></script>
+    <script type="text/javascript" src="assets/js/rubbable.js"></script>
+
+</head>
+
+<body id="body_id">
+
+
+    <div class="container">
+        <h1 class="title"></h1>
+
+        <br>
+        <div class="sidebar col-md-3">
             <div>
-               <h4 class='col-md-6'>Sample (<span id="total_movies">0</span>)</h4>
-               <!-- <div class="col-md-6 progress">
+                <h4 class='col-md-6'>Sample (<span id="total_movies">0</span>)</h4>
+                <!-- <div class="col-md-6 progress">
                   <div class="progress-bar" id="stream_progress" style="width:1 0%;">0%</div>
                </div> -->
             </div>
             <div>
-               <label class="sr-only" for="searchbox">Search</label>
-               <input type=" 👉 Text" class="form-control" id="searchbox" placeholder="Search &hellip;">
-               <span class="glyphicon glyphicon-search search-icon"></span>
+                <label class="sr-only" for="searchbox">Search</label>
+                <input type=" 👉 Text" class="form-control" id="searchbox" placeholder="Search &hellip;">
+                <span class="glyphicon glyphicon-search search-icon"></span>
             </div>
             <br>
-           
-          
-            
+
+                
+            <!-- example -->
+            <!-- <img src='https://media.giphy.com/media/Byana3FscAMGQ/giphy.gif' class="gif" /> -->
+
+
             <legend id="filter_lengend">Filters</legend>
 
             <!-- Model filter -->
             <button type="button" class="collapsible">Model</button>
             <div class="contents">
-               <div class="well" >
-   
-                  <fieldset id="outline_criteria" >
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                <div class="well">
+
+                    <fieldset id="outline_criteria">
+                        <div id="filter_text" class="checkbox">
+                            <label>
                         <input type="checkbox" value="All" id="all_genre">
                         <span>All</span>
                         </label>
-                     </div>
-                     <h4 id="filter_IS">Vision</h4>
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                        </div>
+                        <h4 id="filter_IS">Vision</h4>
+                        <div id="filter_text" class="checkbox">
+                            <label>
                            <input type="checkbox" value=" 👉 Barcode scanning" >
                            <div class="icon_model">
                               <span>Barcode scanning</span>
                               <img src="https://raw.githubusercontent.com/jasonxsiu/Gallery_filterJS/main/examples/assets/css/images/question_mark.png" title="This model Scan and process barcodes & QR code.">
                               </div>
                            </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-   
-                        <label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+
+                            <label>
                            <input type="checkbox" value=" 👉 Entity extraction" >
                            <div class="icon_model">
                               <span>Entity extraction</span>
                               <img src="https://raw.githubusercontent.com/jasonxsiu/Gallery_filterJS/main/examples/assets/css/images/question_mark.png" title="This model detects and locates entities (such as addresses, date/time, phone numbers, and more) and take action based on those entities.">
                               </div>
                            </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+                            <label>
                            <input type="checkbox" value=" 👉 Face detection" >
                            <div class="icon_model">
                               <span>Face detection</span>
                               <img src="https://raw.githubusercontent.com/jasonxsiu/Gallery_filterJS/main/examples/assets/css/images/question_mark.png" title="This model detect faces and facial features (e.g., lip).">
                               </div>
                            </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-   
-                        <label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+
+                            <label>
                            <input type="checkbox" value=" 👉 Object detection and tracking" >
                            <div class="icon_model">
                               <span>Object detection and <br>tracking</span>
                               <img src="https://raw.githubusercontent.com/jasonxsiu/Gallery_filterJS/main/examples/assets/css/images/question_mark.png" title="This model localises and tracks in real time one or more objects in the live camera feed.">
                               </div>
                            </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+                            <label>
                            <input type="checkbox" value=" 👉 Pose detection" >
                            <div class="icon_model">
                               <span>Pose detection</span>
                               <img src="https://raw.githubusercontent.com/jasonxsiu/Gallery_filterJS/main/examples/assets/css/images/question_mark.png" title="This model detects the position of the human body in real time.">
                               </div>
                            </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-   
-   
-                        <label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+
+
+                            <label>
                            <input type="checkbox" value=" 👉 Selfie segmentation" >
                            <div class="icon_model">
                               <span>Selfie segmentation</span>
                               <img src="https://raw.githubusercontent.com/jasonxsiu/Gallery_filterJS/main/examples/assets/css/images/question_mark.png" title="This model separates the background from users within a scene and focus on what matters.">
                               </div>
                            </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-   
-                        <label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+
+                            <label>
                            <input type="checkbox" value=" 👉 Style transfer" >
                            <div class="icon_model">
                               <span>Style transfer</span>
                               <img src="https://raw.githubusercontent.com/jasonxsiu/Gallery_filterJS/main/examples/assets/css/images/question_mark.png" title="This model composes one image in the style of another image.">
                               </div>
                            </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+                            <label>
                            <input type="checkbox" value=" 👉 Image classification" >
                            <div class="icon_model">
                               <span>Image classification</span>
                               <img src="https://raw.githubusercontent.com/jasonxsiu/Gallery_filterJS/main/examples/assets/css/images/question_mark.png" title="This model identifies objects, locations, activities, animal species, products, and more. It can tailor to a particular use case (e.g., Hotdog or Not?). ">
                               </div>
                            </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-   
-                        <label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+
+                            <label>
                            <input type="checkbox" value=" 👉 Image segmentation" >
                            <div class="icon_model">
                               <span>Image segmentation</span>
                               <img src="https://raw.githubusercontent.com/jasonxsiu/Gallery_filterJS/main/examples/assets/css/images/question_mark.png" title="This model divides the image into different segments.">
                               </div>
                            </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-   
-                        <label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+
+                            <label>
                            <input type="checkbox" value=" 👉 Text prediction" >
                            <div class="icon_model">
                               <span>Text prediction</span>
                               <img src="https://raw.githubusercontent.com/jasonxsiu/Gallery_filterJS/main/examples/assets/css/images/question_mark.png" title="This model anticipates user's next words and suggests words or phrases as user type.">
                               </div>
                            </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+                            <label>
                            <input type="checkbox" value=" 👉 Text recognition" >
                            <div class="icon_model">
                               <span>Text recognition</span>
                               <img src="https://raw.githubusercontent.com/jasonxsiu/Gallery_filterJS/main/examples/assets/css/images/question_mark.png" title="This model recognises and extracts text from images.">
                               </div>
                            </label>
-                     </div>
-                     <h4 id="filter_IS">Audio</h4>
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                        </div>
+                        <h4 id="filter_IS">Audio</h4>
+                        <div id="filter_text" class="checkbox">
+                            <label>
                         <input type="checkbox" value=" 👉 Audio classification" >
                         <div class="icon_model">
                         <span>Audio classification</span>
@@ -189,210 +200,212 @@
       
                         
                         </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+                            <label>
                         <input type="checkbox" value=" 👉 Speech recongnition" >
                         <div class="icon_model">
                            <span>Speech recongnition</span>
                            <img src="https://raw.githubusercontent.com/jasonxsiu/Gallery_filterJS/main/examples/assets/css/images/question_mark.png" title="This model understands the spoken words of the person speaking, and convert them to texts.">
                            </div>
                         </label>
-                     </div>
-                  </fieldset>
-                  <br>
-               </div>
-            </div> 
+                        </div>
+                    </fieldset>
+                    <br>
+                </div>
+            </div>
 
             <!-- interaction style filter -->
             <button type="button" class="collapsible">Interaction Style</button>
             <div class="contents">
-               <div class="well" >
-                  <!-- Interaction Style -->
-                  <fieldset id="certificate_criteria">
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                <div class="well">
+                    <!-- Interaction Style -->
+                    <fieldset id="certificate_criteria">
+                        <div id="filter_text" class="checkbox">
+                            <label>
                         <input type="checkbox" value=" 👉 All" id="all_IS">
                         <span>All</span>
                         </label>
-                     </div>
-   
-                     <div class="icon_model">
-                        <h4 id="filter_IS">No interaction
-                        <img  src="https://raw.githubusercontent.com/jasonxsiu/Gallery_filterJS/main/examples/assets/css/images/question_mark.png" title="When any action is triggered by a user, the app does not respond with any form of communication.">
-                     </h4>
-                     </div>
-   
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                        </div>
+
+                        <div class="icon_model">
+                            <h4 id="filter_IS">No interaction
+                                <img src="https://raw.githubusercontent.com/jasonxsiu/Gallery_filterJS/main/examples/assets/css/images/question_mark.png" title="When any action is triggered by a user, the app does not respond with any form of communication.">
+                            </h4>
+                        </div>
+
+                        <div id="filter_text" class="checkbox">
+                            <label>
                         <input type="checkbox" value=" 👉 Importing files">
                         <span>Import photos</span>
                         </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+                            <label>
                         <input type="checkbox" value=" 👉 No interaction with hardware input">
                         <span>No interaction with hardware input</span>
                         </label>
-                     </div>
-                     <div class="icon_model">
-                        <h4 id="filter_IS">Static interaction
-                        <img  src="https://raw.githubusercontent.com/jasonxsiu/Gallery_filterJS/main/examples/assets/css/images/question_mark.png" title="When using the app, the messages shown to the user will be always the same.">
-                     </h4>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                        </div>
+                        <div class="icon_model">
+                            <h4 id="filter_IS">Static interaction
+                                <img src="https://raw.githubusercontent.com/jasonxsiu/Gallery_filterJS/main/examples/assets/css/images/question_mark.png" title="When using the app, the messages shown to the user will be always the same.">
+                            </h4>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+                            <label>
                         <input type="checkbox" value=" 👉 Pop-up messages">
                         <span>Pop-up messages</span>
                         </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+                            <label>
                         <input type="checkbox" value=" 👉 Vibration">
                         <span>Vibration</span>
                         </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+                            <label>
                         <input type="checkbox" value=" 👉 Auditory feedback (Static)">
                         <span>Auditory feedback (Static)</span>
                         </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+                            <label>
                         <input type="checkbox" value=" 👉 Illustration of correct input">
                         <span>Visual instruction</span>
                         </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+                            <label>
                         <input type="checkbox" value=" 👉 Instruction">
                         <span>Textual instruction</span>
                         </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+                            <label>
                         <input type="checkbox" value=" 👉 Camera frame">
                         <span>Camera frame</span>
                         </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+                            <label>
                         <input type="checkbox" value=" 👉 Flashlight">
                         <span>Flashlight alerts</span>
                         </label>
-                     </div>
-                     <div class="icon_model">
-                        <h4 id="filter_IS">Dynamic interaction
-                        <img  src="https://raw.githubusercontent.com/jasonxsiu/Gallery_filterJS/main/examples/assets/css/images/question_mark.png" title="This is an user-centric form of interaction where the app returns customisable feedback based on the user’s input.">
-                     </h4>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                        </div>
+                        <div class="icon_model">
+                            <h4 id="filter_IS">Dynamic interaction
+                                <img src="https://raw.githubusercontent.com/jasonxsiu/Gallery_filterJS/main/examples/assets/css/images/question_mark.png" title="This is an user-centric form of interaction where the app returns customisable feedback based on the user’s input.">
+                            </h4>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+                            <label>
                         <input type="checkbox" value=" 👉 Text suggestion">
                         <span>Text suggestion</span>
                         </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+                            <label>
                         <input type="checkbox" value=" 👉 Auditory feedback (Dynamic)">
                         <span>Auditory feedback (Dynamic)</span>
                         </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+                            <label>
                         <input type="checkbox" value=" 👉 Auto focusing object">
                         <span>Auto focusing object</span>
                         </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+                            <label>
                         <input type="checkbox" value=" 👉 Object marker">
                         <span>Object marker</span>
                         </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+                            <label>
                         <input type="checkbox" value=" 👉 Photo editor">
                         <span>User personalisation</span>
                         </label>
-                     </div>
-   
-   
-   
-                  </fieldset>
-               </div>
-            </div> 
+                        </div>
 
 
-          
+
+                    </fieldset>
+                </div>
+            </div>
+
+
+
 
 
             <!-- Representation filter -->
             <button type="button" class="collapsible">Representation</button>
             <div class="contents">
-               <div class="well" >
-                  <fieldset id="representation" >
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                <div class="well">
+                    <fieldset id="representation">
+                        <div id="filter_text" class="checkbox">
+                            <label>
                         <input type="checkbox" value="All" id="all_representation">
                         <span>All</span>
                         </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+                            <label>
                         <input type="checkbox" value=" 👉 Visual" >
                         <span>Visual</span>
                         </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+                            <label>
                         <input type="checkbox" value=" 👉 Aural" >
                         <span>Aural</span>
                         </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+                            <label>
                         <input type="checkbox" value=" 👉 Text" >
                         <span>Text</span>
                         </label>
-                     </div>
-                     <div id="filter_text" class="checkbox">
-                        <label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+                            <label>
                         <input type="checkbox" value="Haptic" >
                         <span>Haptic</span>
                         </label>
-                     </div>
-                  </fieldset>
-               </div>
-            </div> 
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
 
-
-         </div>
-         <!-- Representation -->
-         <!-- card -->
-         <div class="col-md-9">
 
          
+        </div>
+        <!-- Representation -->
+        <!-- card -->
+        <div class="col-md-9">
+
+
             &nbsp
 
             <div class="movies content row" id="movies"> </div>
-         </div>
-      </div>
-      <script id="movie-template" type="javascript/html">
+        </div>
+    </div>
+    
+    <script  id="movie-template" type="javascript/html">
 
-         <div class="col-md-4 movie">
-           <div class="thumbnail">
+        <div class="col-md-4 movie">
+            <div class="thumbnail">
 
-             <!-- Start - Elim.1 -->
-             <!-- <span class="label label-success rating">
+                <!-- Start - Elim.1 -->
+                <!-- <span class="label label-success rating">
                <%= rating %>
                <i class="glyphicon glyphicon-star"></i>
              </span> -->
-             <!-- End - Elim.1 -->
+                <!-- End - Elim.1 -->
 
-             <!-- Start - Elim.2 -->
-             <!-- <div class="caption">
+                <!-- Start - Elim.2 -->
+                <!-- <div class="caption">
                <h4><%= _fid %>. <%= name %></h4>
                <div class="outline" id="card_text">
                  <br>
@@ -401,30 +414,30 @@
                  <b>App category :</b> <%= director %>
                  
                </div> -->
-             <!-- End - Elim.1 -->
-
-             
-               <div class="detail">
-                 <dl>
-                   <h4><%= _fid %>. <%= name %></h4> <br>
-
-                   
-                   <img  data-gifffer = <%= year %> style="width: 24.5rem;  display: block;
-                   margin-left: auto;
-                   margin-right: auto;"loading="lazy">
+                <!-- End - Elim.1 -->
 
 
+                <div class="detail">
+                    <dl>
+                        <h4>
+                            <%= _fid %>.
+                                <%= name %>
+                        </h4> <br>
 
-         <!-- 
+
+                        <img data-gifffer=<%=year %> style="width: 24.5rem; display: block; margin-left: auto; margin-right: auto;"loading="lazy">
+
+
+                        <!-- 
                    <dt>Director</dt><dd><%= director %></dd>
                    <dt>Actors</dt>
                    <dd><%= stars %></dt> -->
-                   <!-- <dt>Year</dt> -->
-                   <!-- <dd><%= year %></dd> -->
-                   <br>            
-                   <dd id="card_title">
-                
-                     <button id="button_style" data-title="
+                        <!-- <dt>Year</dt> -->
+                        <!-- <dd><%= year %></dd> -->
+                        <br>
+                        <dd id="card_title">
+
+                            <button id="button_style" data-title="
    ➡ Category of this app: <%= director %>.
 
    ➡ User interactions: <%= certificate %> &#13;&#10; to engage with user. 
@@ -437,48 +450,98 @@
 
                         <%= certificate %> 
                         <%= outline %> 
-                     </button>  
+                     </button>
 
-                   </dd>
-                 </dl>
-               </div>
-             </div>
-           </div>
-       
- 
-           
-      </script>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </script>
 
     <script>
-         window.onload = function() {
-      var gifs = Gifffer();
-      setTimeout( function() {
-         // gifs[0].click(); //will play the first gif
-      }, 1000);
-      }
-    </script>
- 
-    
-      <!-- Animated Collapsibles -->
-      <script>
-         var coll = document.getElementsByClassName("collapsible");
-         var i;
-         
-         for (i = 0; i < coll.length; i++) {
-           coll[i].addEventListener("click", function() {
-             this.classList.toggle("active");
-             var content = this.nextElementSibling;
-             if (content.style.maxHeight){
-               content.style.maxHeight = null;
-             } else {
-               content.style.maxHeight = content.scrollHeight + "px";
-             } 
-           });
-         }
+        var gifElements = document.querySelectorAll('img.gif');
+        console.log( "!!", gifElements)
+            for (var e in gifElements) {
+                var element = gifElements[e];
+
+                if (element.nodeName == 'IMG') {
+
+                    var supergif = new SuperGif({
+                        gif: element,
+                        progressbar_height: 0,
+                        auto_play: false,
+                    });
+
+                    var controlElement = document.createElement("div");
+                    controlElement.className = "gifcontrol loading g" + e;
+
+                    supergif.load((function (controlElement) {
+                        controlElement.className = "gifcontrol paused";
+                        var playing = false;
+                        controlElement.addEventListener("click", function () {
+                            if (playing) {
+                                this.pause();
+                                playing = false;
+                                controlElement.className = "gifcontrol paused";
+                            } else {
+                                this.play();
+                                playing = true;
+                                controlElement.className = "gifcontrol playing";
+                            }
+                        }.bind(this, controlElement));
+
+                    }.bind(supergif))(controlElement));
+
+                    var canvas = supergif.get_canvas();
+                    controlElement.style.width = canvas.width + "px";
+                    controlElement.style.height = canvas.height + "px";
+                    controlElement.style.left = canvas.offsetLeft + "px";
+                    var containerElement = canvas.parentNode;
+                    containerElement.appendChild(controlElement);
+
+                }
+            }
       </script>
-      
-    
 
 
-   </body>
+    <script>
+        window.onload = function() {
+            var gifs = Gifffer();
+            setTimeout(function() {
+                // gifs[0].click(); //will play the first gif
+            }, 1000);
+        }
+    </script>
+
+
+    <!-- Animated Collapsibles -->
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+
+
+
+
+
+</body>
+
 </html>
