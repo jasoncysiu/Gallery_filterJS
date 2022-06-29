@@ -105,13 +105,11 @@ var movies =[
          " 👉 Instruction ",
          " 👉 Camera frame",
          " 👉 Illustration of correct input",
-         " 👉 Vibration",
          " 👉 Importing files"
       ],
       "representation": [
          " 👉 Text",
-         " 👉 Visual",
-         " 👉 Haptic"      ]
+         " 👉 Visual"    ]
    },
    {
       "id": 5,
@@ -3066,7 +3064,56 @@ var movies =[
         "outline": [" 👉 Face detection"," 👉 Face detection"],
         "certificate": [" 👉 Photo editor"," 👉 Pop-up messages"],
         "representation": [" 👉 Visual"," 👉 Text"]
+      },
+      {
+         "id": 138,
+         "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.eraserphoto.cutout.backgroundeditor_ss.gif?raw=true",
+         "pkg_name": "com.eraserphoto.cutout.backgroundeditor",
+         "rating": 5,
+         "runtime": 50,
+         "date": "1974-04-30T10:29:29+05:176",
+         "director": " 👉 Photography",
+         "actor": "Al Pacino",
+         "stars": "Marlon Brando",
+         "name": "Cut And Paste Photo Editor With Background Eraser",
+         "outline": [
+            " 👉 Selfie segmentation"
+         ],
+         "genre": [
+            "Static"
+         ],
+         "certificate": [
+            " 👉 Pop-up messages"        ],
+         "representation": [
+            " 👉 Text"   ]
+      },
+      {
+         "id": 139,
+         "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.eraserphoto.cutout.backgroundeditor_img_seg.gif?raw=true",
+         "pkg_name": "com.eraserphoto.cutout.backgroundeditor",
+         "rating": 5,
+         "runtime": 50,
+         "date": "1974-04-30T10:29:29+05:176",
+         "director": " 👉 Photography",
+         "actor": "Al Pacino",
+         "stars": "Marlon Brando",
+         "name": "Cut And Paste Photo Editor With Background Eraser",
+         "outline": [
+            " 👉 Selfie segmentation"
+         ],
+         "genre": [
+            "Static",
+            "No Interaction"
+         ],
+         "certificate": [
+            " 👉 Pop-up messages",
+            " 👉 Instruction ",
+            " 👉 Illustration of correct input",
+            " 👉 Importing files"
+         ],
+         "representation": [
+            " 👉 Text",
+            " 👉 Visual"    ]
       }
-     
   
  ]
