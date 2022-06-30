@@ -426,7 +426,7 @@
 
 
                         <img data-gifffer=<%=year %> style="width: 24.5rem; display: block; margin-left: auto; margin-right: auto;"loading="lazy">
-
+                        <!-- <img src=<%=year %> style="width: 24.5rem; display: block; margin-left: auto; margin-right: auto;"loading="lazy" class="gif"> -->
 
                         <!-- 
                    <dt>Director</dt><dd><%= director %></dd>
@@ -459,84 +459,58 @@
         </div>
 
 
-
-
-
     </script>
 
     <script>
         var gifElements = document.querySelectorAll('img.gif');
-        console.log( "!!", gifElements)
-            for (var e in gifElements) {
-                var element = gifElements[e];
+        console.log("!!", gifElements)
+        for (var e in gifElements) {
+            var element = gifElements[e];
 
-                if (element.nodeName == 'IMG') {
+            if (element.nodeName == 'IMG') {
 
-                    var supergif = new SuperGif({
-                        gif: element,
-                        progressbar_height: 0,
-                        auto_play: false,
-                    });
+                var supergif = new SuperGif({
+                    gif: element,
+                    progressbar_height: 0,
+                    auto_play: false,
+                });
 
-                    var controlElement = document.createElement("div");
-                    controlElement.className = "gifcontrol loading g" + e;
+                var controlElement = document.createElement("div");
+                controlElement.className = "gifcontrol loading g" + e;
 
-                    supergif.load((function (controlElement) {
-                        controlElement.className = "gifcontrol paused";
-                        var playing = false;
-                        controlElement.addEventListener("click", function () {
-                            if (playing) {
-                                this.pause();
-                                playing = false;
-                                controlElement.className = "gifcontrol paused";
-                            } else {
-                                this.play();
-                                playing = true;
-                                controlElement.className = "gifcontrol playing";
-                            }
-                        }.bind(this, controlElement));
+                supergif.load((function (controlElement) {
+                    controlElement.className = "gifcontrol paused";
+                    var playing = false;
+                    controlElement.addEventListener("click", function () {
+                        if (playing) {
+                            this.pause();
+                            playing = false;
+                            controlElement.className = "gifcontrol paused";
+                        } else {
+                            this.play();
+                            playing = true;
+                            controlElement.className = "gifcontrol playing";
+                        }
+                    }.bind(this, controlElement));
 
-                    }.bind(supergif))(controlElement));
+                }.bind(supergif))(controlElement));
 
-                    var canvas = supergif.get_canvas();
-                    controlElement.style.width = canvas.width + "px";
-                    controlElement.style.height = canvas.height + "px";
-                    controlElement.style.left = canvas.offsetLeft + "px";
-                    var containerElement = canvas.parentNode;
-                    containerElement.appendChild(controlElement);
+                var canvas = supergif.get_canvas();
+                controlElement.style.width = canvas.width + "px";
+                controlElement.style.height = canvas.height + "px";
+                controlElement.style.left = canvas.offsetLeft + "px";
+                var containerElement = canvas.parentNode;
+                containerElement.appendChild(controlElement);
 
-                }
             }
-      </script>
-
-
-    <script>
-        window.onload = function() {
-            var gifs = Gifffer();
-            setTimeout(function() {
-                // gifs[0].click(); //will play the first gif
-            }, 1000);
         }
     </script>
 
+<!-- controlling gif files -->
+<script src="assets/js/gif_stop.js" type="text/javascript"></script>
+<!-- Animated Collapsibles -->
+<script src="assets/js/filter_Animated_Collapsibles.js" type="text/javascript"></script>
 
-    <!-- Animated Collapsibles -->
-    <script>
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
-
-        for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.maxHeight) {
-                    content.style.maxHeight = null;
-                } else {
-                    content.style.maxHeight = content.scrollHeight + "px";
-                }
-            });
-        }
-    </script>
 
 
 

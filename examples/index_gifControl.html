@@ -1,0 +1,166 @@
+<!-- Comment : 
+   
+Trying to change the way of controling the gif
+    refer to this line         document.write(' <script src="assets/js/gif_stop.js" type="text/javascript"><\/script>');
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="assets/scss/gif.css" media="screen" rel="stylesheet" type="text/css">
+
+
+    <link href="assets/css/jquery-ui-1.10.2.custom.min.css" media="screen" rel="stylesheet" type="text/css">
+
+
+    <!-- font -->
+    <link href="http://fonts.cdnfonts.com/css/fontype-rounded" rel="stylesheet">
+    <link href="assets/css/stream.css" media="screen" rel="stylesheet" type="text/css">
+    <script src="assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="assets/js/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
+    <script src="../dist/filter.js" type="text/javascript"></script>
+    <script src="data/movies.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gifffer@1.5.4/build/gifffer.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="assets/js/libgif.js"></script>
+    <script type="text/javascript" src="assets/js/rubbable.js"></script>
+
+</head>
+
+<body id="body_id">
+
+
+    <div class="container">
+        <h1 class="title"></h1>
+
+        <br>
+        <div class="sidebar col-md-3">
+            <div>
+                <h4 class='col-md-6'>Sample (<span id="total_movies">0</span>)</h4>
+                <!-- <div class="col-md-6 progress">
+                  <div class="progress-bar" id="stream_progress" style="width:1 0%;">0%</div>
+               </div> -->
+            </div>
+            <div>
+                <label class="sr-only" for="searchbox">Search</label>
+                <input type=" 👉 Text" class="form-control" id="searchbox" placeholder="Search &hellip;">
+                <span class="glyphicon glyphicon-search search-icon"></span>
+            </div>
+            <br>
+
+
+            <!-- example -->
+            <img src='https://media.giphy.com/media/Byana3FscAMGQ/giphy.gif' class="gif" />
+
+
+            <legend id="filter_lengend">Filters</legend>
+
+
+
+
+
+
+
+            <!-- Representation filter -->
+            <button type="button" class="collapsible">Representation</button>
+            <div class="contents">
+                <div class="well">
+                    <fieldset id="representation">
+                        <div id="filter_text" class="checkbox">
+                            <label>
+                                <input type="checkbox" value="All" id="all_representation">
+                                <span>All</span>
+                            </label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+                            <label>
+                                <input type="checkbox" value=" 👉 Visual">
+                                <span>Visual</span>
+                            </label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+                            <label>
+                                <input type="checkbox" value=" 👉 Aural">
+                                <span>Aural</span>
+                            </label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+                            <label>
+                                <input type="checkbox" value=" 👉 Text">
+                                <span>Text</span>
+                            </label>
+                        </div>
+                        <div id="filter_text" class="checkbox">
+                            <label>
+                                <input type="checkbox" value="Haptic">
+                                <span>Haptic</span>
+                            </label>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+
+
+
+        </div>
+        <!-- Representation -->
+        <!-- card -->
+        <div class="col-md-9">
+
+
+            &nbsp
+
+            <div class="movies content row" id="movies"> </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        document.write('<script  id="movie-template" type="text/javascript" >        <div class="col-md-4 movie">             <div class="thumbnail">                  <!-- Start - Elim.1 -->                 <!-- <span class="label label-success rating">                <%= rating %>                <i class="glyphicon glyphicon-star"></i>              </span> -->                 <!-- End - Elim.1 -->                  <!-- Start - Elim.2 -->                 <!-- <div class="caption">                <h4><%= _fid %>. <%= name %></h4>                <div class="outline" id="card_text">                  <br>                  <b>Model : </b><%= outline %> <br>                  <b>Representation : </b><%= representation %><br>                  <b>App category :</b> <%= director %>                                 </div> -->                 <!-- End - Elim.1 -->                   <div class="detail">                     <dl>                         <h4>                             <%= _fid %>.                                 <%= name %>                         </h4> <br>                           <img data-gifffer=<%= year %> style="width: 24.5rem; display: block; margin-left: auto; margin-right: auto;"loading="lazy">                        <!--   <img src="https://media.giphy.com/media/Byana3FscAMGQ/giphy.gif" style="width: 24.5rem; display: block; margin-left: auto; margin-right: auto;"loading="lazy" class="gif">   -->                       <!--                    <dt>Director</dt><dd><%= director %></dd>                    <dt>Actors</dt>                    <dd><%= stars %></dt> -->                         <!-- <dt>Year</dt> -->                         <!-- <dd><%= year %></dd> -->                         <br>                         <dd id="card_title">                              <button id="button_style" data-title="    ➡ Category of this app: <%= director %>.     ➡ User interactions: <%= certificate %> &#13;&#10; to engage with user.     ➡ AI model:<%= outline %>.     ➡ The information is presented using <%= representation %> element to user.  ">                          <%= certificate %>                         <%= outline %>                      </button>                          </dd>                     </dl>                 </div>             </div>         </div> <\/script>');
+        document.write(' <script src="assets/js/gif_stop.js" type="text/javascript"><\/script>');
+
+    </script>
+
+
+    <script type="text/javascript">
+
+        window.document.write('<script>  console.log("!Hello1")    <\/script>');
+        <script src="assets/js/gif_stop.js" type="text/javascript">console.log("!Run script of gif control");</script>
+
+    </script>
+    <script>
+
+
+
+    </script>
+
+
+    <!-- Animated Collapsibles -->
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+
+
+
+
+
+</body>
+
+</html>
