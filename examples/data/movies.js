@@ -2707,7 +2707,7 @@ var movies =[
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "UChoose",
-        "outline": [" 👉 Entity extraction"," 👉 Entity extraction"],
+        "outline": [" 👉 Entity extraction"],
         "certificate": [" 👉 Text suggestion"," 👉 Camera frame"," 👉 Textual Instruction"," 👉 Pop-up messages"," 👉 Visual Instruction"," 👉 Object sensor"],
         "representation": [" 👉 Visual"," 👉 Text"," 👉 Visual"]
       },
