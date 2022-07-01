@@ -8339,8 +8339,9 @@ h4 {
   z-index: 1;
   display: inline;
   border-radius: 5px;
-  margin-left: -80%;
+  margin-left: -120%;
   opacity: 90%;
+  font-size: smaller;
   /* -webkit-border-radius: .5em; 
   -moz-border-radius: .5em;
   border-radius: 2.6em;

@@ -1115,7 +1115,7 @@ var movies =[
    },
    {
       "id": 42,
-      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.google.android.googlequicksearchbox.gif?raw=true",
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.google.android.googlequicksearchbox_ic.gif?raw=true",
       "pkg_name": "com.google.android.googlequicksearchbox",
       "rating": 5,
       "runtime": 50,
@@ -1125,25 +1125,15 @@ var movies =[
       "stars": "Marlon Brando",
       "name": "Google Quick Search",
       "outline": [
-         " 👉 Image classification",
-         " 👉 Speech recongnition"
-      ],
+         " 👉 Image classification"      ],
       "genre": [
          "Dynamic",
          "No Interaction",
-         "Static"
       ],
       "certificate": [
          " 👉 Auditory feedback (Dynamic)",
-         " 👉 Auto focusing object",
          " 👉 User personalisation",
-         " 👉 User personalisation",
-         " 👉 Importing files",
-         " 👉 Camera frame",
-         " 👉 Visual Instruction",
-         " 👉 Textual Instruction",
-         " 👉 Pop-up messages",
-         " 👉 Text suggestion"
+         " 👉 Importing files"
       ],
       "representation": [
          " 👉 Aural",
@@ -1170,12 +1160,10 @@ var movies =[
          "Dynamic"
       ],
       "certificate": [
-         " 👉 Pop-up messages",
          " 👉 Textual Instruction",
          " 👉 Visual Instruction",
-         " 👉 Vibration",
          " 👉 Text suggestion",
-         " 👉 Auditory feedback (Dynamic)"
+         " 👉 Auditory feedback (Static)",
       ],
       "representation": [
          " 👉 Text",
@@ -1226,13 +1214,9 @@ var movies =[
          "Static"
       ],
       "certificate": [
-         " 👉 Pop-up messages",
-         " 👉 Vibration"
-      ],
+         " 👉 Pop-up messages"      ],
       "representation": [
-         " 👉 Text",
-         " 👉 Haptic"
-      ]
+         " 👉 Text"      ]
    },
    {
       "id": 46,
@@ -1280,6 +1264,7 @@ var movies =[
          "Static"
       ],
       "certificate": [
+         " 👉 Pop-up messages",
          " 👉 Camera frame",
          " 👉 Vibration"
       ],
@@ -1419,7 +1404,6 @@ var movies =[
          " 👉 Textual Instruction",
          " 👉 Visual Instruction",
          " 👉 User personalisation",
-         " 👉 User personalisation",
          " 👉 Auto focusing object"
       ],
       "representation": [
@@ -1446,6 +1430,7 @@ var movies =[
          "Dynamic"
       ],
       "certificate": [
+         " 👉 Visual Instruction",
          " 👉 Pop-up messages",
          " 👉 Textual Instruction",
          " 👉 Camera frame",
@@ -1504,12 +1489,9 @@ var movies =[
          " 👉 Auditory feedback (Static)",
          " 👉 Auto focusing object",
          " 👉 User personalisation",
-         " 👉 User personalisation",
-         " 👉 Pop-up messages",
          " 👉 Textual Instruction",
          " 👉 Camera frame",
-         " 👉 Visual Instruction",
-         " 👉 Vibration"
+         " 👉 Visual Instruction"
       ],
       "representation": [
          " 👉 Text",
@@ -1569,8 +1551,6 @@ var movies =[
          "Dynamic"
       ],
       "certificate": [
-         " 👉 Vibration",
-         " 👉 Auditory feedback (Dynamic)",
          " 👉 Pop-up messages",
          " 👉 Textual Instruction",
          " 👉 Visual Instruction",
@@ -1749,8 +1729,7 @@ var movies =[
       "certificate": [
          " 👉 No interaction with hardware input",
          " 👉 Pop-up messages",
-         " 👉 Textual Instruction",
-         " 👉 Auditory feedback (Dynamic)"
+         " 👉 Textual Instruction"
       ],
       "representation": [
          " 👉 Text",
@@ -1776,11 +1755,9 @@ var movies =[
          "Dynamic"
       ],
       "certificate": [
-         " 👉 Pop-up messages",
          " 👉 Textual Instruction",
          " 👉 Camera frame",
          " 👉 Visual Instruction",
-         " 👉 User personalisation",
          " 👉 Auto focusing object",
          " 👉 Object sensor"
       ],
@@ -1831,7 +1808,8 @@ var movies =[
          "No Interaction"
       ],
       "certificate": [
-         " 👉 Importing files"
+         " 👉 Importing files",
+         " 👉 User personalisation",
       ],
       "representation": [
          " 👉 Text"
@@ -1850,13 +1828,14 @@ var movies =[
       "name": "Bank of hrb",
       "outline": [
          " 👉 Entity extraction",
-         " 👉 Text recognition"
+         " 👉 Face detection"
       ],
       "genre": [
          "Static",
          "Dynamic"
       ],
       "certificate": [
+         " 👉 Visual Instruction",
          " 👉 Textual Instruction",
          " 👉 Camera frame",
          " 👉 Object sensor"
@@ -1914,7 +1893,6 @@ var movies =[
          "Static"
       ],
       "certificate": [
-         " 👉 Pop-up messages",
          " 👉 Camera frame"
       ],
       "representation": [
@@ -1947,7 +1925,7 @@ var movies =[
          " 👉 Visual Instruction",
          " 👉 Vibration",
          " 👉 Auditory feedback",
-         " 👉 User personalisation",
+         " 👉 Text suggestion",
          " 👉 Auto focusing object",
          " 👉 Pop-up messages"
       ],
@@ -1977,12 +1955,10 @@ var movies =[
          "Dynamic"
       ],
       "certificate": [
-         " 👉 Textual Instruction",
          " 👉 Camera frame",
          " 👉 Flashlight",
          " 👉 Vibration",
          " 👉 Auto focusing object",
-         " 👉 Object sensor"
       ],
       "representation": [
          " 👉 Text",
@@ -2009,12 +1985,9 @@ var movies =[
          "Dynamic"
       ],
       "certificate": [
-         " 👉 Textual Instruction",
          " 👉 Camera frame",
          " 👉 Flashlight",
-         " 👉 Vibration",
-         " 👉 Object sensor"
-      ],
+         " 👉 Vibration"      ],
       "representation": [
          " 👉 Text",
          " 👉 Visual",
@@ -2039,8 +2012,7 @@ var movies =[
          "Static"
       ],
       "certificate": [
-         " 👉 Pop-up messages",
-         " 👉 Textual Instruction"
+         " 👉 Pop-up messages"
       ],
       "representation": [
          " 👉 Text"
@@ -2125,8 +2097,7 @@ var movies =[
          "Dynamic"
       ],
       "certificate": [
-         " 👉 Pop-up messages",
-         " 👉 User personalisation"
+         " 👉 Pop-up messages"
       ],
       "representation": [
          " 👉 Text",
@@ -2177,7 +2148,9 @@ var movies =[
     "stars":"Marlon Brando",
     "name":"coins.ph",
     "outline":[" 👉 Entity extraction"],
-    "certificate":[" 👉 Camera frame"," 👉 Textual Instruction"," 👉 Pop-up messages"],
+    "certificate":[" 👉 Camera frame"," 👉 Textual Instruction"," 👉 Pop-up messages",          
+    " 👉 Visual Instruction", " 👉 Text suggestion",
+   ],
     "representation":[" 👉 Visual"," 👉 Text"]
    },
    {
@@ -2207,7 +2180,7 @@ var movies =[
     "stars":"Marlon Brando",
     "name":"coins.ph",
     "outline":[" 👉 Face detection"],
-    "certificate":[" 👉 Camera frame"," 👉 Textual Instruction"," 👉 Pop-up messages"," 👉 Visual Instruction"],
+    "certificate":[" 👉 Text suggestion"," 👉 Camera frame"," 👉 Textual Instruction"," 👉 Pop-up messages"," 👉 Visual Instruction"],
     "representation":[" 👉 Visual"," 👉 Text"]
    },
    {
@@ -2357,7 +2330,7 @@ var movies =[
     "stars":"Marlon Brando",
     "name":"HP Smart",
     "outline":[" 👉 Image segmentation"],
-    "certificate":[" 👉 Pop-up messages"," 👉 User personalisation"," 👉 Textual Instruction"," 👉 Camera frame"," 👉 Auto focusing object"],
+    "certificate":[" 👉 Pop-up messages"," 👉 User personalisation"," 👉 Textual Instruction"," 👉 Auto focusing object"],
     "representation":[" 👉 Text"," 👉 Visual"]
    },
    {
@@ -2373,7 +2346,7 @@ var movies =[
     "name":"HP Smart",
     "outline":[" 👉 Image segmentation"],
     "certificate":[" 👉 Pop-up messages"," 👉 User personalisation"," 👉 Textual Instruction"],
-    "representation":[" 👉 Text"," 👉 Visual"]
+    "representation":[" 👉 Text"," 👉 Visual"," 👉 Auto focusing object"]
    },
    {
     "id": 93,
@@ -2432,7 +2405,7 @@ var movies =[
     "stars":"Marlon Brando",
     "name":"Think Dirty",
     "outline":[" 👉 Barcode scanning"],
-    "certificate":[" 👉 Visual Instruction"," 👉 Camera frame"," 👉 Pop-up messages"," 👉 Textual Instruction"],
+    "certificate":[" 👉 Camera frame"," 👉 Pop-up messages"," 👉 Textual Instruction"],
     "representation":[" 👉 Visual"," 👉 Text"]
    },
    {
@@ -2492,7 +2465,9 @@ var movies =[
     "stars":"Marlon Brando",
     "name":"Invoice Passbook + Unified Invoice Matching Machine - Cloud Invoice Vehicle Return to Home, Collect Trial Points",
     "outline":[" 👉 Barcode scanning"],
-    "certificate":[" 👉 Pop-up messages"," 👉 Textual Instruction"," 👉 Camera frame"," 👉 Auto focusing object"],
+    "certificate":[" 👉 Pop-up messages"," 👉 Textual Instruction"," 👉 Camera frame"," 👉 Auto focusing object",
+    " 👉 Visual Instruction",
+    " 👉 Text suggestion"],
     "representation":[" 👉 Text"," 👉 Visual"]
    },
    {
@@ -2553,7 +2528,7 @@ var movies =[
         "stars": "Marlon Brando",
         "name": "Photos to PDF",
         "outline": [" 👉 Image segmentation"],
-        "certificate": [" 👉 Pop-up messages"],
+        "certificate": [" 👉 Importing files"," 👉 Pop-up messages"],
         "representation": [" 👉 Text"]
       },
       {
@@ -2582,7 +2557,7 @@ var movies =[
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "Bitcoin.com Wallet",
-        "outline": [" 👉 Barcode scanning"," 👉 Barcode scanning"],
+        "outline": [" 👉 Barcode scanning"],
         "certificate": [" 👉 Camera frame"," 👉 Textual Instruction"," 👉 Pop-up messages"," 👉 Visual Instruction"],
         "representation": [" 👉 Visual"," 👉 Text"," 👉 Visual"]
       },
@@ -2613,7 +2588,7 @@ var movies =[
         "stars": "Marlon Brando",
         "name": "Clickworker",
         "outline": [" 👉 Face detection"," 👉 Face detection"],
-        "certificate": [" 👉 Textual Instruction"," 👉 Pop-up messages"," 👉 Auto focusing object"," 👉 User personalisation"],
+        "certificate": [" 👉 Pop-up messages"," 👉 Auto focusing object"," 👉 User personalisation"],
         "representation": [" 👉 Text"," 👉 Text"," 👉 Visual"]
       },
       {
@@ -2627,7 +2602,7 @@ var movies =[
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "Clickworker",
-        "outline": [" 👉 Face detection"," 👉 Face detection"],
+        "outline": [" 👉 Face detection"],
         "certificate": [" 👉 Auto focusing object"," 👉 Pop-up messages"," 👉 User personalisation"],
         "representation": [" 👉 Visual"," 👉 Text"," 👉 Visual"]
       },
@@ -2672,7 +2647,7 @@ var movies =[
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "Love Collage",
-        "outline": [" 👉 Face detection"," 👉 Face detection"],
+        "outline": [" 👉 Face detection"],
         "certificate": [" 👉 Auto focusing object"," 👉 Pop-up messages"," 👉 User personalisation"],
         "representation": [" 👉 Visual"," 👉 Text"," 👉 Visual"]
       },
@@ -2687,8 +2662,8 @@ var movies =[
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "Fotor",
-        "outline": [" 👉 Image segmentation"," 👉 Image segmentation"],
-        "certificate": [" 👉 Importing files"," 👉 Pop-up messages"," 👉 Textual Instruction"," 👉 Visual Instruction"],
+        "outline": [" 👉 Image segmentation"],
+        "certificate": [" 👉 Importing files"," 👉 Pop-up messages"," 👉 Textual Instruction"," 👉 Visual Instruction"," 👉 User personalisation"],
         "representation": [" 👉 Text"," 👉 Text"," 👉 Visual"]
       },
       {
@@ -2718,7 +2693,7 @@ var movies =[
         "stars": "Marlon Brando",
         "name": "Face Truth",
         "outline": [" 👉 Face detection"," 👉 Face detection"],
-        "certificate": [" 👉 Importing files"," 👉 Textual Instruction"," 👉 Pop-up messages"," 👉 Auto focusing object"],
+        "certificate": [" 👉 Importing files"," 👉 Pop-up messages"," 👉 Auto focusing object"],
         "representation": [" 👉 Text"," 👉 Text"," 👉 Visual"]
       },
       {
@@ -2733,7 +2708,7 @@ var movies =[
         "stars": "Marlon Brando",
         "name": "UChoose",
         "outline": [" 👉 Entity extraction"," 👉 Entity extraction"],
-        "certificate": [" 👉 Camera frame"," 👉 Textual Instruction"," 👉 Pop-up messages"," 👉 Visual Instruction"," 👉 Object sensor"],
+        "certificate": [" 👉 Text suggestion"," 👉 Camera frame"," 👉 Textual Instruction"," 👉 Pop-up messages"," 👉 Visual Instruction"," 👉 Object sensor"],
         "representation": [" 👉 Visual"," 👉 Text"," 👉 Visual"]
       },
       {
@@ -2747,7 +2722,7 @@ var movies =[
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "Ncell App",
-        "outline": [" 👉 Entity extraction"," 👉 Entity extraction"],
+        "outline": [" 👉 Entity extraction"],
         "certificate": [" 👉 Textual Instruction"," 👉 Camera frame"],
         "representation": [" 👉 Text"," 👉 Visual"]
       },
@@ -2762,8 +2737,8 @@ var movies =[
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "MeetMe",
-        "outline": [" 👉 Face detection"," 👉 Face detection"],
-        "certificate": [" 👉 Textual Instruction"," 👉 Textual Instruction"," 👉 Pop-up messages"],
+        "outline": [" 👉 Face detection"],
+        "certificate": [" 👉 Textual Instruction", " 👉 Auto focusing object"," 👉 Pop-up messages"," 👉 Visual Instruction"],
         "representation": [" 👉 Text"," 👉 Text"]
       },
       {
@@ -2778,7 +2753,7 @@ var movies =[
         "stars": "Marlon Brando",
         "name": "MeetMe",
         "outline": [" 👉 Face detection"],
-        "certificate": [" 👉 Importing files"],
+        "certificate": [" 👉 Importing files"," 👉 Pop-up messages"],
         "representation": [" 👉 Text"]
       },
       {
@@ -2792,7 +2767,7 @@ var movies =[
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "SuperLive",
-        "outline": [" 👉 Face detection"," 👉 Face detection"],
+        "outline": [" 👉 Face detection"],
         "certificate": [" 👉 Visual Instruction"," 👉 Auto focusing object"," 👉 Textual Instruction"," 👉 User personalisation"],
         "representation": [" 👉 Visual"," 👉 Visual"," 👉 Text"]
       },
@@ -2824,8 +2799,8 @@ var movies =[
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "TroveSkin",
-        "outline": [" 👉 Face detection"," 👉 Face detection"],
-        "certificate": [" 👉 Camera frame"," 👉 Pop-up messages"," 👉 Textual Instruction"," 👉 User personalisation"],
+        "outline": [" 👉 Face detection"],
+        "certificate": [" 👉 Camera frame"," 👉 Pop-up messages"," 👉 Textual Instruction"],
         "representation": [" 👉 Visual"," 👉 Text"," 👉 Visual"]
       },
       {
@@ -2839,8 +2814,8 @@ var movies =[
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "TroveSkin",
-        "outline": [" 👉 Face detection"," 👉 Face detection"],
-        "certificate": [" 👉 Importing files"," 👉 Pop-up messages"],
+        "outline": [" 👉 Face detection"],
+        "certificate": [" 👉 Importing files"],
         "representation": [" 👉 Text"," 👉 Text"]
       },
       {
@@ -2854,7 +2829,7 @@ var movies =[
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "TrulyMadly",
-        "outline": [" 👉 Face detection"," 👉 Face detection"],
+        "outline": [" 👉 Face detection"],
         "certificate": [" 👉 Pop-up messages"," 👉 User personalisation"," 👉 Camera frame"],
         "representation": [" 👉 Text"," 👉 Visual"]
       },
@@ -2884,9 +2859,9 @@ var movies =[
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "SmartBanking",
-        "outline": [" 👉 Entity extraction"," 👉 Entity extraction"," 👉 Face detection"],
-        "certificate": [" 👉 Camera frame"," 👉 Textual Instruction"," 👉 Camera frame"," 👉 Text suggestion"," 👉 User personalisation"," 👉 Auto focusing object"," 👉 Visual Instruction"],
-        "representation": [" 👉 Visual"," 👉 Text"," 👉 Visual"]
+        "outline": [" 👉 Face detection"],
+        "certificate": [" 👉 Camera frame"," 👉 Textual Instruction"," 👉 Object sensor"," 👉 Text suggestion"],
+        "representation": [" 👉 Visual"," 👉 Text"]
       },
       {
         "id": 127,
@@ -2914,7 +2889,7 @@ var movies =[
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "Zoomerang",
-        "outline": [" 👉 Face detection"," 👉 Face detection"],
+        "outline": [" 👉 Face detection"],
         "certificate": [" 👉 Auto focusing object"," 👉 Pop-up messages"," 👉 User personalisation"],
         "representation": [" 👉 Visual"," 👉 Text"," 👉 Visual"]
       },
@@ -2929,8 +2904,8 @@ var movies =[
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "Yochat",
-        "outline": [" 👉 Face detection"," 👉 Face detection"],
-        "certificate": [" 👉 User personalisation"," 👉 Pop-up messages"," 👉 Camera frame"],
+        "outline": [" 👉 Face detection"],
+        "certificate": [" 👉 Auto focusing object"," 👉 Pop-up messages"],
         "representation": [" 👉 Visual"," 👉 Text"," 👉 Visual"]
       },
       {
@@ -2944,8 +2919,8 @@ var movies =[
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "Yochat",
-        "outline": [" 👉 Face detection"," 👉 Face detection"],
-        "certificate": [" 👉 Importing files"," 👉 Pop-up messages"],
+        "outline": [" 👉 Face detection"],
+        "certificate": [" 👉 Importing files"," 👉 User personalisation"],
         "representation": [" 👉 Text"," 👉 Text"]
       },
       {
@@ -2989,7 +2964,7 @@ var movies =[
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "Deliveries",
-        "outline": [" 👉 Barcode scanning"," 👉 Barcode scanning"],
+        "outline": [" 👉 Barcode scanning"],
         "certificate": [" 👉 Pop-up messages"," 👉 Camera frame"],
         "representation": [" 👉 Text"," 👉 Visual"]
       },
@@ -3020,7 +2995,7 @@ var movies =[
         "stars": "Marlon Brando",
         "name": "Look alike",
         "outline": [" 👉 Face detection"],
-        "certificate": [" 👉 Importing files"," 👉 Camera frame"," 👉 Visual Instruction"," 👉 Pop-up messages"," 👉 Auto focusing object"," 👉 Object sensor"],
+        "certificate": [" 👉 Camera frame"," 👉 Visual Instruction"," 👉 Pop-up messages"," 👉 Auto focusing object"," 👉 Object sensor"],
         "representation": [" 👉 Text"," 👉 Visual"," 👉 Text"]
       },
       {
@@ -3034,7 +3009,7 @@ var movies =[
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "Mingle2",
-        "outline": [" 👉 Face detection"," 👉 Face detection"],
+        "outline": [" 👉 Face detection"],
         "certificate": [" 👉 User personalisation"," 👉 Pop-up messages"],
         "representation": [" 👉 Visual"," 👉 Text"]
       },
@@ -3049,7 +3024,7 @@ var movies =[
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "MIXCHANNEL",
-        "outline": [" 👉 Face detection"," 👉 Face detection"],
+        "outline": [" 👉 Face detection"],
         "certificate": [" 👉 User personalisation"," 👉 Pop-up messages"],
         "representation": [" 👉 Visual"," 👉 Text"]
       },
@@ -3186,6 +3161,80 @@ var movies =[
          "representation": [
             " 👉 Text"
          ]
-      },
+      },  {
+         "id": 143,
+         "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.google.android.googlequicksearchbox.gif?raw=true",
+         "pkg_name": "com.google.android.googlequicksearchbox",
+         "rating": 5,
+         "runtime": 50,
+         "date": "1974-04-30T10:29:29+05:228",
+         "director": " 👉 Tools",
+         "actor": "Al Pacino",
+         "stars": "Marlon Brando",
+         "name": "Google Quick Search",
+         "outline": [
+            " 👉 Speech recongnition"
+         ],
+         "genre": [
+            "Dynamic",
+            "Static"
+         ],
+         "certificate": [
+            " 👉 Auditory feedback (Dynamic)",
+            " 👉 Visual Instruction",
+            " 👉 Text suggestion"
+         ],
+         "representation": [
+            " 👉 Aural",
+            " 👉 Visual",
+            " 👉 Text"
+         ]
+      },  {
+      "id": 144,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.google.android.googlequicksearchbox_icSearch.gif?raw=true",
+      "pkg_name": "com.google.android.googlequicksearchbox",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:228",
+      "director": " 👉 Tools",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Google Quick Search",
+      "outline": [
+         " 👉 Image classification",
+      ],
+      "genre": [
+         "Dynamic",
+         "No Interaction",
+         "Static"
+      ],
+      "certificate": [
+         " 👉 Auto focusing object",
+         " 👉 User personalisation",
+         " 👉 Camera frame",
+         " 👉 Visual Instruction",
+         " 👉 Textual Instruction",
+         " 👉 Text suggestion"
+      ],
+      "representation": [
+         " 👉 Visual",
+         " 👉 Text"
+      ]
+   },
+   {
+      "id": 145,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.vnpay.bidv_entity.gif?raw=true",
+      "pkg_name": "com.vnpay.bidv",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:83",
+      "director": " 👉 Finance",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "SmartBanking",
+      "outline": [" 👉 Entity extraction"],
+      "certificate": [ " 👉 Pop-up messages"," 👉 Camera frame"," 👉 Textual Instruction"],
+      "representation": [" 👉 Visual"," 👉 Text"," 👉 Visual"]
+    }
   
  ]
