@@ -13,7 +13,6 @@
   
   [] Modified to the name of the app, instead of package name
   [] Color of the tag
-
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -92,17 +91,16 @@
                               </div>
                            </label>
                         </div>
-                        <!-- Entity extraction -->
-                        <!-- <div id="filter_text" class="checkbox">
+                        <div id="filter_text" class="checkbox">
 
                             <label>
                            <input type="checkbox" value=" 👉 Entity extraction" >
                            <div class="icon_model">
-                              <span>ID Document classification</span>
-                              <img src="https://raw.githubusercontent.com/jasonxsiu/Gallery_filterJS/main/examples/assets/css/images/question_mark.png" title="This model detects and identify documents, such as personal identity cards, driving licenses, passports, and residence permits.">
+                              <span>Entity extraction</span>
+                              <img src="https://raw.githubusercontent.com/jasonxsiu/Gallery_filterJS/main/examples/assets/css/images/question_mark.png" title="This model detects and locates entities (such as addresses, date/time, phone numbers, and more) and take action based on those entities.">
                               </div>
                            </label>
-                        </div> -->
+                        </div>
                         <div id="filter_text" class="checkbox">
                             <label>
                            <input type="checkbox" value=" 👉 Face detection" >
@@ -202,6 +200,15 @@
                         
                         </label>
                         </div>
+                        <div id="filter_text" class="checkbox">
+                            <label>
+                        <input type="checkbox" value=" 👉 Speech recongnition" >
+                        <div class="icon_model">
+                           <span>Speech recongnition</span>
+                           <img src="https://raw.githubusercontent.com/jasonxsiu/Gallery_filterJS/main/examples/assets/css/images/question_mark.png" title="This model understands the spoken words of the person speaking, and convert them to texts.">
+                           </div>
+                        </label>
+                        </div>
                     </fieldset>
                     <br>
                 </div>
@@ -269,7 +276,7 @@
                         </div>
                         <div id="filter_text" class="checkbox">
                             <label>
-                        <input type="checkbox" value=" 👉 Instruction">
+                        <input type="checkbox" value=" 👉 Textual Instruction"                        >
                         <span>Textual instruction</span>
                         </label>
                         </div>
@@ -320,6 +327,9 @@
                         <span>User personalisation</span>
                         </label>
                         </div>
+
+
+
                     </fieldset>
                 </div>
             </div>
@@ -429,13 +439,9 @@
 
                             <button id="button_style" data-title="
    ➡ Category of this app: <%= director %>.
-
    ➡ User interactions: <%= certificate %> &#13;&#10; to engage with user. 
-
    ➡ AI model:<%= outline %>.
-
    ➡ The information is presented using <%= representation %> element to user. 
-
 ">
 
                         <%= certificate %> 
