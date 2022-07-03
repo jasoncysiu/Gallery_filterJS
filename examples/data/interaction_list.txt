@@ -1,0 +1,10 @@
+         " 👉 Auto focusing object",
+         " 👉 User personalisation"    
+		          " 👉 Camera frame",
+         " 👉 Pop-up messages",
+         " 👉 Textual Instruction",
+         " 👉 Camera frame",
+         " 👉 Visual Instruction",
+         " 👉 Importing files"
+		          " 👉 Auditory feedback (Static)"
+         " 👉 No interaction with hardware input"

@@ -1,4 +1,4 @@
-var movies =[
+var movies = [
    {
       "id": 1,
       "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.cut.cutout.photo.background.editor.gif?raw=true",
@@ -25,7 +25,7 @@ var movies =[
       ],
       "representation": [
          " 👉 Text",
-         " 👉 Visual"      ]
+         " 👉 Visual"]
    },
    {
       "id": 2,
@@ -40,13 +40,13 @@ var movies =[
       "name": "YouCam Makeup - Selfie Editor",
       "outline": [
          " 👉 Face detection",
-         " 👉 Selfie segmentation"      ],
+         " 👉 Selfie segmentation"],
       "genre": [
          "Dynamic"
       ],
       "certificate": [
          " 👉 Auto focusing object",
-         " 👉 User personalisation"      ],
+         " 👉 User personalisation"],
       "representation": [
          " 👉 Visual"
       ]
@@ -107,7 +107,7 @@ var movies =[
       ],
       "representation": [
          " 👉 Text",
-         " 👉 Visual"    ]
+         " 👉 Visual"]
    },
    {
       "id": 5,
@@ -207,7 +207,7 @@ var movies =[
          " 👉 Textual Instruction",
          " 👉 Camera frame",
          " 👉 Object sensor",
-		 " 👉 Pop-up messages",
+         " 👉 Pop-up messages",
          " 👉 Vibration"
       ],
       "representation": [
@@ -313,7 +313,7 @@ var movies =[
       "certificate": [
          " 👉 Importing files",
          " 👉 Textual Instruction",
-		 " 👉 Visualisation Instruction "
+         " 👉 Visualisation Instruction "
 
       ],
       "representation": [
@@ -669,7 +669,7 @@ var movies =[
       "certificate": [
          " 👉 Auto focusing object",
          " 👉 Textual Instruction"
-     ],
+      ],
       "representation": [
          " 👉 Visual",
          " 👉 Text"
@@ -697,7 +697,7 @@ var movies =[
          " 👉 Auto focusing object",
          " 👉 Pop-up messages",
          " 👉 Textual Instruction"
-          ],
+      ],
       "representation": [
          " 👉 Visual",
          " 👉 Text",
@@ -883,13 +883,13 @@ var movies =[
       "stars": "Marlon Brando",
       "name": "GEICO Mobile - Car Insurance",
       "outline": [
-         " 👉 Image classification"      ],
+         " 👉 Image classification"],
       "genre": [
          "Static",
-         "Dynamic"      ],
+         "Dynamic"],
       "certificate": [
          " 👉 Auditory feedback (Dynamic)",
-         " 👉 Auto focusing object"   ,
+         " 👉 Auto focusing object",
          " 👉 Pop-up messages"
       ],
       "representation": [
@@ -1050,13 +1050,13 @@ var movies =[
          " 👉 Auto focusing object",
          " 👉 User personalisation",
          " 👉 Text suggestion",
-         " 👉 Textual Instruction",     
-         " 👉 Object sensor",             
+         " 👉 Textual Instruction",
+         " 👉 Object sensor",
          " 👉 Visual Instruction"
 
       ],
       "representation": [
-         " 👉 Visual",          " 👉 Text"
+         " 👉 Visual", " 👉 Text"
       ]
    },
    {
@@ -1125,7 +1125,7 @@ var movies =[
       "stars": "Marlon Brando",
       "name": "Google Quick Search",
       "outline": [
-         " 👉 Image classification"      ],
+         " 👉 Image classification"],
       "genre": [
          "Dynamic",
          "No Interaction",
@@ -1214,9 +1214,9 @@ var movies =[
          "Static"
       ],
       "certificate": [
-         " 👉 Pop-up messages"      ],
+         " 👉 Pop-up messages"],
       "representation": [
-         " 👉 Text"      ]
+         " 👉 Text"]
    },
    {
       "id": 46,
@@ -1555,7 +1555,7 @@ var movies =[
          " 👉 Textual Instruction",
          " 👉 Visual Instruction",
          " 👉 Auditory feedback (Static)"
-            ],
+      ],
       "representation": [
          " 👉 Haptic",
          " 👉 Aural",
@@ -1987,7 +1987,7 @@ var movies =[
       "certificate": [
          " 👉 Camera frame",
          " 👉 Flashlight",
-         " 👉 Vibration"      ],
+         " 👉 Vibration"],
       "representation": [
          " 👉 Text",
          " 👉 Visual",
@@ -2104,371 +2104,371 @@ var movies =[
          " 👉 Visual"
       ]
    },
- 
-   
-  {
-    "id": 77,
-    "year":"https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/asia.coins.mobile_BC_import.gif?raw=true",
-    "pkg_name":"asia.coins.mobile",
-    "rating": 5,
-    "runtime": 50,
-    "date":"1974-04-30T10:29:29+05:35",
-    "director":"Finance",
-    "actor":"Al Pacino",
-    "stars":"Marlon Brando",
-    "name":"coins.ph",
-    "outline":[" 👉 Barcode scanning"],
-    "certificate":[" 👉 Camera frame"," 👉 Textual Instruction"," 👉 Pop-up messages"],
-    "representation":[" 👉 Visual"," 👉 Text"]
+
+
+   {
+      "id": 77,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/asia.coins.mobile_BC_import.gif?raw=true",
+      "pkg_name": "asia.coins.mobile",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:35",
+      "director": "Finance",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "coins.ph",
+      "outline": [" 👉 Barcode scanning"],
+      "certificate": [" 👉 Camera frame", " 👉 Textual Instruction", " 👉 Pop-up messages"],
+      "representation": [" 👉 Visual", " 👉 Text"]
    },
    {
-    "id": 78,
-    "year":"https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/asia.coins.mobile_BC_import.gif?raw=true",
-    "pkg_name":"asia.coins.mobile",
-    "rating": 5,
-    "runtime": 50,
-    "date":"1974-04-30T10:29:29+05:34",
-    "director":"Finance",
-    "actor":"Al Pacino",
-    "stars":"Marlon Brando",
-    "name":"coins.ph",
-    "outline":[" 👉 Barcode scanning"],
-    "certificate":[" 👉 Importing files"],
-    "representation":[" 👉 Text"]
+      "id": 78,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/asia.coins.mobile_BC_import.gif?raw=true",
+      "pkg_name": "asia.coins.mobile",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:34",
+      "director": "Finance",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "coins.ph",
+      "outline": [" 👉 Barcode scanning"],
+      "certificate": [" 👉 Importing files"],
+      "representation": [" 👉 Text"]
    },
    {
-    "id": 79,
-    "year":"https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/asia.coins.mobile_EE.gif?raw=true",
-    "pkg_name":"asia.coins.mobile",
-    "rating": 5,
-    "runtime": 50,
-    "date":"1974-04-30T10:29:29+05:39",
-    "director":"Finance",
-    "actor":"Al Pacino",
-    "stars":"Marlon Brando",
-    "name":"coins.ph",
-    "outline":[" 👉 Entity extraction"],
-    "certificate":[" 👉 Camera frame"," 👉 Textual Instruction"," 👉 Pop-up messages",          
-    " 👉 Visual Instruction", " 👉 Text suggestion",
-   ],
-    "representation":[" 👉 Visual"," 👉 Text"]
+      "id": 79,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/asia.coins.mobile_EE.gif?raw=true",
+      "pkg_name": "asia.coins.mobile",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:39",
+      "director": "Finance",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "coins.ph",
+      "outline": [" 👉 Entity extraction"],
+      "certificate": [" 👉 Camera frame", " 👉 Textual Instruction", " 👉 Pop-up messages",
+         " 👉 Visual Instruction", " 👉 Text suggestion",
+      ],
+      "representation": [" 👉 Visual", " 👉 Text"]
    },
    {
-    "id": 80,
-    "year":"https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/asia.coins.mobile_EE_import.gif?raw=true",
-    "pkg_name":"asia.coins.mobile",
-    "rating": 5,
-    "runtime": 50,
-    "date":"1974-04-30T10:29:29+05:38",
-    "director":"Finance",
-    "actor":"Al Pacino",
-    "stars":"Marlon Brando",
-    "name":"coins.ph",
-    "outline":[" 👉 Entity extraction"],
-    "certificate":[" 👉 Importing files"],
-    "representation":[" 👉 Text"]
+      "id": 80,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/asia.coins.mobile_EE_import.gif?raw=true",
+      "pkg_name": "asia.coins.mobile",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:38",
+      "director": "Finance",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "coins.ph",
+      "outline": [" 👉 Entity extraction"],
+      "certificate": [" 👉 Importing files"],
+      "representation": [" 👉 Text"]
    },
    {
-    "id": 81,
-    "year":"https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/asia.coins.mobile_FD.gif?raw=true",
-    "pkg_name":"asia.coins.mobile",
-    "rating": 5,
-    "runtime": 50,
-    "date":"1974-04-30T10:29:29+05:30",
-    "director":"Finance",
-    "actor":"Al Pacino",
-    "stars":"Marlon Brando",
-    "name":"coins.ph",
-    "outline":[" 👉 Face detection"],
-    "certificate":[" 👉 Text suggestion"," 👉 Camera frame"," 👉 Textual Instruction"," 👉 Pop-up messages"," 👉 Visual Instruction"],
-    "representation":[" 👉 Visual"," 👉 Text"]
+      "id": 81,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/asia.coins.mobile_FD.gif?raw=true",
+      "pkg_name": "asia.coins.mobile",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:30",
+      "director": "Finance",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "coins.ph",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 Text suggestion", " 👉 Camera frame", " 👉 Textual Instruction", " 👉 Pop-up messages", " 👉 Visual Instruction"],
+      "representation": [" 👉 Visual", " 👉 Text"]
    },
    {
-    "id": 82,
-    "year":"https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.cyberlink.youcammakeup.gif?raw=true",
-    "pkg_name":"com.cyberlink.youcammakeup",
-    "rating": 5,
-    "runtime": 50,
-    "date":"1974-04-30T10:29:29+05:90",
-    "director":"Photography",
-    "actor":"Al Pacino",
-    "stars":"Marlon Brando",
-    "name":"YouCam Makeup",
-    "outline":[" 👉 Face detection"],
-    "certificate":[" 👉 Text suggestion"," 👉 Camera frame"," 👉 Textual Instruction"," 👉 Pop-up messages"," 👉 Visual Instruction"],
-    "representation":[" 👉 Visual"," 👉 Text"]
+      "id": 82,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.cyberlink.youcammakeup.gif?raw=true",
+      "pkg_name": "com.cyberlink.youcammakeup",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:90",
+      "director": "Photography",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "YouCam Makeup",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 Text suggestion", " 👉 Camera frame", " 👉 Textual Instruction", " 👉 Pop-up messages", " 👉 Visual Instruction"],
+      "representation": [" 👉 Visual", " 👉 Text"]
    },
    {
-    "id": 83,
-    "year":"https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.ebay.mobile.gif?raw=true",
-    "pkg_name":"com.ebay.mobile",
-    "rating": 5,
-    "runtime": 50,
-    "date":"1974-04-30T10:29:29+05:54",
-    "director":"Shopping",
-    "actor":"Al Pacino",
-    "stars":"Marlon Brando",
-    "name":"eBay",
-    "outline":[" 👉 Barcode scanning"],
-    "certificate":[" 👉 Camera frame"," 👉 Auditory feedback (Static)"," 👉 Textual Instruction"," 👉 Pop-up messages"],
-    "representation":[" 👉 Visual"," 👉 Aural"," 👉 Text"]
+      "id": 83,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.ebay.mobile.gif?raw=true",
+      "pkg_name": "com.ebay.mobile",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:54",
+      "director": "Shopping",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "eBay",
+      "outline": [" 👉 Barcode scanning"],
+      "certificate": [" 👉 Camera frame", " 👉 Auditory feedback (Static)", " 👉 Textual Instruction", " 👉 Pop-up messages"],
+      "representation": [" 👉 Visual", " 👉 Aural", " 👉 Text"]
    },
    {
-    "id": 84,
-    "year":"https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.google.android.apps.village.boond_IC.gif?raw=true",
-    "pkg_name":"com.google.android.apps.village.boond",
-    "rating": 5,
-    "runtime": 50,
-    "date":"1974-04-30T10:29:29+05:42",
-    "director":"Productivity",
-    "actor":"Al Pacino",
-    "stars":"Marlon Brando",
-    "name":"Crowdsource",
-    "outline":[" 👉 Image classification"],
-    "certificate":[" 👉 Pop-up messages"],
-    "representation":[" 👉 Text"]
+      "id": 84,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.google.android.apps.village.boond_IC.gif?raw=true",
+      "pkg_name": "com.google.android.apps.village.boond",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:42",
+      "director": "Productivity",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Crowdsource",
+      "outline": [" 👉 Image classification"],
+      "certificate": [" 👉 Pop-up messages"],
+      "representation": [" 👉 Text"]
    },
    {
-    "id": 85,
-    "year":"https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.google.android.apps.village.boond_ic_lab.gif?raw=true",
-    "pkg_name":"com.google.android.apps.village.boond",
-    "rating": 5,
-    "runtime": 50,
-    "date":"1974-04-30T10:29:29+05:44",
-    "director":"Productivity",
-    "actor":"Al Pacino",
-    "stars":"Marlon Brando",
-    "name":"Crowdsource",
-    "outline":[" 👉 Image classification"],
-    "certificate":[" 👉 Textual Instruction"," 👉 Pop-up messages"," 👉 Visual Instruction"," 👉 Importing files"],
-    "representation":[" 👉 Text"," 👉 Visual"]
+      "id": 85,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.google.android.apps.village.boond_ic_lab.gif?raw=true",
+      "pkg_name": "com.google.android.apps.village.boond",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:44",
+      "director": "Productivity",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Crowdsource",
+      "outline": [" 👉 Image classification"],
+      "certificate": [" 👉 Textual Instruction", " 👉 Pop-up messages", " 👉 Visual Instruction", " 👉 Importing files"],
+      "representation": [" 👉 Text", " 👉 Visual"]
    },
    {
-    "id": 86,
-    "year":"https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.google.android.apps.village.boond_od.gif?raw=true",
-    "pkg_name":"com.google.android.apps.village.boond",
-    "rating": 5,
-    "runtime": 50,
-    "date":"1974-04-30T10:29:29+05:48",
-    "director":"Productivity",
-    "actor":"Al Pacino",
-    "stars":"Marlon Brando",
-    "name":"Crowdsource",
-    "outline":[" 👉 Object detection and tracking"],
-    "certificate":[" 👉 Pop-up messages"," 👉 Visual Instruction"," 👉 User personalisation"," 👉 Auto focusing object"],
-    "representation":[" 👉 Text"," 👉 Visual"]
+      "id": 86,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.google.android.apps.village.boond_od.gif?raw=true",
+      "pkg_name": "com.google.android.apps.village.boond",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:48",
+      "director": "Productivity",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Crowdsource",
+      "outline": [" 👉 Object detection and tracking"],
+      "certificate": [" 👉 Pop-up messages", " 👉 Visual Instruction", " 👉 User personalisation", " 👉 Auto focusing object"],
+      "representation": [" 👉 Text", " 👉 Visual"]
    },
    {
-    "id": 87,
-    "year":"https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.google.android.apps.village.boond_od_import.gif?raw=true",
-    "pkg_name":"com.google.android.apps.village.boond",
-    "rating": 5,
-    "runtime": 50,
-    "date":"1974-04-30T10:29:29+05:47",
-    "director":"Productivity",
-    "actor":"Al Pacino",
-    "stars":"Marlon Brando",
-    "name":"Crowdsource",
-    "outline":[" 👉 Object detection and tracking"],
-    "certificate":[" 👉 Textual Instruction"," 👉 Importing files"],
-    "representation":[" 👉 Text"]
+      "id": 87,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.google.android.apps.village.boond_od_import.gif?raw=true",
+      "pkg_name": "com.google.android.apps.village.boond",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:47",
+      "director": "Productivity",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Crowdsource",
+      "outline": [" 👉 Object detection and tracking"],
+      "certificate": [" 👉 Textual Instruction", " 👉 Importing files"],
+      "representation": [" 👉 Text"]
    },
    {
-    "id": 88,
-    "year":"https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.google.android.apps.village.boond_SR.gif?raw=true",
-    "pkg_name":"com.google.android.apps.village.boond",
-    "rating": 5,
-    "runtime": 50,
-    "date":"1974-04-30T10:29:29+05:43",
-    "director":"Productivity",
-    "actor":"Al Pacino",
-    "stars":"Marlon Brando",
-    "name":"Crowdsource",
-    "outline":[" 👉 Speech recongnition"],
-    "certificate":[" 👉 Auditory feedback (Static)"],
-    "representation":[" 👉 Aural"]
+      "id": 88,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.google.android.apps.village.boond_SR.gif?raw=true",
+      "pkg_name": "com.google.android.apps.village.boond",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:43",
+      "director": "Productivity",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Crowdsource",
+      "outline": [" 👉 Speech recongnition"],
+      "certificate": [" 👉 Auditory feedback (Static)"],
+      "representation": [" 👉 Aural"]
    },
    {
-    "id": 89,
-    "year":"https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.hawsoft.mobile.ocrtrans.gif?raw=true",
-    "pkg_name":"com.hawsoft.mobile.ocrtrans",
-    "rating": 5,
-    "runtime": 50,
-    "date":"1974-04-30T10:29:29+05:78",
-    "director":"Productivity",
-    "actor":"Al Pacino",
-    "stars":"Marlon Brando",
-    "name":"Photo Translator",
-    "outline":[" 👉 Image segmentation"],
-    "certificate":[" 👉 Textual Instruction"," 👉 Pop-up messages"," 👉 User personalisation"],
-    "representation":[" 👉 Text"," 👉 Visual"]
+      "id": 89,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.hawsoft.mobile.ocrtrans.gif?raw=true",
+      "pkg_name": "com.hawsoft.mobile.ocrtrans",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:78",
+      "director": "Productivity",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Photo Translator",
+      "outline": [" 👉 Image segmentation"],
+      "certificate": [" 👉 Textual Instruction", " 👉 Pop-up messages", " 👉 User personalisation"],
+      "representation": [" 👉 Text", " 👉 Visual"]
    },
    {
-    "id": 90,
-    "year":"https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.hawsoft.mobile.ocrtrans_import.gif?raw=true",
-    "pkg_name":"com.hawsoft.mobile.ocrtrans",
-    "rating": 5,
-    "runtime": 50,
-    "date":"1974-04-30T10:29:29+05:82",
-    "director":"Productivity",
-    "actor":"Al Pacino",
-    "stars":"Marlon Brando",
-    "name":"",
-    "outline":[" 👉 Image segmentation"],
-    "certificate":[" 👉 Importing files"," 👉 User personalisation"],
-    "representation":[" 👉 Text"," 👉 Visual"]
+      "id": 90,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.hawsoft.mobile.ocrtrans_import.gif?raw=true",
+      "pkg_name": "com.hawsoft.mobile.ocrtrans",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:82",
+      "director": "Productivity",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "",
+      "outline": [" 👉 Image segmentation"],
+      "certificate": [" 👉 Importing files", " 👉 User personalisation"],
+      "representation": [" 👉 Text", " 👉 Visual"]
    },
    {
-    "id": 91,
-    "year":"https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.hp.printercontrol_multiPage.gif?raw=true",
-    "pkg_name":"com.hp.printercontrol",
-    "rating": 5,
-    "runtime": 50,
-    "date":"1974-04-30T10:29:29+05:72",
-    "director":"Productivity",
-    "actor":"Al Pacino",
-    "stars":"Marlon Brando",
-    "name":"HP Smart",
-    "outline":[" 👉 Image segmentation"],
-    "certificate":[" 👉 Pop-up messages"," 👉 User personalisation"," 👉 Textual Instruction"," 👉 Auto focusing object"],
-    "representation":[" 👉 Text"," 👉 Visual"]
+      "id": 91,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.hp.printercontrol_multiPage.gif?raw=true",
+      "pkg_name": "com.hp.printercontrol",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:72",
+      "director": "Productivity",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "HP Smart",
+      "outline": [" 👉 Image segmentation"],
+      "certificate": [" 👉 Pop-up messages", " 👉 User personalisation", " 👉 Textual Instruction", " 👉 Auto focusing object"],
+      "representation": [" 👉 Text", " 👉 Visual"]
    },
    {
-    "id": 92,
-    "year":"https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.hp.printercontrol_singlePage.gif?raw=true",
-    "pkg_name":"com.hp.printercontrol",
-    "rating": 5,
-    "runtime": 50,
-    "date":"1974-04-30T10:29:29+05:69",
-    "director":"Productivity",
-    "actor":"Al Pacino",
-    "stars":"Marlon Brando",
-    "name":"HP Smart",
-    "outline":[" 👉 Image segmentation"],
-    "certificate":[" 👉 Pop-up messages"," 👉 User personalisation"," 👉 Textual Instruction"],
-    "representation":[" 👉 Text"," 👉 Visual"," 👉 Auto focusing object"]
+      "id": 92,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.hp.printercontrol_singlePage.gif?raw=true",
+      "pkg_name": "com.hp.printercontrol",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:69",
+      "director": "Productivity",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "HP Smart",
+      "outline": [" 👉 Image segmentation"],
+      "certificate": [" 👉 Pop-up messages", " 👉 User personalisation", " 👉 Textual Instruction"],
+      "representation": [" 👉 Text", " 👉 Visual", " 👉 Auto focusing object"]
    },
    {
-    "id": 93,
-    "year":"https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.lyrebirdstudio.facelab.gif?raw=true",
-    "pkg_name":"com.lyrebirdstudio.facelab",
-    "rating": 5,
-    "runtime": 50,
-    "date":"1974-04-30T10:29:29+05:59",
-    "director":"Photography",
-    "actor":"Al Pacino",
-    "stars":"Marlon Brando",
-    "name":"FaceLab",
-    "outline":[" 👉 Face detection"],
-    "certificate":[" 👉 Camera frame"," 👉 Textual Instruction"," 👉 Pop-up messages"," 👉 Visual Instruction"," 👉 User personalisation"],
-    "representation":[" 👉 Visual"," 👉 Text"]
+      "id": 93,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.lyrebirdstudio.facelab.gif?raw=true",
+      "pkg_name": "com.lyrebirdstudio.facelab",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:59",
+      "director": "Photography",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "FaceLab",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 Camera frame", " 👉 Textual Instruction", " 👉 Pop-up messages", " 👉 Visual Instruction", " 👉 User personalisation"],
+      "representation": [" 👉 Visual", " 👉 Text"]
    },
    {
-    "id": 94,
-    "year":"https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.lyrebirdstudio.facelab_import.gif?raw=true",
-    "pkg_name":"com.lyrebirdstudio.facelab",
-    "rating": 5,
-    "runtime": 50,
-    "date":"1974-04-30T10:29:29+05:58",
-    "director":"Photography",
-    "actor":"Al Pacino",
-    "stars":"Marlon Brando",
-    "name":"FaceLab",
-    "outline":[" 👉 Face detection"],
-    "certificate":[" 👉 Importing files"],
-    "representation":[" 👉 Text"]
+      "id": 94,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.lyrebirdstudio.facelab_import.gif?raw=true",
+      "pkg_name": "com.lyrebirdstudio.facelab",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:58",
+      "director": "Photography",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "FaceLab",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 Importing files"],
+      "representation": [" 👉 Text"]
    },
    {
-    "id": 95,
-    "year":"https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.selfie.phone11.camera.ios13.icamera.gif?raw=true",
-    "pkg_name":"com.selfie.phone11.camera.ios13.icamera",
-    "rating": 5,
-    "runtime": 50,
-    "date":"1974-04-30T10:29:29+05:77",
-    "director":"Photography",
-    "actor":"Al Pacino",
-    "stars":"Marlon Brando",
-    "name":"iCamera",
-    "outline":[" 👉 Face detection"],
-    "certificate":[" 👉 Auto focusing object"],
-    "representation":[" 👉 Visual"]
+      "id": 95,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.selfie.phone11.camera.ios13.icamera.gif?raw=true",
+      "pkg_name": "com.selfie.phone11.camera.ios13.icamera",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:77",
+      "director": "Photography",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "iCamera",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 Auto focusing object"],
+      "representation": [" 👉 Visual"]
    },
    {
-    "id": 96,
-    "year":"https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.thinkdirty.thinkdirtyapp.gif?raw=true",
-    "pkg_name":"com.thinkdirty.thinkdirtyapp",
-    "rating": 5,
-    "runtime": 50,
-    "date":"1974-04-30T10:29:29+05:86",
-    "director":"Shopping",
-    "actor":"Al Pacino",
-    "stars":"Marlon Brando",
-    "name":"Think Dirty",
-    "outline":[" 👉 Barcode scanning"],
-    "certificate":[" 👉 Camera frame"," 👉 Pop-up messages"," 👉 Textual Instruction"],
-    "representation":[" 👉 Visual"," 👉 Text"]
+      "id": 96,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.thinkdirty.thinkdirtyapp.gif?raw=true",
+      "pkg_name": "com.thinkdirty.thinkdirtyapp",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:86",
+      "director": "Shopping",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Think Dirty",
+      "outline": [" 👉 Barcode scanning"],
+      "certificate": [" 👉 Camera frame", " 👉 Pop-up messages", " 👉 Textual Instruction"],
+      "representation": [" 👉 Visual", " 👉 Text"]
    },
    {
-    "id": 97,
-    "year":"https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.wf.funlab.gif?raw=true",
-    "pkg_name":"com.wf.funlab",
-    "rating": 5,
-    "runtime": 50,
-    "date":"1974-04-30T10:29:29+05:64",
-    "director":"Photography",
-    "actor":"Al Pacino",
-    "stars":"Marlon Brando",
-    "name":"FunLab",
-    "outline":[" 👉 Face detection"],
-    "certificate":[" 👉 Camera frame"," 👉 Textual Instruction"," 👉 Pop-up messages"," 👉 Visual Instruction"],
-    "representation":[" 👉 Visual"," 👉 Text"]
+      "id": 97,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.wf.funlab.gif?raw=true",
+      "pkg_name": "com.wf.funlab",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:64",
+      "director": "Photography",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "FunLab",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 Camera frame", " 👉 Textual Instruction", " 👉 Pop-up messages", " 👉 Visual Instruction"],
+      "representation": [" 👉 Visual", " 👉 Text"]
    },
    {
-    "id": 98,
-    "year":"https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.wf.funlab_import.gif?raw=true",
-    "pkg_name":"com.wf.funlab",
-    "rating": 5,
-    "runtime": 50,
-    "date":"1974-04-30T10:29:29+05:68",
-    "director":"Photography",
-    "actor":"Al Pacino",
-    "stars":"Marlon Brando",
-    "name":"FunLab",
-    "outline":[" 👉 Face detection"],
-    "certificate":[" 👉 Importing files"],
-    "representation":[" 👉 Text"]
+      "id": 98,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.wf.funlab_import.gif?raw=true",
+      "pkg_name": "com.wf.funlab",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:68",
+      "director": "Photography",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "FunLab",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 Importing files"],
+      "representation": [" 👉 Text"]
    },
    {
-    "id": 99,
-    "year":"https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.zzkko.gif?raw=true",
-    "pkg_name":"com.zzkko",
-    "rating": 5,
-    "runtime": 50,
-    "date":"1974-04-30T10:29:29+05:84",
-    "director":"Shopping",
-    "actor":"Al Pacino",
-    "stars":"Marlon Brando",
-    "name":"SHEIN",
-    "outline":[" 👉 Image classification"],
-    "certificate":[" 👉 Pop-up messages"," 👉 Importing files"],
-    "representation":[" 👉 Text"]
+      "id": 99,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.zzkko.gif?raw=true",
+      "pkg_name": "com.zzkko",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:84",
+      "director": "Shopping",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "SHEIN",
+      "outline": [" 👉 Image classification"],
+      "certificate": [" 👉 Pop-up messages", " 👉 Importing files"],
+      "representation": [" 👉 Text"]
    },
    {
-    "id": 100,
-    "year":"https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/tw.com.quickscanner.invoice.gif?raw=true",
-    "pkg_name":"tw.com.quickscanner.invoice",
-    "rating": 5,
-    "runtime": 50,
-    "date":"1974-04-30T10:29:29+05:94",
-    "director":"Productivity",
-    "actor":"Al Pacino",
-    "stars":"Marlon Brando",
-    "name":"Invoice Passbook + Unified Invoice Matching Machine - Cloud Invoice Vehicle Return to Home, Collect Trial Points",
-    "outline":[" 👉 Barcode scanning"],
-    "certificate":[" 👉 Pop-up messages"," 👉 Textual Instruction"," 👉 Camera frame"," 👉 Auto focusing object",
-    " 👉 Visual Instruction",
-    " 👉 Text suggestion"],
-    "representation":[" 👉 Text"," 👉 Visual"]
+      "id": 100,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/tw.com.quickscanner.invoice.gif?raw=true",
+      "pkg_name": "tw.com.quickscanner.invoice",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:94",
+      "director": "Productivity",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Invoice Passbook + Unified Invoice Matching Machine - Cloud Invoice Vehicle Return to Home, Collect Trial Points",
+      "outline": [" 👉 Barcode scanning"],
+      "certificate": [" 👉 Pop-up messages", " 👉 Textual Instruction", " 👉 Camera frame", " 👉 Auto focusing object",
+         " 👉 Visual Instruction",
+         " 👉 Text suggestion"],
+      "representation": [" 👉 Text", " 👉 Visual"]
    },
    {
       "id": 101,
@@ -2484,712 +2484,712 @@ var movies =[
       "outline": [" 👉 Image segmentation"],
       "certificate": [" 👉 Pop-up messages"],
       "representation": [" 👉 Text"]
-    }
-      ,
-      {
-        "id": 102,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/camscanner.documentscanner.pdfreader.gif?raw=true",
-        "pkg_name": "camscanner.documentscanner.pdfreader",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:53",
-        "director": " 👉 Productivity",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "Fast Scan",
-        "outline": [" 👉 Image segmentation"," 👉 Image segmentation"],
-        "certificate": [" 👉 Pop-up messages"," 👉 User personalisation"," 👉 Textual Instruction"," 👉 Auto focusing object"],
-        "representation": [" 👉 Text"," 👉 Visual"," 👉 Text"]
-      },
-      {
-        "id": 103,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/camscanner.documentscanner.pdfreader_import.gif?raw=true",
-        "pkg_name": "camscanner.documentscanner.pdfreader",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:57",
-        "director": " 👉 Productivity",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "Fast Scan",
-        "outline": [" 👉 Image segmentation"],
-        "certificate": [" 👉 Importing files"],
-        "representation": [" 👉 Text"]
-      },
-      {
-        "id": 104,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.appculus.photo.pdf.pics2pdf.gif?raw=true",
-        "pkg_name": "com.appculus.photo.pdf.pics2pdf",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:82",
-        "director": " 👉 Productivity",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "Photos to PDF",
-        "outline": [" 👉 Image segmentation"],
-        "certificate": [" 👉 Importing files"," 👉 Pop-up messages"],
-        "representation": [" 👉 Text"]
-      },
-      {
-        "id": 105,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.bitcoin.mwallet_no_in.gif?raw=true",
-        "pkg_name": "com.bitcoin.mwallet",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:31",
-        "director": " 👉 Finance",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "Bitcoin.com Wallet",
-        "outline": [" 👉 Barcode scanning"],
-        "certificate": [" 👉 Importing files"],
-        "representation": [" 👉 Text"]
-      },
-      {
-        "id": 106,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.bitcoin.mwallet_sta.gif?raw=true",
-        "pkg_name": "com.bitcoin.mwallet",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:30",
-        "director": " 👉 Finance",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "Bitcoin.com Wallet",
-        "outline": [" 👉 Barcode scanning"],
-        "certificate": [" 👉 Camera frame"," 👉 Textual Instruction"," 👉 Pop-up messages"," 👉 Visual Instruction"],
-        "representation": [" 👉 Visual"," 👉 Text"," 👉 Visual"]
-      },
-      {
-        "id": 107,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.charmy.cupist.gif?raw=true",
-        "pkg_name": "com.charmy.cupist",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:62",
-        "director": " 👉 Photography",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "GLAM",
-        "outline": [" 👉 Face detection"],
-        "certificate": [" 👉 Pop-up messages"],
-        "representation": [" 👉 Text"]
-      },
-      {
-        "id": 108,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.clickworker.clickworkerapp.gif?raw=true",
-        "pkg_name": "com.clickworker.clickworkerapp",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:36",
-        "director": " 👉 Communication",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "Clickworker",
-        "outline": [" 👉 Face detection"," 👉 Face detection"],
-        "certificate": [" 👉 Pop-up messages"," 👉 Auto focusing object"," 👉 User personalisation"],
-        "representation": [" 👉 Text"," 👉 Text"," 👉 Visual"]
-      },
-      {
-        "id": 109,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.clickworker.clickworkerapp_import.gif?raw=true",
-        "pkg_name": "com.clickworker.clickworkerapp",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:39",
-        "director": " 👉 Productivity",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "Clickworker",
-        "outline": [" 👉 Face detection"],
-        "certificate": [" 👉 Auto focusing object"," 👉 Pop-up messages"," 👉 User personalisation"],
-        "representation": [" 👉 Visual"," 👉 Text"," 👉 Visual"]
-      },
-      {
-        "id": 110,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.cyberlink.youcammakeup_FD.gif?raw=true",
-        "pkg_name": "com.cyberlink.youcammakeup",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:123",
-        "director": " 👉 Photography",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "YouCam Makeup",
-        "outline": [" 👉 Face detection"],
-        "certificate": [" 👉 Importing files"," 👉 Pop-up messages"," 👉 Textual Instruction"," 👉 User personalisation"],
-        "representation": [" 👉 Text"," 👉 Text"," 👉 Visual"]
-      },
-      {
-        "id": 111,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.cyberlink.youcammakeup_img_seg.gif?raw=true",
-        "pkg_name": "com.cyberlink.youcammakeup",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:119",
-        "director": " 👉 Photography",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "YouCam Makeup",
-        "outline": [" 👉 Image segmentation"],
-        "certificate": [" 👉 Importing files"," 👉 Pop-up messages"," 👉 Textual Instruction"," 👉 Visual Instruction", " 👉 User personalisation"],
-        "representation": [" 👉 Text"," 👉 Text"," 👉 Visual"]
-      },
-      {
-        "id": 112,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.etoolkit.lovecollage.gif?raw=true",
-        "pkg_name": "com.etoolkit.lovecollage",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:69",
-        "director": " 👉 Photography",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "Love Collage",
-        "outline": [" 👉 Face detection"],
-        "certificate": [" 👉 Auto focusing object"," 👉 Pop-up messages"," 👉 User personalisation"],
-        "representation": [" 👉 Visual"," 👉 Text"," 👉 Visual"]
-      },
-      {
-        "id": 113,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.everimaging.photoeffectstudio.gif?raw=true",
-        "pkg_name": "com.everimaging.photoeffectstudio",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:58",
-        "director": " 👉 Photography",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "Fotor",
-        "outline": [" 👉 Image segmentation"],
-        "certificate": [" 👉 Importing files"," 👉 Pop-up messages"," 👉 Textual Instruction"," 👉 Visual Instruction"," 👉 User personalisation"],
-        "representation": [" 👉 Text"," 👉 Text"," 👉 Visual"]
-      },
-      {
-        "id": 114,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.face.aging.face.truth.gif?raw=true",
-        "pkg_name": "com.face.aging.face.truth",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:46",
-        "director": " 👉 Entertainment",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "Face Truth",
-        "outline": [" 👉 Face detection"," 👉 Face detection"],
-        "certificate": [" 👉 Camera frame"," 👉 Textual Instruction"," 👉 Pop-up messages"," 👉 Auto focusing object"],
-        "representation": [" 👉 Visual"," 👉 Text"," 👉 Visual"]
-      },
-      {
-        "id": 115,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.face.aging.face.truth_import.gif?raw=true",
-        "pkg_name": "com.face.aging.face.truth",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:45",
-        "director": " 👉 Entertainment",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "Face Truth",
-        "outline": [" 👉 Face detection"," 👉 Face detection"],
-        "certificate": [" 👉 Importing files"," 👉 Pop-up messages"," 👉 Auto focusing object"],
-        "representation": [" 👉 Text"," 👉 Text"," 👉 Visual"]
-      },
-      {
-        "id": 116,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.krungsri.uchoose.gif?raw=true",
-        "pkg_name": "com.krungsri.uchoose",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:105",
-        "director": " 👉 Finance",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "UChoose",
-        "outline": [" 👉 Entity extraction"],
-        "certificate": [" 👉 Text suggestion"," 👉 Camera frame"," 👉 Textual Instruction"," 👉 Pop-up messages"," 👉 Visual Instruction"," 👉 Object sensor"],
-        "representation": [" 👉 Visual"," 👉 Text"," 👉 Visual"]
-      },
-      {
-        "id": 117,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.mventus.ncell.activity.gif?raw=true",
-        "pkg_name": "com.mventus.ncell.activity",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:80",
-        "director": " 👉 Tools",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "Ncell App",
-        "outline": [" 👉 Entity extraction"],
-        "certificate": [" 👉 Textual Instruction"," 👉 Camera frame"],
-        "representation": [" 👉 Text"," 👉 Visual"]
-      },
-      {
-        "id": 118,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.myyearbook.m.gif?raw=true",
-        "pkg_name": "com.myyearbook.m",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:72",
-        "director": " 👉 Photography",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "MeetMe",
-        "outline": [" 👉 Face detection"],
-        "certificate": [" 👉 Textual Instruction", " 👉 Auto focusing object"," 👉 Pop-up messages"," 👉 Visual Instruction"],
-        "representation": [" 👉 Text"," 👉 Text"]
-      },
-      {
-        "id": 119,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.myyearbook.m_import.gif?raw=true",
-        "pkg_name": "com.myyearbook.m",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:73",
-        "director": " 👉 Photography",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "MeetMe",
-        "outline": [" 👉 Face detection"],
-        "certificate": [" 👉 Importing files"," 👉 Pop-up messages"],
-        "representation": [" 👉 Text"]
-      },
-      {
-        "id": 120,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.superlive.liveapp.gif?raw=true",
-        "pkg_name": "com.superlive.liveapp",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:90",
-        "director": " 👉 Social",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "SuperLive",
-        "outline": [" 👉 Face detection"],
-        "certificate": [" 👉 Visual Instruction"," 👉 Auto focusing object"," 👉 Textual Instruction"," 👉 User personalisation"],
-        "representation": [" 👉 Visual"," 👉 Visual"," 👉 Text"]
-      },
+   }
+   ,
+   {
+      "id": 102,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/camscanner.documentscanner.pdfreader.gif?raw=true",
+      "pkg_name": "camscanner.documentscanner.pdfreader",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:53",
+      "director": " 👉 Productivity",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Fast Scan",
+      "outline": [" 👉 Image segmentation", " 👉 Image segmentation"],
+      "certificate": [" 👉 Pop-up messages", " 👉 User personalisation", " 👉 Textual Instruction", " 👉 Auto focusing object"],
+      "representation": [" 👉 Text", " 👉 Visual", " 👉 Text"]
+   },
+   {
+      "id": 103,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/camscanner.documentscanner.pdfreader_import.gif?raw=true",
+      "pkg_name": "camscanner.documentscanner.pdfreader",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:57",
+      "director": " 👉 Productivity",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Fast Scan",
+      "outline": [" 👉 Image segmentation"],
+      "certificate": [" 👉 Importing files"],
+      "representation": [" 👉 Text"]
+   },
+   {
+      "id": 104,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.appculus.photo.pdf.pics2pdf.gif?raw=true",
+      "pkg_name": "com.appculus.photo.pdf.pics2pdf",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:82",
+      "director": " 👉 Productivity",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Photos to PDF",
+      "outline": [" 👉 Image segmentation"],
+      "certificate": [" 👉 Importing files", " 👉 Pop-up messages"],
+      "representation": [" 👉 Text"]
+   },
+   {
+      "id": 105,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.bitcoin.mwallet_no_in.gif?raw=true",
+      "pkg_name": "com.bitcoin.mwallet",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:31",
+      "director": " 👉 Finance",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Bitcoin.com Wallet",
+      "outline": [" 👉 Barcode scanning"],
+      "certificate": [" 👉 Importing files"],
+      "representation": [" 👉 Text"]
+   },
+   {
+      "id": 106,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.bitcoin.mwallet_sta.gif?raw=true",
+      "pkg_name": "com.bitcoin.mwallet",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:30",
+      "director": " 👉 Finance",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Bitcoin.com Wallet",
+      "outline": [" 👉 Barcode scanning"],
+      "certificate": [" 👉 Camera frame", " 👉 Textual Instruction", " 👉 Pop-up messages", " 👉 Visual Instruction"],
+      "representation": [" 👉 Visual", " 👉 Text", " 👉 Visual"]
+   },
+   {
+      "id": 107,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.charmy.cupist.gif?raw=true",
+      "pkg_name": "com.charmy.cupist",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:62",
+      "director": " 👉 Photography",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "GLAM",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 Pop-up messages"],
+      "representation": [" 👉 Text"]
+   },
+   {
+      "id": 108,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.clickworker.clickworkerapp.gif?raw=true",
+      "pkg_name": "com.clickworker.clickworkerapp",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:36",
+      "director": " 👉 Communication",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Clickworker",
+      "outline": [" 👉 Face detection", " 👉 Face detection"],
+      "certificate": [" 👉 Pop-up messages", " 👉 Auto focusing object", " 👉 User personalisation"],
+      "representation": [" 👉 Text", " 👉 Text", " 👉 Visual"]
+   },
+   {
+      "id": 109,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.clickworker.clickworkerapp_import.gif?raw=true",
+      "pkg_name": "com.clickworker.clickworkerapp",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:39",
+      "director": " 👉 Productivity",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Clickworker",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 Auto focusing object", " 👉 Pop-up messages", " 👉 User personalisation"],
+      "representation": [" 👉 Visual", " 👉 Text", " 👉 Visual"]
+   },
+   {
+      "id": 110,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.cyberlink.youcammakeup_FD.gif?raw=true",
+      "pkg_name": "com.cyberlink.youcammakeup",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:123",
+      "director": " 👉 Photography",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "YouCam Makeup",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 Importing files", " 👉 Pop-up messages", " 👉 Textual Instruction", " 👉 User personalisation"],
+      "representation": [" 👉 Text", " 👉 Text", " 👉 Visual"]
+   },
+   {
+      "id": 111,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.cyberlink.youcammakeup_img_seg.gif?raw=true",
+      "pkg_name": "com.cyberlink.youcammakeup",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:119",
+      "director": " 👉 Photography",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "YouCam Makeup",
+      "outline": [" 👉 Image segmentation"],
+      "certificate": [" 👉 Importing files", " 👉 Pop-up messages", " 👉 Textual Instruction", " 👉 Visual Instruction", " 👉 User personalisation"],
+      "representation": [" 👉 Text", " 👉 Text", " 👉 Visual"]
+   },
+   {
+      "id": 112,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.etoolkit.lovecollage.gif?raw=true",
+      "pkg_name": "com.etoolkit.lovecollage",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:69",
+      "director": " 👉 Photography",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Love Collage",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 Auto focusing object", " 👉 Pop-up messages", " 👉 User personalisation"],
+      "representation": [" 👉 Visual", " 👉 Text", " 👉 Visual"]
+   },
+   {
+      "id": 113,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.everimaging.photoeffectstudio.gif?raw=true",
+      "pkg_name": "com.everimaging.photoeffectstudio",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:58",
+      "director": " 👉 Photography",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Fotor",
+      "outline": [" 👉 Image segmentation"],
+      "certificate": [" 👉 Importing files", " 👉 Pop-up messages", " 👉 Textual Instruction", " 👉 Visual Instruction", " 👉 User personalisation"],
+      "representation": [" 👉 Text", " 👉 Text", " 👉 Visual"]
+   },
+   {
+      "id": 114,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.face.aging.face.truth.gif?raw=true",
+      "pkg_name": "com.face.aging.face.truth",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:46",
+      "director": " 👉 Entertainment",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Face Truth",
+      "outline": [" 👉 Face detection", " 👉 Face detection"],
+      "certificate": [" 👉 Camera frame", " 👉 Textual Instruction", " 👉 Pop-up messages", " 👉 Auto focusing object"],
+      "representation": [" 👉 Visual", " 👉 Text", " 👉 Visual"]
+   },
+   {
+      "id": 115,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.face.aging.face.truth_import.gif?raw=true",
+      "pkg_name": "com.face.aging.face.truth",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:45",
+      "director": " 👉 Entertainment",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Face Truth",
+      "outline": [" 👉 Face detection", " 👉 Face detection"],
+      "certificate": [" 👉 Importing files", " 👉 Pop-up messages", " 👉 Auto focusing object"],
+      "representation": [" 👉 Text", " 👉 Text", " 👉 Visual"]
+   },
+   {
+      "id": 116,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.krungsri.uchoose.gif?raw=true",
+      "pkg_name": "com.krungsri.uchoose",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:105",
+      "director": " 👉 Finance",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "UChoose",
+      "outline": [" 👉 Entity extraction"],
+      "certificate": [" 👉 Text suggestion", " 👉 Camera frame", " 👉 Textual Instruction", " 👉 Pop-up messages", " 👉 Visual Instruction", " 👉 Object sensor"],
+      "representation": [" 👉 Visual", " 👉 Text", " 👉 Visual"]
+   },
+   {
+      "id": 117,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.mventus.ncell.activity.gif?raw=true",
+      "pkg_name": "com.mventus.ncell.activity",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:80",
+      "director": " 👉 Tools",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Ncell App",
+      "outline": [" 👉 Entity extraction"],
+      "certificate": [" 👉 Textual Instruction", " 👉 Camera frame"],
+      "representation": [" 👉 Text", " 👉 Visual"]
+   },
+   {
+      "id": 118,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.myyearbook.m.gif?raw=true",
+      "pkg_name": "com.myyearbook.m",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:72",
+      "director": " 👉 Photography",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "MeetMe",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 Textual Instruction", " 👉 Auto focusing object", " 👉 Pop-up messages", " 👉 Visual Instruction"],
+      "representation": [" 👉 Text", " 👉 Text"]
+   },
+   {
+      "id": 119,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.myyearbook.m_import.gif?raw=true",
+      "pkg_name": "com.myyearbook.m",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:73",
+      "director": " 👉 Photography",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "MeetMe",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 Importing files", " 👉 Pop-up messages"],
+      "representation": [" 👉 Text"]
+   },
+   {
+      "id": 120,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.superlive.liveapp.gif?raw=true",
+      "pkg_name": "com.superlive.liveapp",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:90",
+      "director": " 👉 Social",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "SuperLive",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 Visual Instruction", " 👉 Auto focusing object", " 👉 Textual Instruction", " 👉 User personalisation"],
+      "representation": [" 👉 Visual", " 👉 Visual", " 👉 Text"]
+   },
 
-      {
-         "id": 121,
-         "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.ticktalk.imageconverter.gif?raw=true",
-         "pkg_name": "net.idt.um.android.bossrevapp",
-         "rating": 5,
-         "runtime": 50,
-         "date": "1974-04-30T10:29:29+05:35",
-         "director": " 👉 Communication",
-         "actor": "Al Pacino",
-         "stars": "Marlon Brando",
-         "name": "BOSS RevolutionÂ®",
-         "outline": [" 👉 Face detection"],
-         "certificate": [" 👉 Pop-up messages"],
-         "representation": [" 👉 Text"]
-       }
-      ,
-      {
-        "id": 122,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.trove.gif?raw=true",
-        "pkg_name": "com.trove",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:95",
-        "director": " 👉 Business",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "TroveSkin",
-        "outline": [" 👉 Face detection"],
-        "certificate": [" 👉 Camera frame"," 👉 Pop-up messages"," 👉 Textual Instruction"],
-        "representation": [" 👉 Visual"," 👉 Text"," 👉 Visual"]
-      },
-      {
-        "id": 123,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.trove_import.gif?raw=true",
-        "pkg_name": "com.trove",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:94",
-        "director": " 👉 Business",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "TroveSkin",
-        "outline": [" 👉 Face detection"],
-        "certificate": [" 👉 Importing files"],
-        "representation": [" 👉 Text"," 👉 Text"]
-      },
-      {
-        "id": 124,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.trulymadly.android.app.gif?raw=true",
-        "pkg_name": "com.trulymadly.android.app",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:102",
-        "director": " 👉 Social",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "TrulyMadly",
-        "outline": [" 👉 Face detection"],
-        "certificate": [" 👉 Pop-up messages"," 👉 User personalisation"," 👉 Camera frame"],
-        "representation": [" 👉 Text"," 👉 Visual"]
-      },
-      {
-        "id": 125,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.trulymadly.android.app_import.gif?raw=true",
-        "pkg_name": "com.trulymadly.android.app",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:100",
-        "director": " 👉 Social",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "TrulyMadly",
-        "outline": [" 👉 Face detection"," 👉 Face detection"],
-        "certificate": [" 👉 User personalisation"," 👉 Importing files"],
-        "representation": [" 👉 Visual"," 👉 Text"]
-      },
-      {
-        "id": 126,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.vnpay.bidv.gif?raw=true",
-        "pkg_name": "com.vnpay.bidv",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:83",
-        "director": " 👉 Finance",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "SmartBanking",
-        "outline": [" 👉 Face detection"],
-        "certificate": [" 👉 Camera frame"," 👉 Textual Instruction"," 👉 Object sensor"," 👉 Text suggestion"],
-        "representation": [" 👉 Visual"," 👉 Text"]
-      },
-      {
-        "id": 127,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.wemagineai.voila.gif?raw=true",
-        "pkg_name": "com.wemagineai.voila",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:113",
-        "director": " 👉 Photography",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "Voila",
-        "outline": [" 👉 Face detection"],
-        "certificate": [" 👉 Importing files"],
-        "representation": [" 👉 Text"]
-      },
-      {
-        "id": 128,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.yantech.zoomerang.gif?raw=true",
-        "pkg_name": "com.yantech.zoomerang",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:128",
-        "director": " 👉 Shopping",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "Zoomerang",
-        "outline": [" 👉 Face detection"],
-        "certificate": [" 👉 Auto focusing object"," 👉 Pop-up messages"," 👉 User personalisation"],
-        "representation": [" 👉 Visual"," 👉 Text"," 👉 Visual"]
-      },
-      {
-        "id": 129,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.yochat.freechat.gif?raw=true",
-        "pkg_name": "com.yochat.freechat",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:116",
-        "director": " 👉 Social",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "Yochat",
-        "outline": [" 👉 Face detection"],
-        "certificate": [" 👉 Auto focusing object"," 👉 Pop-up messages"],
-        "representation": [" 👉 Visual"," 👉 Text"," 👉 Visual"]
-      },
-      {
-        "id": 130,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.yochat.freechat_import.gif?raw=true",
-        "pkg_name": "com.yochat.freechat",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:114",
-        "director": " 👉 Social",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "Yochat",
-        "outline": [" 👉 Face detection"],
-        "certificate": [" 👉 Importing files"," 👉 User personalisation"],
-        "representation": [" 👉 Text"," 👉 Text"]
-      },
-      {
-        "id": 131,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.zhiyun.zyplay.gif?raw=true",
-        "pkg_name": "com.zhiyun.zyplay",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:131",
-        "director": " 👉 Business",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "ZY Play",
-        "outline": [" 👉 Style transfer"],
-        "certificate": [" 👉 Pop-up messages"],
-        "representation": [" 👉 Text"]
-      },
-      {
-        "id": 132,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.zoodel.kz.gif?raw=true",
-        "pkg_name": "com.zoodel.kz",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:127",
-        "director": " 👉 Shopping",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "ZoodPay & ZoodMall",
-        "outline": [" 👉 Face detection"],
-        "certificate": [" 👉 Auto focusing object"],
-        "representation": [" 👉 Visual"]
-      },
-      {
-        "id": 133,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/de.orrs.deliveries.gif?raw=true",
-        "pkg_name": "de.orrs.deliveries",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:43",
-        "director": " 👉 Productivity",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "Deliveries",
-        "outline": [" 👉 Barcode scanning"],
-        "certificate": [" 👉 Pop-up messages"," 👉 Camera frame"],
-        "representation": [" 👉 Text"," 👉 Visual"]
-      },
-      {
-        "id": 134,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/io.voiapp.voi.gif?raw=true",
-        "pkg_name": "io.voiapp.voi",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:110",
-        "director": " 👉 Business",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "Voi",
-        "outline": [" 👉 Entity extraction"," 👉 Entity extraction"],
-        "certificate": [" 👉 Flashlight"," 👉 Camera frame"," 👉 Object sensor"],
-        "representation": [" 👉 Visual"," 👉 Visual"]
-      },
-      {
-        "id": 135,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/jp.co.appfactory.birdun.gif?raw=true",
-        "pkg_name": "jp.co.appfactory.birdun",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:64",
-        "director": " 👉 Entertainment",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "Look alike",
-        "outline": [" 👉 Face detection"],
-        "certificate": [" 👉 Camera frame"," 👉 Visual Instruction"," 👉 Pop-up messages"," 👉 Auto focusing object"," 👉 Object sensor"],
-        "representation": [" 👉 Text"," 👉 Visual"," 👉 Text"]
-      },
-      {
-        "id": 136,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/mingle.android.mingle2.gif?raw=true",
-        "pkg_name": "mingle.android.mingle2",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:76",
-        "director": " 👉 Photography",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "Mingle2",
-        "outline": [" 👉 Face detection"],
-        "certificate": [" 👉 User personalisation"," 👉 Pop-up messages"],
-        "representation": [" 👉 Visual"," 👉 Text"]
-      },
-      {
-        "id": 137,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/tv.mixch.android.gif?raw=true",
-        "pkg_name": "tv.mixch.android",
-        "rating": 5,
-        "runtime": 50,
-        "date": "1974-04-30T10:29:29+05:78",
-        "director": " 👉 Social",
-        "actor": "Al Pacino",
-        "stars": "Marlon Brando",
-        "name": "MIXCHANNEL",
-        "outline": [" 👉 Face detection"],
-        "certificate": [" 👉 User personalisation"," 👉 Pop-up messages"],
-        "representation": [" 👉 Visual"," 👉 Text"]
-      },
-      {
-         "id": 138,
-         "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.eraserphoto.cutout.backgroundeditor_ss.gif?raw=true",
-         "pkg_name": "com.eraserphoto.cutout.backgroundeditor",
-         "rating": 5,
-         "runtime": 50,
-         "date": "1974-04-30T10:29:29+05:176",
-         "director": " 👉 Photography",
-         "actor": "Al Pacino",
-         "stars": "Marlon Brando",
-         "name": "Cut And Paste User personalisation With Background Eraser",
-         "outline": [
-            " 👉 Selfie segmentation"
-         ],
-         "genre": [
-            "Static"
-         ],
-         "certificate": [
-            " 👉 Pop-up messages"        ],
-         "representation": [
-            " 👉 Text"   ]
-      },
-      {
-         "id": 139,
-         "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.eraserphoto.cutout.backgroundeditor_img_seg.gif?raw=true",
-         "pkg_name": "com.eraserphoto.cutout.backgroundeditor",
-         "rating": 5,
-         "runtime": 50,
-         "date": "1974-04-30T10:29:29+05:176",
-         "director": " 👉 Photography",
-         "actor": "Al Pacino",
-         "stars": "Marlon Brando",
-         "name": "Cut And Paste User personalisation With Background Eraser",
-         "outline": [
-            " 👉 Selfie segmentation"
-         ],
-         "genre": [
-            "Static",
-            "No Interaction"
-         ],
-         "certificate": [
-            " 👉 Pop-up messages",
-            " 👉 Textual Instruction",
-            " 👉 Visual Instruction",
-            " 👉 Importing files"
-         ],
-         "representation": [
-            " 👉 Text",
-            " 👉 Visual"    ]
-      },
-      {
-         "id": 140,
-         "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.google.android.apps.translate_imp.gif?raw=true",
-         "pkg_name": "com.google.android.apps.translate",
-         "rating": 5,
-         "runtime": 50,
-         "date": "1974-04-30T10:29:29+05:215",
-         "director": " 👉 Tools",
-         "actor": "Al Pacino",
-         "stars": "Marlon Brando",
-         "name": "Google Translate",
-         "outline": [
-            " 👉 Text recognition"
-         ],
-         "genre": [
-            "Dynamic",
-            "Static",
-            "No Interaction"
-         ],
-         "certificate": [
-            " 👉 Pop-up messages",
-            " 👉 User personalisation",
-            " 👉 Importing files",
-            " 👉 Textual Instruction"
-         ],
-         "representation": [
-            " 👉 Aural",
-            " 👉 Text",
-         ]
-      }, 
-      {
-         "id": 141,
-         "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.google.android.apps.translate_sr.gif?raw=true",
-         "pkg_name": "com.google.android.apps.translate",
-         "rating": 5,
-         "runtime": 50,
-         "date": "1974-04-30T10:29:29+05:215",
-         "director": " 👉 Tools",
-         "actor": "Al Pacino",
-         "stars": "Marlon Brando",
-         "name": "Google Translate",
-         "outline": [
-            " 👉 Speech recongnition"         ],
-         "genre": [
-            "Dynamic",
-            "Static",
-            "No Interaction"
-         ],
-         "certificate": [
-            " 👉 Pop-up messages",
-            " 👉 Textual instruction",
-            " 👉 Auditory feedback (Static)"
-         ],
-         "representation": [
-            " 👉 Aural",
-            " 👉 Text",
-         ]
-      },
-      {
-         "id": 142,
-         "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.google.android.apps.translate_txtReg_handwrite.gif?raw=true",
-         "pkg_name": "com.google.android.apps.translate",
-         "rating": 5,
-         "runtime": 50,
-         "date": "1974-04-30T10:29:29+05:215",
-         "director": " 👉 Tools",
-         "actor": "Al Pacino",
-         "stars": "Marlon Brando",
-         "name": "Google Translate",
-         "outline": [
-            " 👉 Text recognition"
-         ],
-         "genre": [
-            "Dynamic",
-            "Static",
-         ],
-         "certificate": [
-            " 👉 User personalisation",
-            " 👉 Textual Instruction"
-         ],
-         "representation": [
-            " 👉 Text"
-         ]
-      },  {
-         "id": 143,
-         "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.google.android.googlequicksearchbox.gif?raw=true",
-         "pkg_name": "com.google.android.googlequicksearchbox",
-         "rating": 5,
-         "runtime": 50,
-         "date": "1974-04-30T10:29:29+05:228",
-         "director": " 👉 Tools",
-         "actor": "Al Pacino",
-         "stars": "Marlon Brando",
-         "name": "Google Quick Search",
-         "outline": [
-            " 👉 Speech recongnition"
-         ],
-         "genre": [
-            "Dynamic",
-            "Static"
-         ],
-         "certificate": [
-            " 👉 Auditory feedback (Dynamic)",
-            " 👉 Visual Instruction",
-            " 👉 Text suggestion"
-         ],
-         "representation": [
-            " 👉 Aural",
-            " 👉 Visual",
-            " 👉 Text"
-         ]
-      },  {
+   {
+      "id": 121,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.ticktalk.imageconverter.gif?raw=true",
+      "pkg_name": "net.idt.um.android.bossrevapp",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:35",
+      "director": " 👉 Communication",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "BOSS RevolutionÂ®",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 Pop-up messages"],
+      "representation": [" 👉 Text"]
+   }
+   ,
+   {
+      "id": 122,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.trove.gif?raw=true",
+      "pkg_name": "com.trove",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:95",
+      "director": " 👉 Business",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "TroveSkin",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 Camera frame", " 👉 Pop-up messages", " 👉 Textual Instruction"],
+      "representation": [" 👉 Visual", " 👉 Text", " 👉 Visual"]
+   },
+   {
+      "id": 123,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.trove_import.gif?raw=true",
+      "pkg_name": "com.trove",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:94",
+      "director": " 👉 Business",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "TroveSkin",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 Importing files"],
+      "representation": [" 👉 Text", " 👉 Text"]
+   },
+   {
+      "id": 124,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.trulymadly.android.app.gif?raw=true",
+      "pkg_name": "com.trulymadly.android.app",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:102",
+      "director": " 👉 Social",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "TrulyMadly",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 Pop-up messages", " 👉 User personalisation", " 👉 Camera frame"],
+      "representation": [" 👉 Text", " 👉 Visual"]
+   },
+   {
+      "id": 125,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.trulymadly.android.app_import.gif?raw=true",
+      "pkg_name": "com.trulymadly.android.app",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:100",
+      "director": " 👉 Social",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "TrulyMadly",
+      "outline": [" 👉 Face detection", " 👉 Face detection"],
+      "certificate": [" 👉 User personalisation", " 👉 Importing files"],
+      "representation": [" 👉 Visual", " 👉 Text"]
+   },
+   {
+      "id": 126,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.vnpay.bidv.gif?raw=true",
+      "pkg_name": "com.vnpay.bidv",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:83",
+      "director": " 👉 Finance",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "SmartBanking",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 Camera frame", " 👉 Textual Instruction", " 👉 Object sensor", " 👉 Text suggestion"],
+      "representation": [" 👉 Visual", " 👉 Text"]
+   },
+   {
+      "id": 127,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.wemagineai.voila.gif?raw=true",
+      "pkg_name": "com.wemagineai.voila",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:113",
+      "director": " 👉 Photography",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Voila",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 Importing files"],
+      "representation": [" 👉 Text"]
+   },
+   {
+      "id": 128,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.yantech.zoomerang.gif?raw=true",
+      "pkg_name": "com.yantech.zoomerang",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:128",
+      "director": " 👉 Shopping",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Zoomerang",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 Auto focusing object", " 👉 Pop-up messages", " 👉 User personalisation"],
+      "representation": [" 👉 Visual", " 👉 Text", " 👉 Visual"]
+   },
+   {
+      "id": 129,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.yochat.freechat.gif?raw=true",
+      "pkg_name": "com.yochat.freechat",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:116",
+      "director": " 👉 Social",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Yochat",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 Auto focusing object", " 👉 Pop-up messages"],
+      "representation": [" 👉 Visual", " 👉 Text", " 👉 Visual"]
+   },
+   {
+      "id": 130,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.yochat.freechat_import.gif?raw=true",
+      "pkg_name": "com.yochat.freechat",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:114",
+      "director": " 👉 Social",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Yochat",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 Importing files", " 👉 User personalisation"],
+      "representation": [" 👉 Text", " 👉 Text"]
+   },
+   {
+      "id": 131,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.zhiyun.zyplay.gif?raw=true",
+      "pkg_name": "com.zhiyun.zyplay",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:131",
+      "director": " 👉 Business",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "ZY Play",
+      "outline": [" 👉 Style transfer"],
+      "certificate": [" 👉 Pop-up messages"],
+      "representation": [" 👉 Text"]
+   },
+   {
+      "id": 132,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.zoodel.kz.gif?raw=true",
+      "pkg_name": "com.zoodel.kz",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:127",
+      "director": " 👉 Shopping",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "ZoodPay & ZoodMall",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 Auto focusing object"],
+      "representation": [" 👉 Visual"]
+   },
+   {
+      "id": 133,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/de.orrs.deliveries.gif?raw=true",
+      "pkg_name": "de.orrs.deliveries",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:43",
+      "director": " 👉 Productivity",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Deliveries",
+      "outline": [" 👉 Barcode scanning"],
+      "certificate": [" 👉 Pop-up messages", " 👉 Camera frame"],
+      "representation": [" 👉 Text", " 👉 Visual"]
+   },
+   {
+      "id": 134,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/io.voiapp.voi.gif?raw=true",
+      "pkg_name": "io.voiapp.voi",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:110",
+      "director": " 👉 Business",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Voi",
+      "outline": [" 👉 Entity extraction", " 👉 Entity extraction"],
+      "certificate": [" 👉 Flashlight", " 👉 Camera frame", " 👉 Object sensor"],
+      "representation": [" 👉 Visual", " 👉 Visual"]
+   },
+   {
+      "id": 135,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/jp.co.appfactory.birdun.gif?raw=true",
+      "pkg_name": "jp.co.appfactory.birdun",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:64",
+      "director": " 👉 Entertainment",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Look alike",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 Camera frame", " 👉 Visual Instruction", " 👉 Pop-up messages", " 👉 Auto focusing object", " 👉 Object sensor"],
+      "representation": [" 👉 Text", " 👉 Visual", " 👉 Text"]
+   },
+   {
+      "id": 136,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/mingle.android.mingle2.gif?raw=true",
+      "pkg_name": "mingle.android.mingle2",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:76",
+      "director": " 👉 Photography",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Mingle2",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 User personalisation", " 👉 Pop-up messages"],
+      "representation": [" 👉 Visual", " 👉 Text"]
+   },
+   {
+      "id": 137,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/tv.mixch.android.gif?raw=true",
+      "pkg_name": "tv.mixch.android",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:78",
+      "director": " 👉 Social",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "MIXCHANNEL",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 User personalisation", " 👉 Pop-up messages"],
+      "representation": [" 👉 Visual", " 👉 Text"]
+   },
+   {
+      "id": 138,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.eraserphoto.cutout.backgroundeditor_ss.gif?raw=true",
+      "pkg_name": "com.eraserphoto.cutout.backgroundeditor",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:176",
+      "director": " 👉 Photography",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Cut And Paste User personalisation With Background Eraser",
+      "outline": [
+         " 👉 Selfie segmentation"
+      ],
+      "genre": [
+         "Static"
+      ],
+      "certificate": [
+         " 👉 Pop-up messages"],
+      "representation": [
+         " 👉 Text"]
+   },
+   {
+      "id": 139,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.eraserphoto.cutout.backgroundeditor_img_seg.gif?raw=true",
+      "pkg_name": "com.eraserphoto.cutout.backgroundeditor",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:176",
+      "director": " 👉 Photography",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Cut And Paste User personalisation With Background Eraser",
+      "outline": [
+         " 👉 Selfie segmentation"
+      ],
+      "genre": [
+         "Static",
+         "No Interaction"
+      ],
+      "certificate": [
+         " 👉 Pop-up messages",
+         " 👉 Textual Instruction",
+         " 👉 Visual Instruction",
+         " 👉 Importing files"
+      ],
+      "representation": [
+         " 👉 Text",
+         " 👉 Visual"]
+   },
+   {
+      "id": 140,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.google.android.apps.translate_imp.gif?raw=true",
+      "pkg_name": "com.google.android.apps.translate",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:215",
+      "director": " 👉 Tools",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Google Translate",
+      "outline": [
+         " 👉 Text recognition"
+      ],
+      "genre": [
+         "Dynamic",
+         "Static",
+         "No Interaction"
+      ],
+      "certificate": [
+         " 👉 Pop-up messages",
+         " 👉 User personalisation",
+         " 👉 Importing files",
+         " 👉 Textual Instruction"
+      ],
+      "representation": [
+         " 👉 Aural",
+         " 👉 Text",
+      ]
+   },
+   {
+      "id": 141,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.google.android.apps.translate_sr.gif?raw=true",
+      "pkg_name": "com.google.android.apps.translate",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:215",
+      "director": " 👉 Tools",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Google Translate",
+      "outline": [
+         " 👉 Speech recongnition"],
+      "genre": [
+         "Dynamic",
+         "Static",
+         "No Interaction"
+      ],
+      "certificate": [
+         " 👉 Pop-up messages",
+         " 👉 Textual instruction",
+         " 👉 Auditory feedback (Static)"
+      ],
+      "representation": [
+         " 👉 Aural",
+         " 👉 Text",
+      ]
+   },
+   {
+      "id": 142,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.google.android.apps.translate_txtReg_handwrite.gif?raw=true",
+      "pkg_name": "com.google.android.apps.translate",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:215",
+      "director": " 👉 Tools",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Google Translate",
+      "outline": [
+         " 👉 Text recognition"
+      ],
+      "genre": [
+         "Dynamic",
+         "Static",
+      ],
+      "certificate": [
+         " 👉 User personalisation",
+         " 👉 Textual Instruction"
+      ],
+      "representation": [
+         " 👉 Text"
+      ]
+   }, {
+      "id": 143,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.google.android.googlequicksearchbox.gif?raw=true",
+      "pkg_name": "com.google.android.googlequicksearchbox",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:228",
+      "director": " 👉 Tools",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Google Quick Search",
+      "outline": [
+         " 👉 Speech recongnition"
+      ],
+      "genre": [
+         "Dynamic",
+         "Static"
+      ],
+      "certificate": [
+         " 👉 Auditory feedback (Dynamic)",
+         " 👉 Visual Instruction",
+         " 👉 Text suggestion"
+      ],
+      "representation": [
+         " 👉 Aural",
+         " 👉 Visual",
+         " 👉 Text"
+      ]
+   }, {
       "id": 144,
       "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.google.android.googlequicksearchbox_icSearch.gif?raw=true",
       "pkg_name": "com.google.android.googlequicksearchbox",
@@ -3233,9 +3233,9 @@ var movies =[
       "stars": "Marlon Brando",
       "name": "SmartBanking",
       "outline": [" 👉 Entity extraction"],
-      "certificate": [ " 👉 Pop-up messages"," 👉 Camera frame"," 👉 Textual Instruction"],
-      "representation": [" 👉 Visual"," 👉 Text"," 👉 Visual"]
-    },{
+      "certificate": [" 👉 Pop-up messages", " 👉 Camera frame", " 👉 Textual Instruction"],
+      "representation": [" 👉 Visual", " 👉 Text", " 👉 Visual"]
+   }, {
       "id": 146,
       "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/google_play.gif?raw=true",
       "pkg_name": "!Google playstore",
@@ -3247,10 +3247,10 @@ var movies =[
       "stars": "Marlon Brando",
       "name": "Google playstore",
       "outline": [" 👉 Speech recongnition"],
-      "certificate": [ " 👉 Pop-up messages"," 👉 Textual Instruction"],
+      "certificate": [" 👉 Pop-up messages", " 👉 Textual Instruction"],
       "representation": [" 👉 Text"]
-    }, 
-    {
+   },
+   {
       "id": 147,
       "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/ebay.gif?raw=true",
       "pkg_name": "!Ebay",
@@ -3262,11 +3262,11 @@ var movies =[
       "stars": "Marlon Brando",
       "name": "Ebay",
       "outline": [" 👉 Speech recongnition"],
-      "certificate": [ " 👉 Pop-up messages"," 👉 Textual Instruction"],
+      "certificate": [" 👉 Pop-up messages", " 👉 Textual Instruction"],
       "representation": [" 👉 Text"]
-    }, 
-    
-    {
+   },
+
+   {
       "id": 148,
       "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/google_tranlate_transcibe.gif?raw=true",
       "pkg_name": "!google_tranlate",
@@ -3278,10 +3278,10 @@ var movies =[
       "stars": "Marlon Brando",
       "name": "Google Translate",
       "outline": [" 👉 Speech recongnition"],
-      "certificate": [ " 👉 No interaction with hardware input"  ],
+      "certificate": [" 👉 No interaction with hardware input"],
       "representation": [" 👉 Text"]
-    },
-    {
+   },
+   {
       "id": 149,
       "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/google_translate.gif?raw=true",
       "pkg_name": "!google_tranlate",
@@ -3293,10 +3293,10 @@ var movies =[
       "stars": "Marlon Brando",
       "name": "Google Translate",
       "outline": [" 👉 Speech recongnition"],
-      "certificate": [  " 👉 Pop-up messages"," 👉 Textual Instruction" ],
+      "certificate": [" 👉 Pop-up messages", " 👉 Textual Instruction"],
       "representation": [" 👉 Text"]
-    },
-    {
+   },
+   {
       "id": 150,
       "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/wechat.gif?raw=true",
       "pkg_name": "!wechat",
@@ -3308,10 +3308,10 @@ var movies =[
       "stars": "Marlon Brando",
       "name": "Wechat",
       "outline": [" 👉 Speech recongnition"],
-      "certificate": [ " 👉 Pop-up messages"," 👉 Textual Instruction", " 👉 User personalisation"],
+      "certificate": [" 👉 Pop-up messages", " 👉 Textual Instruction", " 👉 User personalisation"],
       "representation": [" 👉 Text"]
-    },
-    {
+   },
+   {
       "id": 151,
       "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/us.zoom.videomeetings.gif?raw=true",
       "pkg_name": "!Zoom",
@@ -3323,10 +3323,10 @@ var movies =[
       "stars": "Marlon Brando",
       "name": "Zoom",
       "outline": [" 👉 Speech recongnition"],
-      "certificate": [ " 👉 No interaction with hardware input"],
+      "certificate": [" 👉 No interaction with hardware input"],
       "representation": [" 👉 Text"]
-    },
-    {
+   },
+   {
       "id": 152,
       "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/wechat_sr.gif?raw=true",
       "pkg_name": "!Zoom",
@@ -3338,10 +3338,10 @@ var movies =[
       "stars": "Marlon Brando",
       "name": "Wechat",
       "outline": [" 👉 Speech recongnition"],
-      "certificate": [ " 👉 No interaction with hardware input"],
+      "certificate": [" 👉 No interaction with hardware input"],
       "representation": [" 👉 Text"]
-    },
-    {
+   },
+   {
       "id": 153,
       "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/youtube.gif?raw=true",
       "pkg_name": "!youtube",
@@ -3353,10 +3353,10 @@ var movies =[
       "stars": "Marlon Brando",
       "name": "Youtube",
       "outline": [" 👉 Speech recongnition"],
-      "certificate": [" 👉 Textual Instruction",   " 👉 Visual Instruction"," 👉 Pop-up messages"],
+      "certificate": [" 👉 Textual Instruction", " 👉 Visual Instruction", " 👉 Pop-up messages"],
       "representation": [" 👉 Text"]
-    },
-    {
+   },
+   {
       "id": 154,
       "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/reverso_pe.gif?raw=true",
       "pkg_name": "!Reverso translate",
@@ -3368,10 +3368,10 @@ var movies =[
       "stars": "Marlon Brando",
       "name": "Reverso translate",
       "outline": [" 👉 Text recognition"],
-      "certificate": [ " 👉 Textual Instruction"," 👉 Visual Instruction"," 👉 User personalisation"],
+      "certificate": [" 👉 Textual Instruction", " 👉 Visual Instruction", " 👉 User personalisation"],
       "representation": [" 👉 Text"]
-    },
-    {
+   },
+   {
       "id": 155,
       "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/reverso_points.gif?raw=true",
       "pkg_name": "!Reverso translate",
@@ -3383,10 +3383,10 @@ var movies =[
       "stars": "Marlon Brando",
       "name": "Reverso translate",
       "outline": [" 👉 Text recognition"],
-      "certificate": [ " 👉 Textual Instruction"," 👉 Visual Instruction"," 👉 User personalisation"],
+      "certificate": [" 👉 Textual Instruction", " 👉 Visual Instruction", " 👉 User personalisation"],
       "representation": [" 👉 Text", " 👉 Visual"]
-    },
-    {
+   },
+   {
       "id": 156,
       "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/youtube_transcript.gif?raw=true",
       "pkg_name": "!youtube",
@@ -3398,7 +3398,425 @@ var movies =[
       "stars": "Marlon Brando",
       "name": "Youtube",
       "outline": [" 👉 Speech recongnition"],
-      "certificate": [          " 👉 No interaction with hardware input"   ],
+      "certificate": [" 👉 No interaction with hardware input"],
       "representation": [" 👉 Text"]
-    }
- ]
+   },
+   {
+      "id": 157,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/pl.roslin.atlas.gif?raw=true",
+      "pkg_name": "!pl.roslin.atlas",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:83",
+      "director": " 👉 Lifestyle",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Plant atlas",
+      "outline": [" 👉 Image classification"],
+      "certificate": [" 👉 Auto focusing object"
+      ],
+      "representation": [" 👉 Text"]
+   },
+   {
+      "id": 158,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.glority.picturemushroom.gif?raw=true",
+      "pkg_name": "!com.glority.picturemushroom",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:83",
+      "director": " 👉 Lifestyle",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Picture mushroom",
+      "outline": [" 👉 Image classification"],
+      "certificate": [
+         " 👉 Pop-up messages",
+         " 👉 Textual Instruction",
+         " 👉 Camera frame",
+         " 👉 Visual Instruction"
+      ],
+      "representation": [" 👉 Text", " 👉 Visual"]
+   }
+   ,
+   {
+      "id": 159,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.plantparentai.app.gif?raw=true",
+      "pkg_name": "!com.plantparentai.app",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:83",
+      "director": " 👉 Lifestyle",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Plant parent",
+      "outline": [" 👉 Image classification"],
+      "certificate": [
+         " 👉 Camera frame",
+         " 👉 Pop-up messages",
+         " 👉 Textual Instruction",
+         " 👉 Visual Instruction"
+      ],
+      "representation": [" 👉 Text", " 👉 Visual"]
+   },
+   {
+      "id": 160,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.picturerock.rock.gif?raw=true",
+      "pkg_name": "!com.picturerock.rock",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:83",
+      "director": " 👉 Lifestyle",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Picture rock",
+      "outline": [" 👉 Image classification"],
+      "certificate": [
+         " 👉 Auto focusing object",
+         " 👉 Pop-up messages",
+         " 👉 Textual Instruction",
+         " 👉 Visual Instruction"
+      ],
+      "representation": [" 👉 Text", " 👉 Visual"]
+   },
+   {
+      "id": 161,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.glority.pictureinsect.gif?raw=true",
+      "pkg_name": "!com.glority.pictureinsect",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:83",
+      "director": " 👉 Lifestyle",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Picture insect",
+      "outline": [" 👉 Image classification"],
+      "certificate": [
+         " 👉 Camera frame",
+         " 👉 Pop-up messages",
+         " 👉 Textual Instruction",
+         " 👉 Visual Instruction"
+      ],
+      "representation": [" 👉 Text", " 👉 Visual"]
+   },
+   {
+      "id": 162,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/app.plant.identification.gif?raw=true",
+      "pkg_name": "!app.plant.identification",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:83",
+      "director": " 👉 Lifestyle",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Picture insect",
+      "outline": [" 👉 Image classification"],
+      "certificate": [
+         " 👉 Camera frame",
+         " 👉 Pop-up messages",
+         " 👉 Textual Instruction",
+         " 👉 Visual Instruction",
+         " 👉 User personalisation"
+      ],
+      "representation": [" 👉 Text", " 👉 Visual"]
+   }
+   ,
+   {
+      "id": 163,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.dstteam.minecraftvn123.theplantae.gif?raw=true",
+      "pkg_name": "!com.dstteam.minecraftvn123.theplantae",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:83",
+      "director": " 👉 Lifestyle",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Plantae",
+      "outline": [" 👉 Image classification"],
+      "certificate": [
+         " 👉 Camera frame",
+         " 👉 Pop-up messages",
+         " 👉 Textual Instruction",
+         " 👉 Visual Instruction",
+         " 👉 Auditory feedback (Static)"
+      ],
+      "representation": [" 👉 Text", " 👉 Visual"]
+   }
+   ,
+   {
+      "id": 164,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/org.inaturalist.android.gif?raw=true",
+      "pkg_name": "!org.inaturalist.android",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:83",
+      "director": " 👉 Lifestyle",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "iNaturalist",
+      "outline": [" 👉 Image classification"],
+      "certificate": [
+         " 👉 No interaction with hardware input"
+
+      ],
+      "representation": [" 👉 Text"]
+   }
+   ,
+   {
+      "id": 165,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.conceptivapps.blossom.gif?raw=true",
+      "pkg_name": "!com.conceptivapps.blossom",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:83",
+      "director": " 👉 Lifestyle",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Blossom",
+      "outline": [" 👉 Image classification"],
+      "certificate": [
+         " 👉 Camera frame",
+         " 👉 Pop-up messages",
+         " 👉 Textual Instruction",
+         " 👉 Visual Instruction",
+         " 👉 Auditory feedback (Static)"
+      ],
+      "representation": [" 👉 Text", " 👉 Visual"]
+   }
+   ,
+   {
+      "id": 166,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.fws.plantsnap2.gif?raw=true",
+      "pkg_name": "!com.fws.plantsnap2",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:83",
+      "director": " 👉 Lifestyle",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Blossom",
+      "outline": [" 👉 Image classification"],
+      "certificate": [
+         " 👉 User personalisation",
+         " 👉 Pop-up messages",
+         " 👉 Textual Instruction",
+         " 👉 Visual Instruction",
+         " 👉 Auditory feedback (Static)"
+      ],
+      "representation": [" 👉 Text", " 👉 Visual"]
+   }
+   ,
+   {
+      "id": 167,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/plant.identification.snap.gif?raw=true",
+      "pkg_name": "!plant.identification.snap",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:83",
+      "director": " 👉 Lifestyle",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "LeafSnap",
+      "outline": [" 👉 Image classification"],
+      "certificate": [
+         " 👉 No interaction with hardware input"
+      ],
+      "representation": [" 👉 Text", " 👉 Visual"]
+   },
+   {
+      "id": 168,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/org.plantnet.gif?raw=true",
+      "pkg_name": "!org.plantnet",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:83",
+      "director": " 👉 Lifestyle",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "LeafSnap",
+      "outline": [" 👉 Image classification"],
+      "certificate": [
+         " 👉 No interaction with hardware input"
+      ],
+      "representation": [" 👉 Text", " 👉 Visual"]
+   },
+   {
+      "id": 169,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/cn.danatech.xingseus.gif?raw=true",
+      "pkg_name": "!cn.danatech.xingseus",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:83",
+      "director": " 👉 Lifestyle",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "PictureThis",
+      "outline": [" 👉 Image classification"],
+      "certificate": [
+         " 👉 Pop-up messages",
+         " 👉 Textual Instruction",
+         " 👉 Visual Instruction",
+         " 👉 Auditory feedback (Static)"
+      ],
+      "representation": [" 👉 Text", " 👉 Visual"]
+   },
+   {
+      "id": 170,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.sayhi.android.sayhitranslate.gif?raw=true",
+      "pkg_name": "!com.sayhi.android.sayhitranslate",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:46",
+      "director": " 👉 Tools",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Amazon - Say Hi",
+      "outline": [
+         " 👉 Text recognition"
+      ],
+      "genre": [
+         "Dynamic",
+         "Static"
+      ],
+      "certificate": [
+         " 👉 Visual Instruction",
+         " 👉 Pop-up messages"
+      ],
+      "representation": [
+         " 👉 Visual",
+         " 👉 Text"
+      ]
+   }
+   ,
+   {
+      "id": 171,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/ru.yandex.translate_word.gif?raw=true",
+      "pkg_name": "!ru.yandex.translate",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:46",
+      "director": " 👉 Tools",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Yandex Translate",
+      "outline": [
+         " 👉 Text recognition"
+      ],
+      "genre": [
+         "Dynamic",
+         "Static"
+      ],
+      "certificate": [
+         " 👉 Auto focusing object",
+         " 👉 User personalisation",
+         " 👉 Pop-up messages",
+         " 👉 Textual Instruction",
+         " 👉 Visual Instruction"
+      ],
+      "representation": [
+         " 👉 Visual",
+         " 👉 Text"
+      ]
+   },
+   {
+      "id": 171,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/ru.yandex.translate_fullText.gif?raw=true",
+      "pkg_name": "!ru.yandex.translate",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:46",
+      "director": " 👉 Tools",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Yandex Translate",
+      "outline": [
+         " 👉 Text recognition"
+      ],
+      "genre": [
+         "Dynamic",
+         "Static"
+      ],
+      "certificate": [
+         " 👉 Auto focusing object",
+         " 👉 Pop-up messages",
+         " 👉 Textual Instruction",
+         " 👉 Visual Instruction"
+      ],
+      "representation": [
+         " 👉 Visual",
+         " 👉 Text"
+      ]
+   },
+   {
+      "id": 172,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.deepLmobiletranslator.gif?raw=true",
+      "pkg_name": "!com.deepLmobiletranslator",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:46",
+      "director": " 👉 Tools",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "DeepL Translate",
+      "outline": [
+         " 👉 Text recognition"
+      ],
+      "genre": [
+         "Dynamic",
+         "Static"
+      ],
+      "certificate": [
+         " 👉 Textual Instruction"
+      ],
+      "representation": [
+         " 👉 Text"
+      ]
+   },
+   {
+      "id": 173,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.microsoft.translator.gif?raw=true",
+      "pkg_name": "!com.microsoft.translator",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:46",
+      "director": " 👉 Tools",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Microsoft translator",
+      "outline": [
+         " 👉 Text recognition"
+      ],
+      "genre": [
+         "Dynamic",
+         "Static"
+      ],
+      "certificate": [
+         " 👉 Auto focusing object",
+         " 👉 Textual Instruction"],
+      "representation": [
+         " 👉 Text"
+      ]
+   },
+   {
+      "id": 174,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.languagetranslator.translatorapp.smartscanner.dictionary.translation.voicetranslator.gif?raw=true",
+      "pkg_name": "!com.languagetranslator.translatorapp.smartscanner.dictionary.translation.voicetranslator",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:46",
+      "director": " 👉 Tools",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Language Translate",
+      "outline": [
+         " 👉 Text recognition"
+      ],
+      "genre": [
+         "Dynamic"],
+      "certificate": [
+         " 👉 User personalisation"
+      ],
+      "representation": [
+         " 👉 Visual"]
+   }
+
+]
