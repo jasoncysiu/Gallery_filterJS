@@ -42,4 +42,9 @@ function initSliders(){
   $('#all_genre').on('click', function(){
     $('#genre_criteria :checkbox').prop('checked', $(this).is(':checked'));
   });
+
+  $('#genre_criterias :checkbox').prop('checked', true);
+  $('#all_genre').on('click', function(){
+    $('#genre_criteria :checkbox').prop('checked', $(this).is(':checked'));
+  });
 }

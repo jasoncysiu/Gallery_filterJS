@@ -154,4 +154,6 @@ function initSliders(){
   $('#all_representation').on('click', function(){
     $('#representation :checkbox').prop('checked', $(this).is(':checked'));
   });
+
+ 
 }

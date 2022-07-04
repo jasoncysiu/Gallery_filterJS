@@ -8294,38 +8294,17 @@ h4 {
 
 
 /* Start - (style) texts looking like tags */
-#button_style {
-  display: inline-block;
-  border: solid 1px #da7c0c;
-  background-color: Transparent;
-  /* background: #90EE90; */
-  text-decoration: none;
-  font: 14px/100% Arial, Helvetica, sans-serif;
-  padding: .5em 2em .55em;
 
-  -webkit-border-radius: .5em;
-  -moz-border-radius: .5em;
-  border-radius: 2.6em;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
-  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
-  font-size: 0.78em;
-  font-family: 'century gothic', sans-serif !important;
-  /* text-transform: uppercase; */
-  cursor: default;
-  line-height: 1.5;
+    /* Without all detail shown (start) */
 
-
+#button_style{
+  margin-top: 10px;
+  width: 90%;
+/* background-color: #da7c0c;   */
+/* color: white; */
 }
 
-#button_style:hover {
-  background: #f47c20;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
-  /* background: -moz-linear-gradient(top, #f88e11, #f06015); */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
-  color: white;
-}
-
+#button_style:hover::after,
 #button_style:focus::after {
   content: attr(data-title);
   padding: 5px;
@@ -8344,18 +8323,11 @@ h4 {
   opacity: 97.8%;
   font-size: smaller;
   text-align: left;
-  /* -webkit-border-radius: .5em; 
-  -moz-border-radius: .5em;
-  border-radius: 2.6em;
-  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
-  -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
-  box-shadow: 0 1px 2px rgba(0,0,0,.2);
-  font-size: 0.78em;
-  font-family: 'century gothic', sans-serif!important;
-  cursor: default;
-  line-height: 1.5; */
 }
 
+    /* Without all detail shown (end) */
+
+/* ====================================================================  */
 /*#button_style:active {
   position: relative;
   top: 1px;
@@ -8414,3 +8386,4 @@ h4 {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+
