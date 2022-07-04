@@ -8321,7 +8321,7 @@ h4 {
 #button_style:hover {
   background: #f47c20;
   background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
-  background: -moz-linear-gradient(top, #f88e11, #f06015);
+  /* background: -moz-linear-gradient(top, #f88e11, #f06015); */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
   color: white;
 }
@@ -8332,7 +8332,8 @@ h4 {
   position: absolute;
   top: 600px;
   left: 5px;
-  background: #dc143c;
+  background: #000066;
+  /* background: #dc143c; */
   color: white;
   white-space: pre;
   word-wrap: break-word;
@@ -8340,8 +8341,9 @@ h4 {
   display: inline;
   border-radius: 5px;
   margin-left: -120%;
-  opacity: 90%;
+  opacity: 97.8%;
   font-size: smaller;
+  text-align: left;
   /* -webkit-border-radius: .5em; 
   -moz-border-radius: .5em;
   border-radius: 2.6em;
