@@ -323,13 +323,21 @@
                         </div>
                         <div id="filter_text" class="checkbox">
                             <label>
-                        <input type="checkbox" value=" 👉 Photo editor">
+                        <input type="checkbox" value=" 👉 User personalisation">
                         <span>User personalisation</span>
                         </label>
                         </div>
+                   
 
-
-
+                        <div id="filter_text" class="checkbox">
+                            <label>
+                           <input type="checkbox" value=" 👉 Audio cue" >
+                           <div class="icon_model">
+                              <span>Audio dynamic cue</span>
+                              <img src="https://raw.githubusercontent.com/jasonxsiu/Gallery_filterJS/main/examples/assets/css/images/question_mark.png" title="A visualiser / cue indicating that the audio is being perceived &#013(e.g., dynamic soundwave and volume visualiser).">
+                              </div>
+                           </label>
+                        </div>
                     </fieldset>
                 </div>
             </div>
@@ -366,10 +374,11 @@
                         </div>
                         <div id="filter_text" class="checkbox">
                             <label>
-                        <input type="checkbox" value="Haptic" >
+                        <input type="checkbox" value=" 👉 Haptic" >
                         <span>Haptic</span>
                         </label>
                         </div>
+                     
                     </fieldset>
 
                 </div>
@@ -422,7 +431,7 @@
                         </h4> <br>
 
 
-                        <img data-gifffer=<%=year %> style="width: 24.5rem; display: block; margin-left: auto; margin-right: auto;"loading="lazy">
+                        <img data-gifffer=<%=year %> data-gifffer-width ="100%" style="width: 24.5rem; display: block; margin-left: auto; margin-right: auto;"loading="lazy">
 
                         <!-- <img src=<%=year %> style="width: 24.5rem; display: block; margin-left: auto; margin-right: auto;"loading="lazy" class="gif"> -->
 
@@ -437,7 +446,7 @@
 
                             <button id="button_style" data-title="   CATEGORY: <%= director %>.
    USER INTERACTION: <%= certificate %>. 
-   MODEL TYPE:<%= outline %>.  
+   MODEL TYPE: <%= outline %>.  
    The information is presented using <%= representation %> element to user. 
 ">
 

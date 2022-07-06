@@ -8,3 +8,6 @@
          " 👉 Importing files"
 		          " 👉 Auditory feedback (Static)"
          " 👉 No interaction with hardware input"
+         " 👉 Object sensor",
+		 " 👉 Text suggestion"
+		  👉 Soundwave

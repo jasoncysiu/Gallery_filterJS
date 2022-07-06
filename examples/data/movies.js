@@ -33,23 +33,14 @@ var movies = [
       "pkg_name": "com.cyberlink.youcammakeup",
       "rating": 5,
       "runtime": 50,
-      "date": "1974-04-30T10:29:29+05:157",
-      "director": " 👉 Photography",
+      "date": "1974-04-30T10:29:29+05:90",
+      "director": "Photography",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
-      "name": "YouCam Makeup - Selfie Editor",
-      "outline": [
-         " 👉 Face detection",
-         " 👉 Selfie segmentation"],
-      "genre": [
-         "Dynamic"
-      ],
-      "certificate": [
-         " 👉 Auto focusing object",
-         " 👉 User personalisation"],
-      "representation": [
-         " 👉 Visual"
-      ]
+      "name": "YouCam Makeup",
+      "outline": [" 👉 Face detection"],
+      "certificate": [" 👉 Text suggestion", " 👉 Camera frame", " 👉 Textual Instruction", " 👉 Pop-up messages", " 👉 Visual Instruction"],
+      "representation": [" 👉 Visual", " 👉 Text"]
    },
    {
       "id": 3,
@@ -531,7 +522,8 @@ var movies = [
       "certificate": [
          " 👉 Pop-up messages",
          " 👉 Textual Instruction",
-         " 👉 Vibration"
+         " 👉 Vibration",
+         " 👉 Audio cue"
       ],
       "representation": [
          " 👉 Text",
@@ -557,8 +549,8 @@ var movies = [
          "Static"
       ],
       "certificate": [
-         " 👉 No interaction with hardware input",
-         " 👉 Vibration"
+         " 👉 Vibration",
+         " 👉 Audio cue"
       ],
       "representation": [
          " 👉 Text",
@@ -1467,7 +1459,36 @@ var movies = [
          " 👉 Aural"
       ]
    },
+   { 
+    
+      "id": 74,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/machinelearning.tensorflow.speech.gif?raw=true",
+      "pkg_name": "machinelearning.tensorflow.speech",
+      "rating": 5,
+      "runtime": 50,
+      "date": "1974-04-30T10:29:29+05:348",
+      "director": " 👉 Libraries and Demo",
+      "actor": "Al Pacino",
+      "stars": "Marlon Brando",
+      "name": "Speech Recognition TensorFlow Machine Learning",
+      "outline": [
+         " 👉 Speech recongnition"
+      ],
+      "genre": [
+         "Static"
+      ],
+      "certificate": [
+         " 👉 Pop-up messages",
+         " 👉 Textual Instruction"
+      ],
+      "representation": [
+         " 👉 Text"
+      ]
+
+
+   },
    {
+     
       "id": 55,
       "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.nhn.android.search.IC.gif?raw=true",
       "pkg_name": "com.nhn.android.search",
@@ -1498,38 +1519,6 @@ var movies = [
          " 👉 Aural",
          " 👉 Visual",
          " 👉 Haptic"
-      ]
-   },
-   {
-      "id": 56,
-      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.nhn.android.search.SR.gif?raw=true",
-      "pkg_name": "com.nhn.android.search",
-      "rating": 5,
-      "runtime": 50,
-      "date": "1974-04-30T10:29:29+05:91",
-      "director": " 👉 Tools",
-      "actor": "Al Pacino",
-      "stars": "Marlon Brando",
-      "name": "네이버-Naver",
-      "outline": [
-         " 👉 Speech recongnition"
-      ],
-      "genre": [
-         "Dynamic",
-         "Static"
-      ],
-      "certificate": [
-         " 👉 Auditory feedback (Dynamic)",
-         " 👉 Pop-up messages",
-         " 👉 Textual Instruction",
-         " 👉 Visual Instruction",
-         " 👉 Auditory feedback (Static)",
-         " 👉 Text suggestion"
-      ],
-      "representation": [
-         " 👉 Aural",
-         " 👉 Text",
-         " 👉 Visual"
       ]
    },
    {
@@ -2019,29 +2008,39 @@ var movies = [
       ]
    },
    {
-      "id": 74,
-      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/machinelearning.tensorflow.speech.gif?raw=true",
-      "pkg_name": "machinelearning.tensorflow.speech",
+      "id": 56,
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.nhn.android.search.SR.gif?raw=true",
+      "pkg_name": "com.nhn.android.search",
       "rating": 5,
       "runtime": 50,
-      "date": "1974-04-30T10:29:29+05:348",
-      "director": " 👉 Libraries and Demo",
+      "date": "1974-04-30T10:29:29+05:91",
+      "director": " 👉 Tools",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
-      "name": "Speech Recognition TensorFlow Machine Learning",
+      "name": "네이버-Naver",
       "outline": [
          " 👉 Speech recongnition"
       ],
       "genre": [
+         "Dynamic",
          "Static"
       ],
       "certificate": [
+         " 👉 Auditory feedback (Dynamic)",
          " 👉 Pop-up messages",
-         " 👉 Textual Instruction"
+         " 👉 Textual Instruction",
+         " 👉 Visual Instruction",
+         " 👉 Auditory feedback (Static)",
+         " 👉 Text suggestion",
+         " 👉 Audio cue"
       ],
       "representation": [
-         " 👉 Text"
+         " 👉 Aural",
+         " 👉 Text",
+         " 👉 Visual"
       ]
+
+
    },
    {
       "id": 75,
@@ -2185,18 +2184,19 @@ var movies = [
    },
    {
       "id": 82,
-      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.cyberlink.youcammakeup.gif?raw=true",
-      "pkg_name": "com.cyberlink.youcammakeup",
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/wechat_tenSecLeft.gif?raw=true",
+      "pkg_name": "!wechat",
       "rating": 5,
       "runtime": 50,
-      "date": "1974-04-30T10:29:29+05:90",
-      "director": "Photography",
+      "date": "1974-04-30T10:29:29+05:83",
+      "director": " 👉 Business",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
-      "name": "YouCam Makeup",
-      "outline": [" 👉 Face detection"],
-      "certificate": [" 👉 Text suggestion", " 👉 Camera frame", " 👉 Textual Instruction", " 👉 Pop-up messages", " 👉 Visual Instruction"],
-      "representation": [" 👉 Visual", " 👉 Text"]
+      "name": "Wechat - 10s left to record audio",
+      "outline": [" 👉 Speech recongnition"],
+      "certificate": [" 👉 Pop-up messages", " 👉 Textual Instruction", " 👉 Text suggestion",
+      " 👉 Audio cue"],
+      "representation": [" 👉 Text"]
    },
    {
       "id": 83,
@@ -2313,7 +2313,7 @@ var movies = [
       "director": "Productivity",
       "actor": "Al Pacino",
       "stars": "Marlon Brando",
-      "name": "",
+      "name": "Photo Translator",
       "outline": [" 👉 Image segmentation"],
       "certificate": [" 👉 Importing files", " 👉 User personalisation"],
       "representation": [" 👉 Text", " 👉 Visual"]
@@ -2618,8 +2618,8 @@ var movies = [
       "stars": "Marlon Brando",
       "name": "YouCam Makeup",
       "outline": [" 👉 Face detection"],
-      "certificate": [" 👉 Importing files", " 👉 Pop-up messages", " 👉 Textual Instruction", " 👉 User personalisation"],
-      "representation": [" 👉 Text", " 👉 Text", " 👉 Visual"]
+      "certificate": [" 👉 Importing files", " 👉 Pop-up messages", " 👉 User personalisation"],
+      "representation": [" 👉 Text", " 👉 Visual"]
    },
    {
       "id": 111,
@@ -2634,7 +2634,7 @@ var movies = [
       "name": "YouCam Makeup",
       "outline": [" 👉 Image segmentation"],
       "certificate": [" 👉 Importing files", " 👉 Pop-up messages", " 👉 Textual Instruction", " 👉 Visual Instruction", " 👉 User personalisation"],
-      "representation": [" 👉 Text", " 👉 Text", " 👉 Visual"]
+      "representation": [" 👉 Text", " 👉 Visual"]
    },
    {
       "id": 112,
@@ -2649,7 +2649,7 @@ var movies = [
       "name": "Love Collage",
       "outline": [" 👉 Face detection"],
       "certificate": [" 👉 Auto focusing object", " 👉 Pop-up messages", " 👉 User personalisation"],
-      "representation": [" 👉 Visual", " 👉 Text", " 👉 Visual"]
+      "representation": [" 👉 Visual", " 👉 Text"]
    },
    {
       "id": 113,
@@ -3163,7 +3163,7 @@ var movies = [
       ]
    }, {
       "id": 143,
-      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.google.android.googlequicksearchbox.gif?raw=true",
+      "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.google.android.googlequicksearchbox_sr.gif?raw=true",
       "pkg_name": "com.google.android.googlequicksearchbox",
       "rating": 5,
       "runtime": 50,
@@ -3182,6 +3182,7 @@ var movies = [
       "certificate": [
          " 👉 Auditory feedback (Dynamic)",
          " 👉 Visual Instruction",
+         " 👉 Audio cue",
          " 👉 Text suggestion"
       ],
       "representation": [
@@ -3247,7 +3248,8 @@ var movies = [
       "stars": "Marlon Brando",
       "name": "Google playstore",
       "outline": [" 👉 Speech recongnition"],
-      "certificate": [" 👉 Pop-up messages", " 👉 Textual Instruction"],
+      "certificate": [" 👉 Pop-up messages", " 👉 Textual Instruction",
+      " 👉 Audio cue"],
       "representation": [" 👉 Text"]
    },
    {
@@ -3262,7 +3264,8 @@ var movies = [
       "stars": "Marlon Brando",
       "name": "Ebay",
       "outline": [" 👉 Speech recongnition"],
-      "certificate": [" 👉 Pop-up messages", " 👉 Textual Instruction"],
+      "certificate": [" 👉 Pop-up messages", " 👉 Textual Instruction",
+      " 👉 Audio cue"],
       "representation": [" 👉 Text"]
    },
 
@@ -3278,7 +3281,9 @@ var movies = [
       "stars": "Marlon Brando",
       "name": "Google Translate",
       "outline": [" 👉 Speech recongnition"],
-      "certificate": [" 👉 No interaction with hardware input"],
+      "certificate": [
+         " 👉 Audio cue"
+      ],
       "representation": [" 👉 Text"]
    },
    {
@@ -3293,8 +3298,10 @@ var movies = [
       "stars": "Marlon Brando",
       "name": "Google Translate",
       "outline": [" 👉 Speech recongnition"],
-      "certificate": [" 👉 Pop-up messages", " 👉 Textual Instruction"],
-      "representation": [" 👉 Text"]
+      "certificate": [" 👉 Pop-up messages", " 👉 Textual Instruction",
+      " 👉 Audio cue"],
+      "representation": [" 👉 Text",
+      " 👉 Visual"]
    },
    {
       "id": 150,
@@ -3308,7 +3315,8 @@ var movies = [
       "stars": "Marlon Brando",
       "name": "Wechat",
       "outline": [" 👉 Speech recongnition"],
-      "certificate": [" 👉 Pop-up messages", " 👉 Textual Instruction", " 👉 User personalisation"],
+      "certificate": [" 👉 Pop-up messages", " 👉 Textual Instruction", " 👉 User personalisation",
+      " 👉 Audio cue"],
       "representation": [" 👉 Text"]
    },
    {
@@ -3353,7 +3361,8 @@ var movies = [
       "stars": "Marlon Brando",
       "name": "Youtube",
       "outline": [" 👉 Speech recongnition"],
-      "certificate": [" 👉 Textual Instruction", " 👉 Visual Instruction", " 👉 Pop-up messages"],
+      "certificate": [" 👉 Textual Instruction", " 👉 Visual Instruction", " 👉 Pop-up messages",
+      " 👉 Audio cue"],
       "representation": [" 👉 Text"]
    },
    {
