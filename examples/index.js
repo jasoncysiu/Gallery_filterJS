@@ -33,13 +33,13 @@ $(document).ready(function(){
     //   c.next().text(c.val() + '(' + count + ')')
     // });
 
-    // var representation  = $("#representation :input:gt(0)");
+    // var director  = $("#director :input:gt(0)");
 
-    // representation.each(function(){
+    // director.each(function(){
     //   var c = $(this), count = 0
 
     //   if(result.length > 0){
-    //     count = jQ.where({ '#representation': c.val() }).count;
+    //     count = jQ.where({ '#director': c.val() }).count;
     //   }
     //   c.next().text(c.val() + '(' + count + ')')
     // });
@@ -99,7 +99,8 @@ $(document).ready(function(){
   // FJS.addCriteria({field: 'runtime', ele: '#runtime_filter', type: 'range'});
   FJS.addCriteria({field: 'outline', ele: '#outline_criteria input:checkbox'});
   FJS.addCriteria({field: 'certificate', ele: '#certificate_criteria input:checkbox'});
-  FJS.addCriteria({field: 'representation', ele: '#representation input:checkbox'});
+  FJS.addCriteria({field: 'director', ele: '#director input:checkbox'});
+  FJS.addCriteria({field: 'genre', ele: '#genre input:checkbox'});
 
   /*
    * Add multiple criterial.
@@ -138,7 +139,7 @@ function initSliders(){
   });
 
   $('#outline_criteria :checkbox').prop('checked', true);
-  $('#all_genre').on('click', function(){
+  $('#all_models').on('click', function(){
     $('#outline_criteria :checkbox').prop('checked', $(this).is(':checked'));
   });
 
@@ -149,10 +150,16 @@ function initSliders(){
   });
 
 
-  //representation
-  $('#representation :checkbox').prop('checked', true);
-  $('#all_representation').on('click', function(){
-    $('#representation :checkbox').prop('checked', $(this).is(':checked'));
+  //director
+  $('#director :checkbox').prop('checked', true);
+  $('#all_director').on('click', function(){
+    $('#director :checkbox').prop('checked', $(this).is(':checked'));
+  });
+
+  // all interaction type
+  $('#genre :checkbox').prop('checked', true);
+  $('#all_genres').on('click', function(){
+    $('#genre :checkbox').prop('checked', $(this).is(':checked'));
   });
 
  
