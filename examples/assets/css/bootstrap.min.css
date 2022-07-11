@@ -8356,6 +8356,8 @@ h4 {
   cursor: default;
 }
 
+
+
 /* ================ toggle list for filters ================  */
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
@@ -8382,10 +8384,172 @@ h4 {
 
 /* Style the collapsible content. Note: hidden by default */
 .contents {
-
-
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
 
+
+/* ================ click to trigger pop-up images of the interaction ================  */
+
+/* pop_up hover over start*/
+#snapchat_pop {
+  position: relative;
+  background-color: yellow;
+}
+
+#snapchat_pop:hover {
+  
+  cursor: pointer;
+}
+
+#snapchat_pop img {
+  position: absolute !important;
+  opacity: 0;
+  width: 210px;
+  height: 250px;
+  left: 0;
+  top: 0px;
+  transition: opacity .5s, top .5s;
+  z-index: 1;
+}
+
+#snapchat_pop:focus img {
+  opacity: 1;
+  top: -190px;
+}
+
+
+#snapchat_pop {
+  position: relative;
+  background-color: yellow;
+}
+
+#snapchat_pop:hover {
+  
+  cursor: pointer;
+}
+/* pop_up hover over end*/
+
+
+
+/* Text suggestion hover over start*/
+#snapchat_ts {
+  position: relative;
+  background-color: yellow;
+}
+
+#snapchat_ts:hover {
+  
+  cursor: pointer;
+}
+
+#snapchat_ts img {
+  position: absolute !important;
+  opacity: 0;
+  width: 210px;
+  height: 350px;
+  left: 0;
+  top: 0px;
+  transition: opacity .5s, top .5s;
+  z-index: 1;
+}
+
+#snapchat_ts:focus img {
+  opacity: 1;
+  top: -190px;
+}
+
+
+#snapchat_ts {
+  position: relative;
+  background-color: yellow;
+}
+
+#snapchat_ts:hover {
+  
+  cursor: pointer;
+}
+/* Text suggestion hover over end*/
+
+
+/* auto focus hover over start*/
+#snapchat_af {
+  position: relative;
+  background-color: yellow;
+}
+
+#snapchat_af:hover {
+  
+  cursor: pointer;
+}
+
+#snapchat_af img {
+  position: absolute !important;
+  opacity: 0;
+  width: 210px;
+  height: 390px;
+  left: 0;
+  top: 0px;
+  transition: opacity .5s, top .5s;
+  z-index: 1;
+
+}
+
+#snapchat_af:focus img {
+  opacity: 1;
+  top: -300px;
+}
+
+
+#snapchat_af {
+  position: relative;
+  background-color: yellow;
+}
+
+#snapchat_af:hover {
+  
+  cursor: pointer;
+}
+/* Text suggestion hover over end*/
+
+/* obj sensor hover over start*/
+
+#snapchat_os {
+  position: relative;
+  background-color: yellow;
+}
+
+#snapchat_os:hover {
+  cursor: 51 127, auto;
+  cursor: pointer;
+}
+
+#snapchat_os img {
+  position: absolute !important;
+  opacity: 0;
+  width: 230px;
+  height: 265px;
+  left: 0;
+  top: 0px;
+  transition: opacity .5s, top .5s;
+  z-index: 1;
+}
+
+#snapchat_os:focus img {
+  opacity: 1;
+  top: -200px;
+}
+
+
+#snapchat_os {
+  position: relative;
+  background-color: yellow;
+}
+
+#snapchat_os:hover {
+  
+  cursor: pointer;
+}
+
+/* obj sensor hover over end*/

@@ -5884,7 +5884,7 @@ var movies = [{
         "director": " 👉 Health and Fitness",
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
-        "name": "APECS: Body Posture Evaluation - Marker detection mode",
+        "name": "APECS: Body Posture Evaluation - Green Marker Recognition mode",
         "outline": [
             " 👉 Pose detection"
 
