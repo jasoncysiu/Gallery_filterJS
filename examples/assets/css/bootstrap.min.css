@@ -8393,16 +8393,6 @@ h4 {
 /* ================ click to trigger pop-up images of the interaction ================  */
 
 /* pop_up hover over start*/
-#snapchat_pop {
-  position: relative;
-  background-color: yellow;
-}
-
-#snapchat_pop:hover {
-  
-  cursor: pointer;
-}
-
 #snapchat_pop img {
   position: absolute !important;
   opacity: 0;
@@ -8412,6 +8402,7 @@ h4 {
   top: 0px;
   transition: opacity .5s, top .5s;
   z-index: 1;
+  cursor: pointer;
 }
 
 #snapchat_pop:focus img {
@@ -8425,25 +8416,11 @@ h4 {
   background-color: yellow;
 }
 
-#snapchat_pop:hover {
-  
-  cursor: pointer;
-}
 /* pop_up hover over end*/
 
 
 
 /* Text suggestion hover over start*/
-#snapchat_ts {
-  position: relative;
-  background-color: yellow;
-}
-
-#snapchat_ts:hover {
-  
-  cursor: pointer;
-}
-
 #snapchat_ts img {
   position: absolute !important;
   opacity: 0;
@@ -8453,6 +8430,7 @@ h4 {
   top: 0px;
   transition: opacity .5s, top .5s;
   z-index: 1;
+  cursor: pointer;
 }
 
 #snapchat_ts:focus img {
@@ -8465,19 +8443,10 @@ h4 {
   position: relative;
   background-color: yellow;
 }
-
-#snapchat_ts:hover {
-  
-  cursor: pointer;
-}
 /* Text suggestion hover over end*/
 
 
 /* auto focus hover over start*/
-#snapchat_af {
-  position: relative;
-  background-color: yellow;
-}
 
 #snapchat_af:hover {
   
@@ -8493,7 +8462,7 @@ h4 {
   top: 0px;
   transition: opacity .5s, top .5s;
   z-index: 1;
-
+  cursor: pointer;
 }
 
 #snapchat_af:focus img {
@@ -8507,23 +8476,9 @@ h4 {
   background-color: yellow;
 }
 
-#snapchat_af:hover {
-  
-  cursor: pointer;
-}
 /* Text suggestion hover over end*/
 
 /* obj sensor hover over start*/
-
-#snapchat_os {
-  position: relative;
-  background-color: yellow;
-}
-
-#snapchat_os:hover {
-  cursor: 51 127, auto;
-  cursor: pointer;
-}
 
 #snapchat_os img {
   position: absolute !important;
@@ -8534,6 +8489,7 @@ h4 {
   top: 0px;
   transition: opacity .5s, top .5s;
   z-index: 1;
+  cursor: pointer;
 }
 
 #snapchat_os:focus img {
@@ -8545,11 +8501,7 @@ h4 {
 #snapchat_os {
   position: relative;
   background-color: yellow;
-}
-
-#snapchat_os:hover {
-  
-  cursor: pointer;
+  cursor:pointer;
 }
 
 /* obj sensor hover over end*/
