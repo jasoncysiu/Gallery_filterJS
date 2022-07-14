@@ -467,40 +467,31 @@ var movies = [{
     },
     {
         "id": 15,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.baidu.BaiduMap_qr.gif?raw=true",
-        "pkg_name": "com.baidu.BaiduMap",
+        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.booking.gif?raw=true",
+        "pkg_name": "!com.booking",
         "rating": 5,
         "runtime": 50,
         "date": "1974-04-30T10:29:29+05:136",
-        "director": " 👉 Tools",
+        "director": " 👉 Lifestyle",
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
-        "name": "Baidu Map",
+        "name": "Booking.com",
         "outline": [
-            " 👉 Barcode scanning",
+            " 👉 Speech recongnition",
 
         ],
         "genre": [
-            "Static",
-
-
+            "Static"
         ],
         "certificate": [
             " 👉 Pop-up messages",
             " 👉 Textual Instruction",
-            " 👉 Camera frame",
-            " 👉 Flashlight",
-            " 👉 Vibration",
-
-
-
-
+            " 👉 Text suggestion",
+            " 👉 Audio cue"
         ],
         "representation": [
             " 👉 Text",
-            " 👉 Visual",
-            " 👉 Haptic",
-
+            " 👉 Visual"
         ]
     },
     {
@@ -5972,7 +5963,44 @@ var movies = [{
             " 👉 Text",
             " 👉 Visual"
         ]
-    }
+    },
+    {
+        "id": 180,
+        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.baidu.BaiduMap_qr.gif?raw=true",
+        "pkg_name": "com.baidu.BaiduMap",
+        "rating": 5,
+        "runtime": 50,
+        "date": "1974-04-30T10:29:29+05:136",
+        "director": " 👉 Tools",
+        "actor": "Al Pacino",
+        "stars": "Marlon Brando",
+        "name": "Baidu Map",
+        "outline": [
+            " 👉 Barcode scanning",
 
+        ],
+        "genre": [
+            "Static",
+
+
+        ],
+        "certificate": [
+            " 👉 Pop-up messages",
+            " 👉 Textual Instruction",
+            " 👉 Camera frame",
+            " 👉 Flashlight",
+            " 👉 Vibration",
+
+
+
+
+        ],
+        "representation": [
+            " 👉 Text",
+            " 👉 Visual",
+            " 👉 Haptic",
+
+        ]
+    }
 
 ]
