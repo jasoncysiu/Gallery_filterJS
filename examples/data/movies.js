@@ -205,8 +205,8 @@ var movies = [{
     },
     {
         "id": 7,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/ch.zhaw.facerecognition.gif?raw=true",
-        "pkg_name": "ch.zhaw.facerecognition",
+        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.shroomid.gif?raw=true",
+        "pkg_name": "com.shroomid",
         "rating": 5,
         "runtime": 50,
         "date": "1974-04-30T10:29:29+05:124",
@@ -215,7 +215,7 @@ var movies = [{
         "stars": "Marlon Brando",
         "name": "Face Recognition",
         "outline": [
-            " 👉 Face detection",
+            " 👉 Image classification",
 
         ],
         "genre": [
@@ -224,14 +224,16 @@ var movies = [{
 
         ],
         "certificate": [
-            " 👉 Auto focusing object",
-
-
+            " 👉 Camera frame",
+            " 👉 Pop-up messages",
+            " 👉 Visual Instruction",
+            " 👉 Vibration",
+            " 👉 Textual Instruction"
         ],
         "representation": [
             " 👉 Visual",
-
-
+            " 👉 Text",
+            " 👉 Haptic"
 
         ]
     },
@@ -6001,6 +6003,37 @@ var movies = [{
             " 👉 Haptic",
 
         ]
-    }
+    },
+    {
+        "id": 181,
+        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/ch.zhaw.facerecognition.gif?raw=true",
+        "pkg_name": "ch.zhaw.facerecognition",
+        "rating": 5,
+        "runtime": 50,
+        "date": "1974-04-30T10:29:29+05:124",
+        "director": " 👉 Libraries and Demo",
+        "actor": "Al Pacino",
+        "stars": "Marlon Brando",
+        "name": "Face Recognition",
+        "outline": [
+            " 👉 Face detection",
 
+        ],
+        "genre": [
+            "Dynamic",
+
+
+        ],
+        "certificate": [
+            " 👉 Auto focusing object",
+
+
+        ],
+        "representation": [
+            " 👉 Visual",
+
+
+
+        ]
+    }
 ]
