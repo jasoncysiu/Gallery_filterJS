@@ -134,41 +134,35 @@ var movies = [{
         ],
         "representation": [
             " 👉 Text",
-            " 👉 Visual",
-
-
+            " 👉 Visual"
         ]
     },
     {
         "id": 5,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/ai.fritz.heartbeat_sty_no_in.gif?raw=true",
-        "pkg_name": "ai.fritz.heartbeat",
+        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/plant.identification.flower.tree.leaf.identifier.identify.cat.dog.breed.nature.gif?raw=true",
+        "pkg_name": "plant.identification.flower.tree.leaf.identifier.identify.cat.dog.breed.nature",
         "rating": 5,
         "runtime": 50,
         "date": "1974-04-30T10:29:29+05:116",
-        "director": " 👉 Libraries and Demo",
+        "director": " 👉 Education",
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
-        "name": "Fritz AI Studio",
+        "name": "NatureID- Plant Identification",
         "outline": [
-            " 👉 Style transfer",
-
+            " 👉 Image classification"
         ],
         "genre": [
-            "No Interaction",
-
-
+            "Static"
         ],
         "certificate": [
-            " 👉 No interaction with hardware input",
-
-
+            " 👉 Camera frame",
+            " 👉 Pop-up messages",
+            " 👉 Visual Instruction",
+            " 👉 Textual Instruction"
         ],
         "representation": [
-            " 👉 Text",
-
-
-
+            " 👉 Visual",
+            " 👉 Text"
         ]
     },
     {
@@ -210,18 +204,15 @@ var movies = [{
         "rating": 5,
         "runtime": 50,
         "date": "1974-04-30T10:29:29+05:124",
-        "director": " 👉 Libraries and Demo",
+        "director": " 👉 Education",
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
-        "name": "Face Recognition",
+        "name": "ShroomID - Identify Mushrooms!",
         "outline": [
-            " 👉 Image classification",
-
+            " 👉 Image classification"
         ],
         "genre": [
-            "Dynamic",
-
-
+            "Static"
         ],
         "certificate": [
             " 👉 Camera frame",
@@ -234,77 +225,65 @@ var movies = [{
             " 👉 Visual",
             " 👉 Text",
             " 👉 Haptic"
-
         ]
     },
     {
         "id": 8,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/cn.com.hrcrb.mobilebank.per.gif?raw=true",
-        "pkg_name": "cn.com.hrcrb.mobilebank.per",
+        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.glority.picturebird_IC.gif?raw=true",
+        "pkg_name": "com.glority.picturebird",
         "rating": 5,
         "runtime": 50,
         "date": "1974-04-30T10:29:29+05:125",
-        "director": " 👉 Finance",
+        "director": " 👉 Education",
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
-        "name": "CINA RESOURCES BANK",
+        "name": "Picture Bird - Bird Identifier",
         "outline": [
-            " 👉 Entity extraction",
-            " 👉 Text recognition"
+            " 👉 Image classification"
+
         ],
         "genre": [
             "Static",
             "Dynamic",
-
         ],
         "certificate": [
             " 👉 Textual Instruction",
             " 👉 Camera frame",
             " 👉 Object sensor",
-            " 👉 Pop-up messages",
-            " 👉 Vibration",
-
-
-
-
-        ],
+            " 👉 Pop-up messages"        ],
         "representation": [
             " 👉 Text",
             " 👉 Visual",
-            " 👉 Haptic"
-
         ]
     },
     {
         "id": 9,
-        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/cn.jingling.motu.photowonder.gif?raw=true",
-        "pkg_name": "cn.jingling.motu.photowonder",
+        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.glority.picturebird_AC.gif?raw=true",
+        "pkg_name": "com.glority.picturebird",
         "rating": 5,
         "runtime": 50,
         "date": "1974-04-30T10:29:29+05:133",
-        "director": " 👉 Photography",
+        "director": " 👉 Education",
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "PhotoWonder: Pro Beauty User personalisation&Collage Maker",
         "outline": [
-            " 👉 Face detection",
+            " 👉 Audio classification"
 
         ],
         "genre": [
             "Dynamic",
-
+            "Static"
 
         ],
         "certificate": [
-            " 👉 User personalisation",
-
-
+            " 👉 Textual Instruction",
+            " 👉 Pop-up messages",
+            " 👉 Audio cue"
         ],
         "representation": [
             " 👉 Visual",
-
-
-
+            " 👉 Text"
         ]
     },
     {
@@ -334,7 +313,7 @@ var movies = [{
         ],
         "representation": [
             " 👉 Visual",
-            " 👉 Text",
+            " 👉 Text"
 
 
         ]
@@ -702,7 +681,7 @@ var movies = [{
         "rating": 5,
         "runtime": 50,
         "date": "1974-04-30T10:29:29+05:83",
-        "director": " 👉 Lifestyle",
+        "director": " 👉 Education",
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "PictureThis",
@@ -1024,11 +1003,11 @@ var movies = [{
     {
         "id": 32,
         "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/pl.roslin.atlas.gif?raw=true",
-        "pkg_name": "!pl.roslin.atlas",
+        "pkg_name": "pl.roslin.atlas",
         "rating": 5,
         "runtime": 50,
         "date": "1974-04-30T10:29:29+05:83",
-        "director": " 👉 Lifestyle",
+        "director": " 👉 Education",
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "Plant atlas",
@@ -1041,25 +1020,20 @@ var movies = [{
 
         ],
         "certificate": [
-            " 👉 Auto focusing object",
-
-
+            " 👉 Auto focusing object"
         ],
         "representation": [
-            " 👉 Text",
-
-
-
+            " 👉 Text"
         ]
     },
     {
         "id": 33,
         "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.glority.picturemushroom.gif?raw=true",
-        "pkg_name": "!com.glority.picturemushroom",
+        "pkg_name": "com.glority.picturemushroom",
         "rating": 5,
         "runtime": 50,
         "date": "1974-04-30T10:29:29+05:83",
-        "director": " 👉 Lifestyle",
+        "director": " 👉 Education",
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "Picture mushroom",
@@ -1069,35 +1043,31 @@ var movies = [{
         ],
         "genre": [
             "Static"
-
         ],
         "certificate": [
             " 👉 Pop-up messages",
             " 👉 Textual Instruction",
             " 👉 Camera frame",
-            " 👉 Visual Instruction",
+            " 👉 Visual Instruction"
         ],
         "representation": [
             " 👉 Text",
-            " 👉 Visual",
-
-
+            " 👉 Visual"
         ]
     },
     {
         "id": 34,
         "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.glority.pictureinsect.gif?raw=true",
-        "pkg_name": "!com.glority.pictureinsect",
+        "pkg_name": "com.glority.pictureinsect",
         "rating": 5,
         "runtime": 50,
         "date": "1974-04-30T10:29:29+05:83",
-        "director": " 👉 Lifestyle",
+        "director": " 👉 Education",
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "Picture insect",
         "outline": [
-            " 👉 Image classification",
-
+            " 👉 Image classification"
         ],
         "genre": [
             "Static"
@@ -1290,13 +1260,12 @@ var movies = [{
         "rating": 5,
         "runtime": 50,
         "date": "1974-04-30T10:29:29+05:83",
-        "director": " 👉 Lifestyle",
+        "director": " 👉 Education",
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "Picture rock",
         "outline": [
-            " 👉 Image classification",
-
+            " 👉 Image classification"
         ],
         "genre": [
             "Static",
@@ -1352,33 +1321,27 @@ var movies = [{
     {
         "id": 42,
         "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/app.plant.identification.gif?raw=true",
-        "pkg_name": "!app.plant.identification",
+        "pkg_name": "app.plant.identification",
         "rating": 5,
         "runtime": 50,
         "date": "1974-04-30T10:29:29+05:83",
-        "director": " 👉 Lifestyle",
+        "director": " 👉 Education",
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "Picture insect",
         "outline": [
-            " 👉 Image classification",
-
+            " 👉 Image classification"
         ],
         "genre": [
             "Static",
             "Dynamic"
-
-
         ],
         "certificate": [
             " 👉 Camera frame",
             " 👉 Pop-up messages",
             " 👉 Textual Instruction",
             " 👉 Visual Instruction",
-            " 👉 User personalisation",
-
-
-
+            " 👉 User personalisation"
 
         ],
         "representation": [
@@ -1814,9 +1777,7 @@ var movies = [{
 
         ],
         "certificate": [
-            " 👉 Pop-up messages",
-
-
+            " 👉 Pop-up messages"
         ],
         "representation": [
             " 👉 Text",
@@ -2485,8 +2446,7 @@ var movies = [{
         ],
         "genre": [
             "Static",
-            "Dynamic",
-
+            "Dynamic"
         ],
         "certificate": [
             " 👉 Pop-up messages",
@@ -5255,7 +5215,7 @@ var movies = [{
         "rating": 5,
         "runtime": 50,
         "date": "1974-04-30T10:29:29+05:83",
-        "director": " 👉 Lifestyle",
+        "director": " 👉 Education",
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "Plant parent",
@@ -5378,11 +5338,11 @@ var movies = [{
     {
         "id": 163,
         "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.dstteam.minecraftvn123.theplantae.gif?raw=true",
-        "pkg_name": "!com.dstteam.minecraftvn123.theplantae",
+        "pkg_name": "com.dstteam.minecraftvn123.theplantae",
         "rating": 5,
         "runtime": 50,
         "date": "1974-04-30T10:29:29+05:83",
-        "director": " 👉 Lifestyle",
+        "director": " 👉 Education",
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "Plantae",
@@ -5398,11 +5358,7 @@ var movies = [{
             " 👉 Pop-up messages",
             " 👉 Textual Instruction",
             " 👉 Visual Instruction",
-            " 👉 Auditory feedback (Static)",
-
-
-
-
+            " 👉 Auditory feedback (Static)"
         ],
         "representation": [
             " 👉 Text",
@@ -5417,7 +5373,7 @@ var movies = [{
         "rating": 5,
         "runtime": 50,
         "date": "1974-04-30T10:29:29+05:83",
-        "director": " 👉 Lifestyle",
+        "director": " 👉 Education",
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "iNaturalist",
@@ -5443,11 +5399,11 @@ var movies = [{
     {
         "id": 165,
         "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.conceptivapps.blossom.gif?raw=true",
-        "pkg_name": "!com.conceptivapps.blossom",
+        "pkg_name": "com.conceptivapps.blossom",
         "rating": 5,
         "runtime": 50,
         "date": "1974-04-30T10:29:29+05:83",
-        "director": " 👉 Lifestyle",
+        "director": " 👉 Education",
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "Blossom",
@@ -5464,11 +5420,7 @@ var movies = [{
             " 👉 Pop-up messages",
             " 👉 Textual Instruction",
             " 👉 Visual Instruction",
-            " 👉 Auditory feedback (Static)",
-
-
-
-
+            " 👉 Auditory feedback (Static)"
         ],
         "representation": [
             " 👉 Text",
@@ -5480,11 +5432,11 @@ var movies = [{
     {
         "id": 166,
         "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/com.fws.plantsnap2.gif?raw=true",
-        "pkg_name": "!com.fws.plantsnap2",
+        "pkg_name": "com.fws.plantsnap2",
         "rating": 5,
         "runtime": 50,
         "date": "1974-04-30T10:29:29+05:83",
-        "director": " 👉 Lifestyle",
+        "director": " 👉 Education",
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "Blossom",
@@ -5502,11 +5454,7 @@ var movies = [{
             " 👉 Pop-up messages",
             " 👉 Textual Instruction",
             " 👉 Visual Instruction",
-            " 👉 Auditory feedback (Static)",
-
-
-
-
+            " 👉 Auditory feedback (Static)"
         ],
         "representation": [
             " 👉 Text",
@@ -5522,7 +5470,7 @@ var movies = [{
         "rating": 5,
         "runtime": 50,
         "date": "1974-04-30T10:29:29+05:83",
-        "director": " 👉 Lifestyle",
+        "director": " 👉 Education",
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "LeafSnap",
@@ -5552,7 +5500,7 @@ var movies = [{
         "rating": 5,
         "runtime": 50,
         "date": "1974-04-30T10:29:29+05:83",
-        "director": " 👉 Lifestyle",
+        "director": " 👉 Education",
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
         "name": "LeafSnap",
@@ -6026,6 +5974,101 @@ var movies = [{
         ],
         "certificate": [
             " 👉 Auto focusing object",
+
+
+        ],
+        "representation": [
+            " 👉 Visual"
+        ]
+    },
+    {
+        "id": 182,
+        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/ai.fritz.heartbeat_sty_no_in.gif?raw=true",
+        "pkg_name": "ai.fritz.heartbeat",
+        "rating": 5,
+        "runtime": 50,
+        "date": "1974-04-30T10:29:29+05:116",
+        "director": " 👉 Libraries and Demo",
+        "actor": "Al Pacino",
+        "stars": "Marlon Brando",
+        "name": "Fritz AI Studio",
+        "outline": [
+            " 👉 Style transfer",
+
+        ],
+        "genre": [
+            "No Interaction",
+
+
+        ],
+        "certificate": [
+            " 👉 No interaction with hardware input",
+
+
+        ],
+        "representation": [
+            " 👉 Text",
+
+
+
+        ]
+    },
+    {
+        "id": 183,
+        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/cn.com.hrcrb.mobilebank.per.gif?raw=true",
+        "pkg_name": "cn.com.hrcrb.mobilebank.per",
+        "rating": 5,
+        "runtime": 50,
+        "date": "1974-04-30T10:29:29+05:125",
+        "director": " 👉 Finance",
+        "actor": "Al Pacino",
+        "stars": "Marlon Brando",
+        "name": "CINA RESOURCES BANK",
+        "outline": [
+            " 👉 Entity extraction",
+            " 👉 Text recognition"
+        ],
+        "genre": [
+            "Static",
+            "Dynamic",
+
+        ],
+        "certificate": [
+            " 👉 Textual Instruction",
+            " 👉 Camera frame",
+            " 👉 Object sensor",
+            " 👉 Pop-up messages",
+            " 👉 Vibration",
+        ],
+        "representation": [
+            " 👉 Text",
+            " 👉 Visual",
+            " 👉 Haptic"
+
+        ]
+    },
+    {
+        "id": 9,
+        "year": "https://github.com/jasonxsiu/GalleryImages/blob/main/Gif/cn.jingling.motu.photowonder.gif?raw=true",
+        "pkg_name": "cn.jingling.motu.photowonder",
+        "rating": 5,
+        "runtime": 50,
+        "date": "1974-04-30T10:29:29+05:133",
+        "director": " 👉 Photography",
+        "actor": "Al Pacino",
+        "stars": "Marlon Brando",
+        "name": "PhotoWonder: Pro Beauty User personalisation&Collage Maker",
+        "outline": [
+            " 👉 Face detection",
+
+        ],
+        "genre": [
+            "Dynamic",
+
+
+        ],
+        "certificate": [
+            " 👉 User personalisation",
 
 
         ],
