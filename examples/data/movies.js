@@ -266,7 +266,7 @@ var movies = [{
         "director": " 👉 Education",
         "actor": "Al Pacino",
         "stars": "Marlon Brando",
-        "name": "PhotoWonder: Pro Beauty User personalisation&Collage Maker",
+        "name": "Picture Bird - Bird Identifier",
         "outline": [
             " 👉 Audio classification"
 
