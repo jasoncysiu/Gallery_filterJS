@@ -722,14 +722,14 @@ var movies = [{
             " 👉 Selfie segmentation"
         ],
         "genre": [
-            "No Interaction"
+            "No Interaction",
+            "Static"
 
 
         ],
         "certificate": [
             " 👉 Importing files",
-            " 👉 No interaction with hardware input",
-
+            " 👉 User personalisation"
         ],
         "representation": [
             " 👉 Text",
