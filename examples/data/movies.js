@@ -2021,6 +2021,7 @@ var movies = [{
             " 👉 No interaction with hardware input",
             " 👉 Pop-up messages",
             " 👉 Textual Instruction",
+            " 👉 Delayed feedback"
         ],
         "representation": [
             " 👉 Text",
